@@ -1,4 +1,4 @@
 # Global settings applied to the whole site.
 
 [build]
-  HUGO_VERSION: "0.31"
+  HUGO_VERSION= "0.31"
