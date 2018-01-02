@@ -1,4 +1,4 @@
-baseurl: https://new.moodlebox.net/
+baseurl: https://moodlebox.netlify.com/
 title: MoodleBox
 theme: moodlebox-theme
 languageCode: en-us
