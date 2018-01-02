@@ -1,0 +1,2 @@
+# Redirect users with french language preference from / to /fr/
+/*  /fr/:splat  302  Language=fr
