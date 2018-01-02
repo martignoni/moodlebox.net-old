@@ -1,0 +1,38 @@
+<ul class="downloads">
+  {{ $url := .Get "url" }}
+  {{ $release := getJSON $url }}
+  {{ range $release.assets }}
+    {{ $p := . }}
+    <li>
+    <div class="image-icon">
+      <a class="piwik_download" href="{{ $p.browser_download_url }}"><img class="alignnone wp-image-308 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/MoodleBox-SD-150x150-orange-1.png" width="150" height="150"></a>
+    </div>
+    <div class="image-info">
+      <div class="image-description">
+        Image disque MoodleBox pour carte microSD
+      </div>
+      <div class="image-details">
+        Version : <strong>{{ $release.name }}</strong>
+      </div>
+      <div class="image-details">
+        Version de Moodle : <strong>3.4+ (Build: 20171123)</strong>
+      </div>
+      <div class="image-details">
+        Taille : <strong>{{ int (div (div $p.size 1024) 1024) }} MB</strong>
+      </div>
+      <div class="image-details">
+        Date : <strong>{{ (time $p.created_at).Format "2 Jan 2006" }}</strong>
+      </div>
+      <div class="image-details">
+        Notes de mise à jour : <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong>
+      </div>
+      <div class="image-download-links">
+        <a class="btn dl-zip piwik_download" href="{{ $p.browser_download_url }}">Télécharger</a>
+      </div>
+      <div class="release-notes">
+        {{ $release.body | markdownify }}
+      </div>
+    </div>
+    </li>
+  {{ end }}
+</ul>

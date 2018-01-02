@@ -15,43 +15,7 @@ aliases:
 ---
 ### Image disque MoodleBox
 
-<ul class="downloads">
-  <li>
-    <div class="image-icon">
-      <a class="piwik_download" href="https://github.com/martignoni/moodlebox/releases/download/v2.1.0/moodlebox-2.1.0.img.gz"><img class="alignnone wp-image-308 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/MoodleBox-SD-150x150-orange-1.png" width="150" height="150" /></a>
-    </div>
-
-    <div class="image-info">
-      <div class="image-description">
-        Image disque MoodleBox pour carte microSD
-      </div>
-
-      <div class="image-details">
-        Version : <strong>2.1</strong>
-      </div>
-
-      <div class="image-details">
-        Version de Moodle : <strong>3.4+ (Build: 20171123)</strong>
-      </div>
-
-      <div class="image-details">
-        Taille : <strong>585 MB</strong>
-      </div>
-
-      <div class="image-details">
-        Date : <strong>2 janvier 2018</strong>
-      </div>
-
-      <div class="image-details">
-        Notes de mise à jour : <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong>
-      </div>
-
-      <div class="image-download-links">
-        <a class="btn dl-zip piwik_download" href="https://github.com/martignoni/moodlebox/releases/download/v2.1.0/moodlebox-2.1.0.img.gz">Télécharger</a>
-      </div>
-    </div>
-  </li>
-</ul>
+{{< ghrelease url="https://api.github.com/repos/martignoni/moodlebox/releases/latest" >}}
 
 Après avoir téléchargé l’image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [configurez votre MoodleBox][2] pour la première utilisation.
 
