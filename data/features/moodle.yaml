@@ -1,0 +1,5 @@
+weight: 2
+name: "Moodle 3.4"
+language: "en"
+icon: "fa fa-graduation-cap"
+description: "A full-fledged Moodle learning management system, enabling to supply learning activities and sharing files with your users."

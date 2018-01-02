@@ -1,0 +1,105 @@
+/* Language switch menu */
+
+#language-switch a.dropdown-toggle {
+  font-size: 140%;
+  margin-top: -1px;
+}
+
+#language-switch ul.dropdown-menu {
+  min-width: auto;
+}
+
+/* Knowledge base */
+
+#kb-container {
+  margin: 0 auto;
+}
+
+.kb-section-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#kb-container section {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 21px;
+    margin: 1em 1% 1em;
+    width: 45.5%;
+}
+
+.section_divider {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.kb-main-category {
+  text-align: left;
+}
+
+.section-head .kb-category-level-1 {
+  font-size: 1.5em;
+  word-wrap: break-word;
+  text-align: left;
+  color: #555;
+}
+
+.kb-section-body {
+  padding: .5em 0em 2em;
+}
+
+#kb-container ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.kb-main-category li {
+  list-style-type: none;
+  float: left;
+  width: 100%;
+/*   padding-bottom: 3px; */
+  padding-top: 3px;
+}
+
+.kb-article-title {
+  position: relative;
+  font-size: 1em;
+  display: block;
+  color: #2a2a2a;
+}
+
+.kb-article-title i {
+  color: #b3b3b3;
+}
+
+.kb-articles a {
+  color: #2a2a2a;
+}
+
+.kb-article-title span {
+  line-height: 1.3em;
+  margin-left: 0em;
+  color: #2a2a2a;
+  font-size: 14px;
+}
+
+.kb-article-title span:hover {
+  text-decoration: underline;
+}
+
+.kb-show-all-articles {
+  color: #b3b3b3;
+  font-size: .9em;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.kb-show-all-articles:hover {
+  cursor: pointer;
+}
+
+.kb-hide-elem {
+  display: none !important;
+}

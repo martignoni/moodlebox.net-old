@@ -1,0 +1,279 @@
+baseurl: https://new.moodlebox.net/
+title: MoodleBox
+theme: moodlebox-theme
+languageCode: en-us
+
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject: true
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage: en
+# Enable comments by entering your Disqus shortname
+disqusShortname: ''
+# Enable Google Analytics by entering your tracking code
+googleAnalytics: ''
+
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir: true
+
+# Show a placeholder instead of the default value or an empty string if a translation is missing
+# enableMissingTranslationPlaceholders: false
+
+# Log File path (if set, logging enabled automatically)
+# logFile: "./hugolog.txt"
+
+# Define the number of posts per page
+paginate: 5
+
+# Allow taxonomy term with special characters
+preserveTaxonomyNames: true
+
+languages:
+  en:
+    languageName: English
+    title: MoodleBox
+    description: "A Moodle platform on Raspberry Pi"
+    copyright: Copyright © 2016 onwards
+    footertext: MoodleBox is made with ❤ by [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    weight: 1
+    # Format dates with Go's time formatting
+    date_format: January 2, 2006
+    menu:
+      main:
+#      - identifier: frontpage
+#        name: Home
+#        url: /
+#        weight: 1
+
+      - identifier: help
+        name: Using the MoodleBox
+        weight: 2
+
+      - parent: help
+        name: Knowledge base
+        url: /help/
+        weight: 1
+      - parent: help
+        name: Support the MoodleBox
+        url: /donate/
+        weight: 2
+      - parent: help
+        name: About the MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Contact
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: Get the MoodleBox
+        weight: 3
+      - parent: get
+        name: Download the disk image
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Get the hardware
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: Install the MoodleBox
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Make your own disk image
+        url: /diy/
+        weight: 4
+
+#      - name: Contact
+#        url: /contact/
+#        weight: 4
+
+  fr:
+    languageName: Français
+    title: MoodleBox
+    description: "Une plateforme Moodle sur Raspberry Pi"
+    copyright: Copyright © 2016 et suivantes
+    footertext: La MoodleBox est réalisée avec ❤ par [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    weight: 2
+    # Format dates with Go's time formatting
+    date_format: 2 January 2006
+    menu:
+      main:
+#      - identifier: frontpage
+#        name: Accueil
+#        url: /
+#        weight: 1
+
+      - identifier: help
+        name: Utiliser la MoodleBox
+        weight: 2
+
+      - parent: help
+        name: Assistance
+        url: /help/
+        weight: 1
+      - parent: help
+        name: Soutenir la MoodleBox
+        url: /donate/
+        weight: 2
+      - parent: help
+        name: À propos de la MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Contact
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: Obtenir la MoodleBox
+        weight: 3
+      - parent: get
+        name: Télécharger l'image-disque
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Obtenir le matériel
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: Installer la MoodleBox
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Créer son image-disque
+        url: /diy/
+        weight: 4
+
+
+#      - name: Contact
+#        url: /contact/
+#        weight: 4
+
+#  de:
+#    languageName: Deutsch
+#    menu:
+#      main:
+#      - name: Home
+#        url: /
+#        weight: 1
+#      - name: Hilfe
+#        url: /help/
+#        weight: 2
+#      - name: Dokumentation
+#        url: /kb/
+#        weight: 3
+#      - name: Kontakt
+#        url: /contact/
+#        weight: 4
+#    title: MoodleBox
+#    weight: 3
+
+menu:
+  topbar:
+  - name: GitHub
+    pre: <i class='fa fa-2x fa-github'></i>
+    url: https://github.com/martignoni/moodlebox
+    weight: 1
+#  - name: Facebook
+#    pre: <i class='fa fa-2x fa-facebook'></i>
+#    url: https://facebook.com
+#    weight: 2
+  - name: Twitter
+    pre: <i class='fa fa-2x fa-twitter'></i>
+    url: https://twitter.com
+    weight: 3
+  - name: Email
+    pre: <i class='fa fa-2x fa-envelope'></i>
+    url: mailto:nicolas@martignoni.net
+    weight: 4
+
+params:
+  author: Nicolas Martignoni
+  address: ''
+  defaultDescription: MoodleBox, a Moodle platform on Raspberry Pi
+  defaultKeywords:
+  - MoodleBox
+  - Moodle
+  - Raspberry
+  - Raspberry Pi
+  - RPi
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+  #
+  # What you need to do for the setup?
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email yourself to confirm your account
+  # - click the confirm link in the email from www.formspree.io
+  # - you're done. Happy mailing!
+  #
+  # Enable the contact form by entering your Formspree.io email
+  email: nicolas@martignoni.net
+
+  about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+  logo: img/logo.png
+
+  # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+  style: moodlebox
+
+  # Google Maps API key (if not set will default to not passing a key.)
+  # googleMapsApiKey: "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+
+  carousel:
+    enable: true
+
+  clients:
+    enable: false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    subtitle: ''
+    title: Our Clients
+
+  features:
+    enable: true
+
+  recent_posts:
+    enable: false
+    subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada
+      fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
+      tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+      ultricies mi vitae est. Mauris placerat eleifend leo.
+    title: From our website
+
+  see_more:
+    enable: false
+    icon: fa fa-file-code-o
+    link_text: Check other homepages
+    link_url: '#'
+    subtitle: We have prepared for you more than 40 different HTML pages, including
+      5 variations of homepage.
+    title: Do you want to see more?
+
+  testimonials:
+    enable: true
+    subtitle: We have worked with many clients and we always like to hear they come
+      out from the cooperation happy and satisfied. Have a look what our clients said
+      about us.
+    title: Testimonials
+
+  topbar:
+    enable: false
+    text: ""
+
+  viewMorePostLink: /help/
+
+  widgets:
+    categories: true
+    search: true
+    tags: true
+
+permalinks:
+  help: /help/:slug
+  # kb: /kb/:slug
+  # blog: "/blog/:year/:month/:day/:filename/"
