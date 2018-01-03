@@ -9,16 +9,16 @@ categories:
   - Usage
 
 ---
-To access to the Moodle installation of the MoodleBox, you must be [connected to its Wi-Fi network][1]. On your device, choose **MoodleBox** wireless network. When prompted type the password: __moodlebox__ (all lowercase) and confirm your connection.
+To access to the Moodle installation of the MoodleBox, you must be [connected to its Wi-Fi network][1]. On your device, choose __MoodleBox__ wireless network. When prompted type the password: __moodlebox__ (all lowercase) and confirm your connection.
 
-You may now log into Moodle in your browser. Open your browser and type <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a> in the address bar. The home page of Moodle opens. Click on **Log in** and type the following credentials:
+You may now log into Moodle in your browser. Open your browser and type <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a> in the address bar. The home page of Moodle opens. Click on __Log in__ and type the following credentials:
 
-  * username: **admin**
-  * password: **Moodlebox4$**
+  * username: __admin__
+  * password: __Moodlebox4$__
 
 <img class="alignnone wp-image-447 size-full" src="https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en.png" alt="Moodle Login" width="601" height="265" srcset="https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en.png 601w, https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en-300x132.png 300w" sizes="(max-width: 601px) 100vw, 601px" />
 
-You&#8217;re now logged into the Moodle administrator account of the MoodleBox. It’s **strongly recommended that you change the default password** of the Moodle admin account at the first login.
+You&#8217;re now logged into the Moodle administrator account of the MoodleBox. It’s __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 
 The initial Moodle installation has only one account (administrator) and no course is created. The Moodle environment should be configured by yourself, as well as the management of its contents (resources, activities, etc.). See the <a href="https://docs.moodle.org/en/Admin_quick_guide" target="_blank" rel="noopener">Moodle documentation</a> if you don’t know how to do this.
 

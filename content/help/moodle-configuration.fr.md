@@ -15,16 +15,16 @@ App Mobile
 :   Le service mobile permettant l'accès au moyen de l'[app mobile Moodle][1] officielle est activé. Vous pouvez télécharger l'app mobile Moodle à l'adresse https://download.moodle.org/mobile/.
 
 Taille des fichiers déposés
-:   La taille maximale des fichiers déposés est fixée à **50 Mo** (au moyen des variables _post\_max\_size_ et _upload\_max\_filesize_ de PHP).
+:   La taille maximale des fichiers déposés est fixée à __50 Mo__ (au moyen des variables _post\_max\_size_ et _upload\_max\_filesize_ de PHP).
 
 Cron
-:   Le _cron_ est configuré de sorte à être lancé **toutes les 3 minutes**. Certaines tâches programmées nécessitent un accès à Internet. Il est recommandé de connecter la MoodleBox à Internet au moyen d'un câble Ethernet.
+:   Le _cron_ est configuré de sorte à être lancé __toutes les 3 minutes__. Certaines tâches programmées nécessitent un accès à Internet. Il est recommandé de connecter la MoodleBox à Internet au moyen d'un câble Ethernet.
 
 Filtre multilingue
 :   Le filtre Contenu multilingue est activé.
 
 Cache
-:   Les mécanismes de cache de Moodle sont configurés pour **optimiser la réactivité** de la MoodleBox.
+:   Les mécanismes de cache de Moodle sont configurés pour __optimiser la réactivité__ de la MoodleBox.
 
 Plugin MoodleBox
 :   Le [plugin d'administration MoodleBox][2] pour Moodle est installé. Ce plugin permet à un administrateur Moodle de redémarrer et d'arrêter la MoodleBox, de changer ses date et heure, d'en modifier certains paramètres et de surveiller son fonctionnement au moyen d'une interface graphique simple.

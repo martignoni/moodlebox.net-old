@@ -4,7 +4,6 @@ $user
 $repo
 $tag (optional, default=latest)
 $desiredoutputdata [file_name, file_size, file_date, version, download_link, download_count, release_notes] (optional, default=version)
-https://api.github.com/repos/martignoni/moodlebox/releases/latest
 */}}
 
 {{ $numOfParams := len .Params }}
@@ -39,20 +38,20 @@ https://api.github.com/repos/martignoni/moodlebox/releases/latest
   {{ range $release.assets }}
     {{ $p := . }}
       {{ if eq $data "file_name" }}
-        {{ $p.name }}
+        {{- $p.name -}}
       {{ else if eq $data "file_size" }}
-        {{ printf "%.f" (div (div $p.size 1024) 1024) }}
+        {{- printf "%.f" (div (div $p.size 1024) 1024) -}}
       {{ else if eq $data "file_date" }}
-        {{ (time $p.created_at).Format "2 Jan 2006" }}
+        {{- (time $p.created_at).Format "2 Jan 2006" -}}
       {{ else if eq $data "download_link" }}
-        {{ $p.browser_download_url }}
+        {{- $p.browser_download_url -}}
       {{ else if eq $data "download_count" }}
-        {{ $p.download_count }}
+        {{- $p.download_count -}}
       {{ else if eq $data "version" }}
         {{/* $release.name | replaceRE "^v([0-9])" "$1" | replaceRE "(.*).0$" "$1" */}}
-        {{ $release.name | replaceRE "^v([0-9])" "$1" }}
+        {{- $release.name | replaceRE "^v([0-9])" "$1" -}}
       {{ else if eq $data "release_notes" }}
-        {{ $release.body | markdownify }}
+        {{- $release.body | markdownify -}}
       {{ end }}
   {{ end }}
 
