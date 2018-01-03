@@ -69,3 +69,6 @@
 
 - id: publishedOn
   translation: "le"
+
+- id: testimonials
+  translation: "Témoignages"

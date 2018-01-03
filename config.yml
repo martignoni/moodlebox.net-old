@@ -255,8 +255,8 @@ params:
 
   testimonials:
     enable: true
-    subtitle: Have a look what teachers around the world said about the MoodleBox.
-    title: Testimonials
+    subtitle: Have a look at what teachers around the world said about the MoodleBox.
+    title: What teachers say
 
   topbar:
     enable: false
