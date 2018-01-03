@@ -266,12 +266,15 @@ params:
     enable: false
     text: ""
 
-  viewMorePostLink: /help/
+#  viewMorePostLink: /help/
 
   widgets:
     categories: true
     search: true
     tags: true
+
+blackfriday:
+  hrefTargetBlank: true
 
 permalinks:
   help: /help/:slug

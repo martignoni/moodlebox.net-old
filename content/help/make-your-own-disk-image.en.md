@@ -12,4 +12,8 @@ aliases:
 ---
 You may make your own MoodleBox disk image and configure it to your own needs.
 
-<a href="https://github.com/martignoni/moodlebox" target="_blank" rel="noopener noreferrer">Source code</a> allowing to make a MoodleBox disk image is provided in <a href="https://github.com/martignoni/moodlebox" target="_blank" rel="noopener noreferrer">GitHub</a> under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" rel="noopener noreferrer">licence GPL</a>. Complete documentation is available (french only, sorry) under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> licence.
+[Source code][1] allowing to make a MoodleBox disk image is [provided at GitHub][1] under [GPL license][2]. Documentation is available under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International][3] licence.
+
+ [1]: https://github.com/martignoni/moodlebox
+ [2]: https://www.gnu.org/licenses/gpl-3.0.en.html
+ [3]: https://creativecommons.org/licenses/by-nc-sa/4.0/

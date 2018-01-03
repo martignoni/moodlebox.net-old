@@ -8,6 +8,8 @@ categories:
   - Usage
 
 ---
-MoodleBox is built around a <a href="https://www.raspberrypi.org/" target="_blank" rel="noopener">Raspberry Pi 3</a> mini computer. Its super light architecture enables to use it with 20 to 30 users.
+MoodleBox is built around a [Raspberry Pi 3][1] mini computer. Its super light architecture enables to use it with 20 to 30 users.
 
 It is not designed to support big groups.
+
+ [1]: https://www.raspberrypi.org/

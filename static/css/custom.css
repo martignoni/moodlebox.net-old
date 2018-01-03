@@ -1,7 +1,25 @@
+/* Some custom styles */
+dt {
+    float: left;
+    clear: left;
+    width: 170px;
+    line-height: inherit;
+}
+
+dt::after {
+    content: " ";
+}
+
+dd {
+    margin: 0 0 0 180px;
+    margin-bottom: 1ex;
+    line-height: inherit;
+}
+
 /* Language switch menu */
 
 #language-switch a.dropdown-toggle {
-  font-size: 140%;
+  font-size: 135%;
   margin-top: -1px;
 }
 

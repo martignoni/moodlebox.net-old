@@ -30,5 +30,3 @@ Dans votre interface de terminal préférée, tapez
 `ssh moodlebox@moodlebox.home`
 
 et saisissez le mot de passe **Moodlebox4$**.
-
-&nbsp;

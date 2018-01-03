@@ -11,7 +11,7 @@ categories:
 The Moodle environment on the MoodleBox doesn&#8217;t have any special configuration. Only the following settings were changed to facilitate its use or to enhance its performance.
 
 Mobile App
-:   The mobile service for the official <a href="https://download.moodle.org/mobile/" target="_blank" rel="noopener">Moodle Mobile app</a> is enabled. The Moodle Mobile app can be download at <a href="https://download.moodle.org/mobile/" target="_blank" rel="noopener">https://download.moodle.org/mobile/</a>.
+:   The mobile service for the official [Moodle Mobile app][1] is enabled. The Moodle Mobile app can be download at https://download.moodle.org/mobile/.
 
 File upload size
 :   The maximal file upload size is set to **50MB** (via the PHP settings _post\_max\_size_ and _upload\_max\_filesize_).
@@ -26,7 +26,10 @@ Cache
 :   The cache of Moodle is configured to **optimize the reactivity** of the MoodleBox.
 
 MoodleBox Plugin
-:   The <a href="https://moodle.org/plugins/tool_moodlebox" target="_blank" rel="noopener">MoodleBox Administration plugin</a> for Moodle is installed. This plugin enables a Moodle administrator to restart and shutdown, to set the date, to change some other settings and to monitor the hardware of the MoodleBox using a GUI.
+:   The [MoodleBox Administration plugin][2] for Moodle is installed. This plugin enables a Moodle administrator to restart and shutdown, to set the date, to change some other settings and to monitor the hardware of the MoodleBox using a GUI.
 
 MathJax library
 :   As of version 2.0 and later, the MathJax library is installed locally, enabling the MathJax filter to work correctly even when the MoodleBox is not connected to Internet.
+
+ [1]: https://download.moodle.org/mobile/
+ [2]: https://moodle.org/plugins/tool_moodlebox

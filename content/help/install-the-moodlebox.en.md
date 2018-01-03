@@ -22,7 +22,7 @@ The [MoodleBox disk image][2] is available [here][2].
 
 ### Step 3: Copy the disk image on your MicroSD card
 
-For this operation, use preferably <a href="https://etcher.io" target="_blank" rel="noopener">Etcher</a>. [More information here][3].
+For this operation, use preferably [Etcher][10]. [More information here][3].
 
 ### Step 4: Startup your MoodleBox
 
@@ -39,12 +39,13 @@ There is no other manipulation to do: after the boot, your MoodleBox ready and 
 
 For more information, browse the [knowledge base][9].
 
- [1]: https://moodlebox.net/en/help/hardware-needed/
- [2]: https://moodlebox.net/en/help/download-the-disk-image/
- [3]: https://moodlebox.net/en/help/copy-the-disk-image-on-a-sd-card/
- [4]: https://moodlebox.net/en/help/access-to-moodle/
- [5]: https://moodlebox.net/en/help/wi-fi-connection/
- [6]: https://moodlebox.net/en/help/updating-wi-fi-network-configuration/
- [7]: https://moodlebox.net/en/help/command-line-connection/
- [8]: https://moodlebox.net/en/help/support-the-moodlebox-project/
- [9]: https://moodlebox.net/en/help/
+ [1]: {{< relref "hardware-needed.en.md" >}}
+ [2]: {{< relref "download-the-disk-image.en.md" >}}
+ [3]: {{< relref "copy-the-disk-image-on-a-sd-card.en.md" >}}
+ [4]: {{< relref "access-to-moodle.en.md" >}}
+ [5]: {{< relref "wi-fi-connection.en.md" >}}
+ [6]: {{< relref "updating-wi-fi-configuration.en.md" >}}
+ [7]: {{< relref "command-line-access.en.md" >}}
+ [8]: {{< relref "support-the-moodlebox-project.en.md" >}}
+ [9]: /en/help
+ [10]: https://etcher.io

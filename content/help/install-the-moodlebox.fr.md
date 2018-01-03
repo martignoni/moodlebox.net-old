@@ -22,7 +22,7 @@ L'[image-disque][2] nécessaire pour construire la MoodleBox est [disponible ici
 
 ### Étape 3: copier l'image-disque sur votre carte MicroSD
 
-Pour cette opération, il est préférable d'utiliser <a href="https://etcher.io" target="_blank" rel="noopener">Etcher</a>. [Plus d'informations ici][3].
+Pour cette opération, il est préférable d'utiliser [Etcher][10]. [Plus d'informations ici][3].
 
 ### Étape 4: démarrer votre MoodleBox
 
@@ -39,12 +39,13 @@ Il n’y a pas d’autre manipulation à effectuer : dès la fin de son démarr
 
 Pour plus d'informations, [consultez la documentation][9].
 
- [1]: https://moodlebox.net/fr/help/materiel-necessaire/
- [2]: https://moodlebox.net/fr/help/telecharger-limage-disque/
- [3]: https://moodlebox.net/fr/help/copier-limage-disque-sur-une-carte-sd/
- [4]: https://moodlebox.net/fr/help/acces-a-moodle/
- [5]: https://moodlebox.net/fr/help/connexion-wi-fi/
- [6]: https://moodlebox.net/fr/help/modification-de-la-configuration-du-reseau-wi-fi/
- [7]: https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/
- [8]: https://moodlebox.net/fr/help/soutenir-le-projet-moodlebox/
- [9]: https://moodlebox.net/fr/help/
+ [1]: {{< relref "hardware-needed.fr.md" >}}
+ [2]: {{< relref "download-the-disk-image.fr.md" >}}
+ [3]: {{< relref "copy-the-disk-image-on-a-sd-card.fr.md" >}}
+ [4]: {{< relref "access-to-moodle.fr.md" >}}
+ [5]: {{< relref "wi-fi-connection.fr.md" >}}
+ [6]: {{< relref "updating-wi-fi-configuration.fr.md" >}}
+ [7]: {{< relref "command-line-access.fr.md" >}}
+ [8]: {{< relref "support-the-moodlebox-project.fr.md" >}}
+ [9]: /fr/help
+ [10]: https://etcher.io
