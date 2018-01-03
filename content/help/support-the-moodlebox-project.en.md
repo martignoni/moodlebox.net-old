@@ -16,9 +16,9 @@ The project MoodleBox tries to meet the needs of users without requiring any fin
 
 A contribution, totally optional, allows to participate in the costs for the hosting of the website. It boosts and increases the motivation to continue the work on the project MoodleBox.
 
-As of december 19, 2017, the project MoodleBox collected 235€ in donations. This amount enabled the payment of the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for one year.
+As of december 19, 2017, the project MoodleBox collected 235€ in donations. This amount enabled the payment of the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for one year.
 
-#### MAKE A DONATION TO SUPPORT MOODLEBOX
+### Make a donation to support MoodleBox
 
 <div id="give-form-215-wrap" class="give-form-wrap give-display-modal">
   <div id="give-form-content-215" class="give-form-content-wrap give_post_form-content">
@@ -27,9 +27,9 @@ As of december 19, 2017, the project MoodleBox collected 235€ in donations. Th
 
 <!--end #give-form-215-->
 
-#### SUPPORT MOODLEBOX ANOTHER WAY
+### Support MoodleBox another way
 
-You&#8217;re broke or do not want to contribute financially? Doesn&#8217;t matter, do not leave 😉 You can support MoodleBox in other ways, for example
+You're broke or do not want to contribute financially? Doesn't matter, do not leave 😉. You can support MoodleBox in other ways, for example
 
   * Share your pedagogical experience or your use case with us,
   * Translate the documentation in other languages,

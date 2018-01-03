@@ -8,6 +8,8 @@ categories:
   - Maintenance
 
 ---
-You may find the version of your MoodleBox by visiting the MoodleBox dashboard: <a href="http://moodlebox.home/admin/tool/moodlebox/index.php" target="_blank" rel="noopener">Site administration > Server > MoodleBox</a> in the administration interface.
+You may find the version of your MoodleBox by visiting the MoodleBox dashboard at [Site administration > Server > MoodleBox][1] in the administration interface.
 
 This info is only available since MoodleBox version 1.9.5 of 1 November 2017.
+
+ [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

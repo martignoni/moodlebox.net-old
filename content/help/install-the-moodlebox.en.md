@@ -20,15 +20,15 @@ The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry 
 
 The [MoodleBox disk image][2] is available [here][2].
 
-### Step 3: Copy the disk image on your MicroSD card
+### Step 3: Copy the disk image on your MicroSD card
 
 For this operation, use preferably [Etcher][10]. [More information here][3].
 
 ### Step 4: Startup your MoodleBox
 
-Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
+Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
 
-There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
+There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
 
 ### Next steps
 

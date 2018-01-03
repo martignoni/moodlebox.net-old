@@ -276,6 +276,9 @@ params:
 blackfriday:
   hrefTargetBlank: true
 
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+
 permalinks:
   help: /help/:slug
   # kb: /kb/:slug

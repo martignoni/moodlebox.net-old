@@ -10,22 +10,30 @@ aliases:
   - en/about
 
 ---
-The MoodleBox is a small footprint ubiquitous device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete <a href="https://moodle.org/" target="_blank" rel="noopener noreferrer">Moodle</a> learning management system platform, enabling to supply online learning activities and sharing files with your users.
+The MoodleBox is a small footprint ubiquitous device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.
 
 When connected to the Internet via a wired network (Ethernet), the MoodleBox also provides Internet access to devices connected to it via Wi-Fi.
 
-It is [built][1] around a mini-computer <a href="https://www.raspberrypi.org" target="_blank" rel="noopener noreferrer">Raspberry Pi 3</a> and the <a href="https://moodle.org/" target="_blank" rel="noopener noreferrer">Moodle learning environment</a>, the most used open source LMS in the world.
+It is [built][2] around a mini-computer [Raspberry Pi 3][3] and the [Moodle learning environment][1], the most used open source LMS in the world.
 
 ### The MoodleBox project
 
-The MoodleBox project is a free (as speech and beer) project. The idea of MoodleBox arose in spring 2016 in a forum discussion <a href="https://moodle.org/course/view.php?id=20" target="_blank" rel="noopener noreferrer">of the french community of Moodle</a>, when discussing about the construction of a <a href="https://moodle.org/mod/forum/discuss.php?d=318719" target="_blank" rel="noopener noreferrer">Moodle platform on a local computer</a>, to provide an LMS in regions without any network infrastructure. The <a href="https://moodle.org/mod/forum/discuss.php?d=330291" target="_blank" rel="noopener noreferrer">idea quickly emerged</a> to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of <a href="http://moodlebox.tuxfamily.org/" target="_blank" rel="noopener noreferrer">Christian Westphal</a>, a <a href="https://moodle.org/mod/forum/discuss.php?d=331170" target="_blank" rel="noopener noreferrer">first proof of concept</a> was proposed.
+The MoodleBox project is a free (as in speech and in beer) project. The idea of MoodleBox arose in spring 2016 in a forum discussion [in the french community of Moodle][4]</a>, when discussing about the construction of a [Moodle platform on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
 
-The MoodleBox project is made by <a href="https://twitter.com/nmartignoni" target="_blank" rel="noopener noreferrer">Nicolas Martignoni</a> on his spare time.
+The MoodleBox project is made by [Nicolas Martignoni][9] on his spare time.
 
 ### Disclaimer
 
-The MoodleBox disk image and the information of the web site are provided “as is”. The author has made every effort to ensure the proper functioning of the MoodleBox and the accuracy of the information given. However, he declines all responsibility for any direct or indirect damage that would harm the users during use of the MoodleBox. In particular, it can not be held responsible for deterioration of material or loss of data.
+The MoodleBox disk image and the information of the web site are provided "as is". The author has made every effort to ensure the proper functioning of the MoodleBox and the accuracy of the information given. However, he declines all responsibility for any direct or indirect damage that would harm the users during use of the MoodleBox. In particular, it can not be held responsible for deterioration of material or loss of data.
 
 The author does not commit himself to any correction of the disk image or of this website and documentation.
 
- [1]: https://moodlebox.net/en/help/hardware-needed/
+ [1]: https://moodle.org
+ [2]: {{< relref "hardware-needed.en.md" >}}
+ [3]: https://www.raspberrypi.org
+ [4]: https://moodle.org/course/view.php?id=20
+ [5]: https://moodle.org/mod/forum/discuss.php?d=318719
+ [6]: https://moodle.org/mod/forum/discuss.php?d=330291
+ [7]: http://moodlebox.tuxfamily.org/
+ [8]: https://moodle.org/mod/forum/discuss.php?d=331170
+ [9]: https://twitter.com/nmartignoni

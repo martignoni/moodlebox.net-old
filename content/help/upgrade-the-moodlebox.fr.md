@@ -14,15 +14,17 @@ Pour cette opération, la MoodleBox doit être connectée à Internet.
 
 ### Mise à jour des logiciels de la MoodleBox
 
-  1. Se connecter à [l'interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d’utilisateur et des mots de passe par défaut][2].
+  1. Se connecter à l'[interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d’utilisateur et des mots de passe par défaut][2].
   2. Brancher la MoodleBox à un réseau local ayant accès à Internet, au moyen d'un câble Ethernet.
   3. Taper la commande suivante dans l'interface du terminal :
-  
-    `sudo apt-get update && sudo apt-get upgrade -y`
-  
+
+    ```bash
+    sudo apt-get update && sudo apt-get upgrade -y
+    ```
+
     et confirmer avec la touche Retour.
   4. Cette opération durera quelques minutes. La durée dépend du nombre des logiciels à mettre à jour, de votre bande passante Internet et de la qualité de votre carte microSD.
   5. Lorsque la mise à jour se termine, tapez `exit`, et confirmer avec la touche Retour.
 
- [1]: https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/
- [2]: https://moodlebox.net/fr/help/noms-dutilisateur-et-mots-de-passe/
+ [1]: {{< relref "command-line-access.fr.md" >}}
+ [2]: {{< relref "moodlebox-credentials.fr.md" >}}

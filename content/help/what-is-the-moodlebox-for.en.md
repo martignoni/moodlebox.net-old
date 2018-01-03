@@ -8,7 +8,7 @@ categories:
   - About
 
 ---
-The MoodleBox provides a <a href="https://moodle.org/" target="_blank" rel="noopener noreferrer">Moodle</a> learning management system outside of any network infrastructure, by using a small, cheap and ubiquitous device.
+The MoodleBox provides a [Moodle][1] learning management system outside of any network infrastructure, by using a small, cheap and ubiquitous device.
 
 It&#8217;s uses to enhance online learning and teaching:
 
@@ -16,4 +16,6 @@ It&#8217;s uses to enhance online learning and teaching:
   * where infrastructure has been destroyed (war);
   * when existing infrastructure is not suitable for specific projects.
 
-It offers small groups (about 20 participants) the opportunity to work in a learning environment without the need for heavy setup.
+It offers small groups (about 20-30 participants) the opportunity to work in a learning environment without the need for heavy setup.
+
+ [1]: https://moodle.org/
