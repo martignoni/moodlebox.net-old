@@ -8,6 +8,7 @@ categories:
   - About
   - First steps
 aliases:
+  - en/give
   - en/donate
 
 ---

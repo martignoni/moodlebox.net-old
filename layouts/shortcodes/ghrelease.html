@@ -1,38 +1,58 @@
-<ul class="downloads">
-  {{ $url := .Get "url" }}
+{{/*
+Parameters:
+$user
+$repo
+$tag (optional, default=latest)
+$desiredoutputdata [file_name, file_size, file_date, version, download_link, download_count, release_notes] (optional, default=version)
+https://api.github.com/repos/martignoni/moodlebox/releases/latest
+*/}}
+
+{{ $numOfParams := len .Params }}
+{{ if and (ge $numOfParams 2) (le $numOfParams 4) }}
+
+  {{ $.Scratch.Set "user" (.Get "user") }}
+  {{ $.Scratch.Set "repo" (.Get "repo") }}
+  {{ $.Scratch.Set "tag"  (.Get "tag") }}
+  {{ $.Scratch.Set "data" (.Get "data") }}
+
+  {{ if eq ($.Scratch.Get "tag") "" }}
+    {{ $.Scratch.Set "tag" "latest" }}
+  {{ else }}
+    {{ $.Scratch.Set "tag" (printf "tags/%s" ($.Scratch.Get "tag")) }}
+  {{ end }}
+
+  {{ if eq ($.Scratch.Get "data") "" }}
+      {{ $.Scratch.Set "data" "version" }}
+  {{ end }}
+
+  {{ $user := $.Scratch.Get "user" }}
+  {{ $repo := $.Scratch.Get "repo" }}
+  {{ $tag  := $.Scratch.Get "tag" }}
+  {{ $data := $.Scratch.Get "data" }}
+
+  {{ $url := (printf "https://api.github.com/repos/%s/%s/releases/%s" $user $repo $tag) }}
+  {{/* printf $url */}}
+  {{/* printf $data */}}
+
   {{ $release := getJSON $url }}
+
   {{ range $release.assets }}
     {{ $p := . }}
-    <li>
-    <div class="image-icon">
-      <a class="piwik_download" href="{{ $p.browser_download_url }}"><img class="alignnone wp-image-308 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/MoodleBox-SD-150x150-orange-1.png" width="150" height="150"></a>
-    </div>
-    <div class="image-info">
-      <div class="image-description">
-        Image disque MoodleBox pour carte microSD
-      </div>
-      <div class="image-details">
-        Version : <strong>{{ $release.name }}</strong>
-      </div>
-      <div class="image-details">
-        Version de Moodle : <strong>3.4+ (Build: 20171123)</strong>
-      </div>
-      <div class="image-details">
-        Taille : <strong>{{ int (div (div $p.size 1024) 1024) }} MB</strong>
-      </div>
-      <div class="image-details">
-        Date : <strong>{{ (time $p.created_at).Format "2 Jan 2006" }}</strong>
-      </div>
-      <div class="image-details">
-        Notes de mise à jour : <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong>
-      </div>
-      <div class="image-download-links">
-        <a class="btn dl-zip piwik_download" href="{{ $p.browser_download_url }}">Télécharger</a>
-      </div>
-      <div class="release-notes">
+      {{ if eq $data "file_name" }}
+        {{ $p.name }}
+      {{ else if eq $data "file_size" }}
+        {{ printf "%.f" (div (div $p.size 1024) 1024) }}
+      {{ else if eq $data "file_date" }}
+        {{ (time $p.created_at).Format "2 Jan 2006" }}
+      {{ else if eq $data "download_link" }}
+        {{ $p.browser_download_url }}
+      {{ else if eq $data "download_count" }}
+        {{ $p.download_count }}
+      {{ else if eq $data "version" }}
+        {{ printf $release.name }}
+      {{ else if eq $data "release_notes" }}
         {{ $release.body | markdownify }}
-      </div>
-    </div>
-    </li>
+      {{ end }}
   {{ end }}
-</ul>
+
+{{ end }}

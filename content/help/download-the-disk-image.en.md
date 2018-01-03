@@ -12,7 +12,36 @@ aliases:
 ---
 ### MoodleBox Disk Image
 
-{{< ghrelease url="https://api.github.com/repos/martignoni/moodlebox/releases/latest" >}}
+<ul class="downloads">
+  <li>
+  <div class="image-icon">
+    <a class="piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><img class="alignnone wp-image-308 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/MoodleBox-SD-150x150-orange-1.png" width="150" height="150"></a>
+  </div>
+  <div class="image-info">
+    <div class="image-description">
+      MoodleBox disk image for microSD card
+    </div>
+    <div class="image-details">
+      Version: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}</strong>
+    </div>
+    <div class="image-details">
+      Moodle version: <strong>3.4+ (Build: 20171123)</strong>
+    </div>
+    <div class="image-details">
+      Size: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_size" >}} MB</strong>
+    </div>
+    <div class="image-details">
+      Date: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_date" >}}</strong>
+    </div>
+    <div class="image-details">
+      Release notes: <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank">sur Github</a></strong>
+    </div>
+    <div class="image-download-links">
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}">Download</a>
+    </div>
+ </div>
+ </li>
+</ul>
 
 After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use.
 
@@ -24,13 +53,13 @@ The [MoodleBox disk image][4]{.piwik_download} is built on <a href="https://www.
 
 Some users have experienced troubles when trying to download the image. In this case, you may try to use your command line interface to download the disk-image, for example with this command
 
-`wget -c https://github.com/martignoni/moodlebox/releases/download/v2.1.0/moodlebox-2.1.0.img.gz`
+`wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 
 or this one
 
-`curl -C - https://github.com/martignoni/moodlebox/releases/download/v2.1.0/moodlebox-2.1.0.img.gz`
+`curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 
  [1]: https://moodlebox.net/en/help/copy-the-disk-image-on-a-sd-card/
  [2]: https://moodlebox.net/en/help/startup-shutdown-restart/
  [3]: https://moodlebox.net/en/give/
- [4]: https://github.com/martignoni/moodlebox/releases/download/v2.1.0/moodlebox-2.1.0.img.gz
+ [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}

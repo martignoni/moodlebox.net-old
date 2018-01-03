@@ -54,7 +54,7 @@ languages:
         weight: 1
       - parent: help
         name: Support the MoodleBox
-        url: /donate/
+        url: /give/
         weight: 2
       - parent: help
         name: About the MoodleBox
@@ -115,7 +115,7 @@ languages:
         weight: 1
       - parent: help
         name: Soutenir la MoodleBox
-        url: /donate/
+        url: /give/
         weight: 2
       - parent: help
         name: À propos de la MoodleBox

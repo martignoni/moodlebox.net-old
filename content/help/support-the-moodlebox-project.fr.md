@@ -9,6 +9,7 @@ categories:
   - À propos
   - Premiers pas
 aliases:
+  - fr/give
   - fr/donate
 
 ---

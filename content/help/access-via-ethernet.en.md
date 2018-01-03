@@ -1,9 +1,9 @@
 ---
-title: Is it possible to access the MoodleBox via Ethernet?
+title: How to access the MoodleBox via Ethernet?
 author: Nicolas Martignoni
 type: kb
 date: 2017-12-23T16:20:51+00:00
-slug: is-it-possible-to-access-the-moodlebox-via-ethernet
+slug: how-to-access-the-moodlebox-via-ethernet
 categories:
   - Usage
 
