@@ -26,10 +26,10 @@
   translation: "Your Email"
 
 - id: contactMessage
-  translation: "Your Message"
+  translation: "Your message"
 
 - id: contactSend
-  translation: "Send Message"
+  translation: "Send message"
 
 - id: navHome
   translation: "go to homepage"
@@ -56,10 +56,10 @@
   translation: "By"
 
 - id: recentPosts
-  translation: "Recent posts"
+  translation: "Recently published"
 
 - id: aboutUs
-  translation: "About us"
+  translation: "About"
 
 - id: newer
   translation: "Newer"

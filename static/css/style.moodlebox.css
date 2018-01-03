@@ -2621,7 +2621,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright {
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 30px 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
@@ -2629,7 +2629,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright p {
   margin: 0;
 }
-#copyright a {
+#footer #about-us a, #copyright a {
   color: rgba(255,255,255,0.9);
 }
 @media (max-width: 991px) {

@@ -23,19 +23,19 @@
   translation: "Votre nom"
 
 - id: contactMail
-  translation: "Votre Email"
+  translation: "Votre courriel"
 
 - id: contactMessage
-  translation: "Votre Message"
+  translation: "Votre message"
 
 - id: contactSend
-  translation: "Envoyer le Message"
+  translation: "Envoyer le message"
 
 - id: navHome
   translation: "aller à l'accueil"
 
 - id: navToggle
-  translation: "Basculer la Navigation"
+  translation: "Afficher/masquer la Navigation"
 
 - id: categoriesTitle
   translation: "Catégories"
@@ -50,16 +50,16 @@
   translation: "Continuer la lecture"
 
 - id: readMore
-  translation: "En lire plus"
+  translation: "En savoir plus"
 
 - id: authorBy
   translation: "Par"
 
 - id: recentPosts
-  translation: "Billets récents"
+  translation: "Publié récemment"
 
 - id: aboutUs
-  translation: "À propos de nous"
+  translation: "À propos"
 
 - id: newer
   translation: "Récent"

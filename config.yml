@@ -32,8 +32,9 @@ languages:
     languageName: English
     title: MoodleBox
     description: "A Moodle platform on Raspberry Pi"
-    copyright: Copyright © 2016 onwards
+    about_us: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox is made with ❤ by [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 onwards
     weight: 1
     # Format dates with Go's time formatting
     date_format: January 2, 2006
@@ -93,8 +94,9 @@ languages:
     languageName: Français
     title: MoodleBox
     description: "Une plateforme Moodle sur Raspberry Pi"
-    copyright: Copyright © 2016 et suivantes
+    about_us: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: La MoodleBox est réalisée avec ❤ par [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 et suivantes
     weight: 2
     # Format dates with Go's time formatting
     date_format: 2 January 2006
@@ -215,7 +217,6 @@ params:
   # Enable the contact form by entering your Formspree.io email
   email: nicolas@martignoni.net
 
-  about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
   logo: img/logo.png
 
   # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
@@ -239,12 +240,9 @@ params:
     enable: true
 
   recent_posts:
-    enable: false
-    subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada
-      fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-      tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-      ultricies mi vitae est. Mauris placerat eleifend leo.
-    title: From our website
+    enable: true
+    subtitle: ''
+    title: ''
 
   see_more:
     enable: false
@@ -257,9 +255,7 @@ params:
 
   testimonials:
     enable: true
-    subtitle: We have worked with many clients and we always like to hear they come
-      out from the cooperation happy and satisfied. Have a look what our clients said
-      about us.
+    subtitle: Have a look what teachers around the world said about the MoodleBox.
     title: Testimonials
 
   topbar:

@@ -20,7 +20,7 @@ dd {
 
 #language-switch a.dropdown-toggle {
   font-size: 135%;
-  margin-top: -1px;
+/*   margin-top: -1px; */
 }
 
 #language-switch ul.dropdown-menu {

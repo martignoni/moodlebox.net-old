@@ -2,10 +2,10 @@
   translation: "Home"
 
 - id: templateBy
-  translation: "Design durch"
+  translation: "Template von"
 
 - id: portedBy
-  translation: "Portiert nach Hugo durch"
+  translation: "Portiert nach Hugo von"
 
 - id: contactGoTo
   translation: "Zur Kontakt Seite"
@@ -23,15 +23,15 @@
   translation: "Ihr Name"
 
 - id: contactMail
-  translation: "Ihre Email Adresse"
+  translation: "Ihre E-Mail Adresse"
 
 - id: contactMessage
-  translation: "Ihre Nachricht an uns"
+  translation: "Ihre Nachricht"
 
-- id: contactSend 
+- id: contactSend
   translation: "Nachricht Senden"
 
-- id: navHome 
+- id: navHome
   translation: "zur Hautpseite"
 
 - id: navToggle
