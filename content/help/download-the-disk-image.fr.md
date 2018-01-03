@@ -31,7 +31,7 @@ aliases:
       Version de Moodle : <strong>3.4+ (Build: 20171123)</strong>
     </div>
     <div class="image-details">
-      Taille : <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_size" >}} MB</strong>
+      Taille : <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_size" >}} Mo</strong>
     </div>
     <div class="image-details">
       Date : <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_date" >}}</strong>
@@ -46,7 +46,7 @@ aliases:
  </li>
 </ul>
 
-Après avoir téléchargé l’image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [configurez votre MoodleBox][2] pour la première utilisation.
+Après avoir téléchargé l’image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
 
 Si vous le souhaitez, vous pouvez [soutenir le développement de la MoodleBox][3] en faisant un don, tout à fait facultatif.
 
@@ -54,7 +54,7 @@ L’[image-disque MoodleBox][4]{.piwik_download} est construite sur la base de l
 
 ### En cas de difficulté
 
-Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Dans ce cas, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit au moyen de cette commande
+En cas de difficulté de téléchargement, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit avec la commande
 
 `wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 
@@ -62,7 +62,8 @@ soit avec celle-ci :
 
 `curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 
- [1]: https://moodlebox.net/fr/help/copier-limage-disque-sur-une-carte-sd/
- [2]: https://moodlebox.net/fr/help/demarrer-arreter-redemarrer/
- [3]: http://moodlebox.net/fr/give/
+ [1]: {{< relref "copy-the-disk-image-on-a-sd-card.fr.md" >}}
+ [2]: {{< relref "startup-shutdown-restart.fr.md" >}}
+ [3]: {{< relref "support-the-moodlebox-project.fr.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+ [5]: {{< relref "install-the-moodlebox.fr.md" >}}

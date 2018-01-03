@@ -43,7 +43,7 @@ aliases:
  </li>
 </ul>
 
-After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use.
+After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use. Read the [installation instructions][5] for more information.
 
 If you wish, you can [support the development of MoodleBox][3] by making an optional donation.
 
@@ -59,7 +59,8 @@ or this one
 
 `curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 
- [1]: https://moodlebox.net/en/help/copy-the-disk-image-on-a-sd-card/
- [2]: https://moodlebox.net/en/help/startup-shutdown-restart/
- [3]: https://moodlebox.net/en/give/
+ [1]: {{< relref "copy-the-disk-image-on-a-sd-card.en.md" >}}
+ [2]: {{< relref "startup-shutdown-restart.en.md" >}}
+ [3]: {{< relref "support-the-moodlebox-project.en.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+ [5]: {{< relref "install-the-moodlebox.en.md" >}}
