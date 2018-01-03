@@ -274,7 +274,7 @@ params:
     tags: true
 
 blackfriday:
-  hrefTargetBlank: true
+  hrefTargetBlank: false
 
 pygmentsCodeFences: true
 pygmentsCodeFencesGuessSyntax: true

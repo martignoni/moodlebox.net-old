@@ -1,2 +1,9 @@
 # Redirect users with french language preference from / to /fr/
 /*  /fr/:splat  302  Language=fr
+/*  /fr/:splat  302  Language=fr-be
+/*  /fr/:splat  302  Language=fr-ca
+/*  /fr/:splat  302  Language=fr-ch
+/*  /fr/:splat  302  Language=fr-fr
+
+# Redirect users with french language preference from / to /fr/
+/*  /fr/:splat  302  Language=fr,fr-be,fr-ca,fr-ch,fr-fr
