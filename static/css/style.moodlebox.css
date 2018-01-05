@@ -2525,7 +2525,7 @@ fieldset[disabled] .btn-template-primary.active {
 #footer {
   background: #2a2a2a;
   padding: 50px 0;
-  color: #999999;
+  color: #eee;
 }
 #footer h1,
 #footer h2,
@@ -2629,8 +2629,11 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright p {
   margin: 0;
 }
-#footer #about-us a, #copyright a {
-  color: rgba(255,255,255,0.9);
+#copyright a {
+  color: #ccc;
+}
+#footer #about-us a {
+  color: #eee;
 }
 @media (max-width: 991px) {
   #copyright p {
