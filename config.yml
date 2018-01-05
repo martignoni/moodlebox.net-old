@@ -274,6 +274,8 @@ blackfriday:
 
 pygmentsCodeFences: true
 pygmentsCodeFencesGuessSyntax: true
+pygmentsUseClasses: true
+pygmentsstyle: "friendly"
 
 permalinks:
   help: /help/:slug
