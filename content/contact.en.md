@@ -3,6 +3,16 @@ title: "We are here to help you"
 id: "contact"
 ---
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+### Need help?
 
-Please feel free to contact us, our customer service center is working for you 24/7.
+If you have [technical questions][1] or need support, check our the MoodleBox [knowledge base][1].
+
+### Contact the author
+
+If you have any questions or comments on the website, would like to share your experience with MoodleBox, want to get involved in the project, by translating this site or enhancing its design, complete the opposite form and we’ll get back to you!
+
+If you’re looking for technical help, check our the [MoodleBox documentation][1].
+
+{{< contactform >}}
+
+ [1]: /en/help
