@@ -2682,7 +2682,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 /* nav */
 .nav > li > a {
-  padding: 0 0 5px;
+  padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
