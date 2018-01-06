@@ -3,6 +3,16 @@ title: "Nous sommes là pour vous aider"
 id: "contact"
 ---
 
-Vous vous intéressez à quelque chose? Vous avez un problème avec nos produits? Comme je suis hâtivement invité, j'ai décidé de me contenter d'une fortune civile limitée. Vraiment printemps dans l'étendue d'un by. Juge mais construit un monde de fêtes gay. C'est ainsi qu'il s'en souvient, même si c'est nécessaire. Bachelor déballé être avancé à. Les alentours sont confinés dans la marianne déclarée.
+### Besoin d'aide ?
 
-N'hésitez pas à nous contacter.
+Si vous avez des [questions techniques][1] ou avez besoin d'aide, consultez la [documentation][1] de MoodleBox.
+
+### Contacter l'auteur
+
+Si vous avez d'autres questions ou des commentaires sur ce site, voulez partager votre expérience avec la MoodleBox, désirez contribuer au projet, en traduisant ce site ou en améliorant son design, veuillez remplir le formulaire ci-contre. Nous nous ferons un plaisir de vous contacter.
+
+Si vous cherchez de l'aide technique, [consultez la documentation][1].
+
+{{< contactform >}}
+
+ [1]: /fr/help

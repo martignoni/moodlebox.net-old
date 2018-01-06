@@ -1,0 +1,70 @@
+- id: home
+  translation: "Accueil"
+- id: templateBy
+  translation: "Template par"
+- id: portedBy
+  translation: "Porté sur Hugo par"
+- id: contactGoTo
+  translation: "Aller à la page de contact"
+- id: contactAddrTitle
+  translation: "Adresse"
+- id: contactTitle
+  translation: "Contact"
+- id: contactForm
+  translation: "Formulaire de contact"
+- id: contactName
+  translation: "Votre nom"
+- id: contactMail
+  translation: "Votre courriel"
+- id: contactMessage
+  translation: "Votre message"
+- id: contactSend
+  translation: "Envoyer le message"
+- id: navHome
+  translation: "aller à l'accueil"
+- id: navToggle
+  translation: "Afficher/masquer la Navigation"
+- id: categoriesTitle
+  translation: "Catégories"
+- id: searchTitle
+  translation: "Recherche"
+- id: tagsTitle
+  translation: "Tags"
+- id: continueReading
+  translation: "Continuer la lecture"
+- id: readMore
+  translation: "En savoir plus"
+- id: authorBy
+  translation: "Par"
+- id: recentPosts
+  translation: "Publié récemment"
+- id: aboutUs
+  translation: "À propos"
+- id: newer
+  translation: "Récent"
+- id: older
+  translation: "Ancien"
+- id: publishedOn
+  translation: "le"
+- id: testimonials
+  translation: "Témoignages"
+- id: relatedTitle
+  translation: "Pages similaires"
+- id: send
+  translation: "Envoyer"
+- id: yourName
+  translation: "Votre nom"
+- id: whatsYourName
+  translation: "Quel est votre nom ?"
+- id: yourEmail
+  translation: "Votre adresse de courriel"
+- id: whatsYourEmail
+  translation: "Quel est votre courriel ?"
+- id: subject
+  translation: "Sujet"
+- id: message
+  translation: "Message"
+- id: bla
+  translation: "Bla"
+- id: blu
+  translation: "Blu"
