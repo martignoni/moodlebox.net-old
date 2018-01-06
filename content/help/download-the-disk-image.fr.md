@@ -54,11 +54,15 @@ L’[image-disque MoodleBox][4]{.piwik_download} est construite sur la base de l
 
 En cas de difficulté de téléchargement, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit avec la commande
 
-`wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
+```bash
+wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+```
 
 soit avec celle-ci :
 
-`curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
+```bash
+curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+```
 
  [1]: {{< relref "copy-the-disk-image-on-a-sd-card.fr.md" >}}
  [2]: {{< relref "startup-shutdown-restart.fr.md" >}}

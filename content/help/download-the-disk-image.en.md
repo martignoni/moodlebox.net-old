@@ -53,11 +53,15 @@ The [MoodleBox disk image][4]{.piwik_download} is built on <a href="https://www.
 
 If you experience any trouble when downloading the disk image, use your command line interface, for example with this command
 
-`wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
+```bash
+wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+```
 
 or this one
 
-`curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
+```bash
+curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+```
 
  [1]: {{< relref "copy-the-disk-image-on-a-sd-card.en.md" >}}
  [2]: {{< relref "startup-shutdown-restart.en.md" >}}
