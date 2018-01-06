@@ -10,7 +10,7 @@ aliases:
   - en/about
 
 ---
-The MoodleBox is a small footprint ubiquitous device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.
+The MoodleBox is a small footprint mobile device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.
 
 When connected to the Internet via a wired network (Ethernet), the MoodleBox also provides Internet access to devices connected to it via Wi-Fi.
 
