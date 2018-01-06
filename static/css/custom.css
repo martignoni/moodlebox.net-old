@@ -16,6 +16,14 @@ dd {
     line-height: inherit;
 }
 
+code {
+    padding: 2px 4px;
+    font-size: 13px;
+    color: #333;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
 /* Language switch menu */
 
 #language-switch a.dropdown-toggle {
