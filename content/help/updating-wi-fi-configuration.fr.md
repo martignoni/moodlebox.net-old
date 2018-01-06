@@ -1,5 +1,5 @@
 ---
-title: Peut-on modifier la configuration du réseau Wi-Fi ?
+title: Comment configurer le réseau Wi-Fi
 author:
   - Nicolas Martignoni
 type: kb

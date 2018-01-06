@@ -1,5 +1,5 @@
 ---
-title: How can I log into the Moodle site of the MoodleBox?
+title: How to log into the Moodle site of the MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:23:42+00:00

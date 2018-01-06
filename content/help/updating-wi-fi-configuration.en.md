@@ -1,5 +1,5 @@
 ---
-title: How to update the Wi-Fi network configuration?
+title: How to update the Wi-Fi network configuration
 author: Nicolas Martignoni
 type: kb
 date: 2017-08-12T16:35:41+00:00

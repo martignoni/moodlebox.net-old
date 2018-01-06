@@ -1,5 +1,5 @@
 ---
-title: 'À quoi sert la MoodleBox ?'
+title: À quoi sert la MoodleBox
 author:
   - Nicolas Martignoni
 type: kb

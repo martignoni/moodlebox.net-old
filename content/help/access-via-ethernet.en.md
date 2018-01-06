@@ -1,5 +1,5 @@
 ---
-title: How to access the MoodleBox via Ethernet?
+title: How to access the MoodleBox via Ethernet
 author: Nicolas Martignoni
 type: kb
 date: 2017-12-23T16:20:51+00:00

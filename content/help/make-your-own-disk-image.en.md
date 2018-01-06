@@ -1,5 +1,5 @@
 ---
-title: How to make your own customized disk-image ?
+title: How to make your own customized disk-image
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-21T09:51:01+00:00

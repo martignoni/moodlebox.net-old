@@ -1,5 +1,5 @@
 ---
-title: "Comment copier l'image-disque sur une carte SD ?"
+title: "Comment copier l'image-disque sur une carte SD"
 author:
   - Nicolas Martignoni
 type: kb

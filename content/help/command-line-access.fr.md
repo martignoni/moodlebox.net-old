@@ -1,5 +1,5 @@
 ---
-title: "Comment accéder à l'interface en ligne de commande ?"
+title: "Comment accéder à l'interface en ligne de commande"
 author:
   - Nicolas Martignoni
 type: kb

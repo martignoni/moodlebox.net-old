@@ -1,5 +1,5 @@
 ---
-title: "C'est quoi la MoodleBox ?"
+title: "C'est quoi la MoodleBox"
 author:
   - Nicolas Martignoni
 type: kb

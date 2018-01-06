@@ -1,12 +1,10 @@
 ---
-title: Où télécharger l’image-disque ?
+title: Où télécharger l’image-disque
 author:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:19:44+00:00
 slug: telecharger-limage-disque
-permalink:
-  - /help/telecharger-limage-disque/
 categories:
   - Premiers pas
 aliases:

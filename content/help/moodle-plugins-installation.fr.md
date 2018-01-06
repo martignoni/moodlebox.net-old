@@ -1,5 +1,5 @@
 ---
-title: Comment installer des plugins ?
+title: Comment installer des plugins Moodle
 author:
   - Nicolas Martignoni
 type: kb

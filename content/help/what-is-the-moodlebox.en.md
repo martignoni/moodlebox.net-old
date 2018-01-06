@@ -1,5 +1,5 @@
 ---
-title: What is the MoodleBox?
+title: What is the MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-21T09:42:15+00:00

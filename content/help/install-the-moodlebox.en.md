@@ -1,5 +1,5 @@
 ---
-title: How to install the MoodleBox?
+title: How to install the MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-09-15T20:31:08+00:00
@@ -28,7 +28,7 @@ For this operation, use preferably [Etcher][10]. [More information here][3].
 
 Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
 
-There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
+There is no other manipulation to do: after the boot, your MoodleBox is ready and totally functional.
 
 ### Next steps
 

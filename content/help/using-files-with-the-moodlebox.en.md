@@ -1,5 +1,5 @@
 ---
-title: Using files with the MoodleBox
+title: How to provide files on the Moodlebox
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:29:08+00:00
@@ -10,7 +10,7 @@ categories:
 ---
 ### Files on a USB stick
 
-When a USB stick is inserted into one of the MoodleBox USB ports, all the files on the stick are automatically available to administrators and teachers in the file picker of Moodle, via a repository called __Clef USB__.
+When a USB stick is inserted into one of the MoodleBox USB ports, all the files on the stick are automatically available to administrators and teachers in the file picker of Moodle, via a repository called __USB Drive__.
 
 <img class="alignnone size-full wp-image-474" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/ClefUSB.png" alt="" width="907" height="586" />
 
@@ -18,7 +18,7 @@ If several USB sticks are inserted into the MoodleBox, only the files of the fir
 
 ### Files via SFTP
 
-Files uploaded to the MoodleBox via SFTP, in the folder called __files__, are also available to administrators and teachers in the file picker of Moodle, via a repository called __Fichiers SFTP__.
+Files uploaded to the MoodleBox via SFTP, in the folder called __files__, are also available to administrators and teachers in the file picker of Moodle, via a repository called __SFTP Documents__.
 
 <img class="alignnone size-full wp-image-476" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/FichiersSFTP.png" alt="" width="908" height="587" />
 

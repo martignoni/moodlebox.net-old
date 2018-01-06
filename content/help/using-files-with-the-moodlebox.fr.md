@@ -1,5 +1,5 @@
 ---
-title: Comment mettre à disposition des fichiers ?
+title: Comment mettre à disposition des fichiers sur la MoodleBox
 author:
   - Nicolas Martignoni
 type: kb
@@ -11,7 +11,7 @@ categories:
 ---
 ### Fichiers sur une clef USB
 
-Quand une clef USB est insérée dans l'un des ports USB de la MoodleBox, tous les fichiers sur la clef sont automatiquement disponibles pour les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __Clef USB__.
+Quand une clef USB est insérée dans l'un des ports USB de la MoodleBox, tous les fichiers sur la clef sont automatiquement disponibles pour les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __USB Drive__.
 
 <img class="alignnone size-full wp-image-474" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/ClefUSB.png" alt="" width="907" height="586" srcset="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/ClefUSB.png 907w, https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/ClefUSB-300x194.png 300w, https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/ClefUSB-768x496.png 768w" sizes="(max-width: 907px) 100vw, 907px" />
 
@@ -19,7 +19,7 @@ Si plusieurs clefs USB sont insérées dans la MoodleBox, seuls les fichiers de 
 
 ### Fichiers via SFTP
 
-Les fichiers déposés dans la MoodleBox par SFTP, dans le dossier dénommé __files__, sont aussi disponibles les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __Fichiers SFTP__.
+Les fichiers déposés dans la MoodleBox par SFTP, dans le dossier dénommé __files__, sont aussi disponibles les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __SFTP Documents__.
 
 <img class="alignnone size-full wp-image-476" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/FichiersSFTP.png" alt="" width="908" height="587" />
 

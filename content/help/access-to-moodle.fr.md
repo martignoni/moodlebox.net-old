@@ -1,5 +1,5 @@
 ---
-title: Comment se connecter à Moodle ?
+title: Comment se connecter à Moodle
 author:
   - Nicolas Martignoni
 type: kb

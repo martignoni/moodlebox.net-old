@@ -1,5 +1,5 @@
 ---
-title: Comment créer sa propre image-disque personnalisée ?
+title: Comment créer sa propre image-disque personnalisée
 author:
   - Nicolas Martignoni
 type: kb

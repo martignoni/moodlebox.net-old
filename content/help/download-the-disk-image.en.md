@@ -1,5 +1,5 @@
 ---
-title: Where can I download the disk image?
+title: Where to download the disk image
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:32:11+00:00
@@ -51,7 +51,7 @@ The [MoodleBox disk image][4]{.piwik_download} is built on <a href="https://www.
 
 ### In case of trouble
 
-Some users have experienced troubles when trying to download the image. In this case, you may try to use your command line interface to download the disk-image, for example with this command
+If you experience any trouble when downloading the disk image, use your command line interface, for example with this command
 
 `wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}`
 

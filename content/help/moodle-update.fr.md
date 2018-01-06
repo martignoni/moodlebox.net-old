@@ -1,5 +1,5 @@
 ---
-title: Comment mettre à jour Moodle ?
+title: Comment mettre à jour Moodle
 author:
   - Nicolas Martignoni
 type: kb

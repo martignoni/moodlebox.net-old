@@ -1,5 +1,5 @@
 ---
-title: How to upgrade the MoodleBox?
+title: How to upgrade the MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-12-22T10:27:10+00:00

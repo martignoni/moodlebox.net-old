@@ -1,5 +1,5 @@
 ---
-title: Quelle est la version de ma MoodleBox ?
+title: Quelle est la version de ma MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-11-12T16:56:36+00:00

@@ -1,5 +1,5 @@
 ---
-title: Comment installer la MoodleBox ?
+title: Comment installer la MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-09-15T20:44:44+00:00

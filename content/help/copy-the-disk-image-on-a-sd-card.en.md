@@ -1,5 +1,5 @@
 ---
-title: How to copy the disk image to a SD card?
+title: How to copy the disk image to a SD card
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:37:28+00:00

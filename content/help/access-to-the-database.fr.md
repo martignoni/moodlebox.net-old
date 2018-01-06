@@ -1,5 +1,5 @@
 ---
-title: Comment peut-on gérer la base de données ?
+title: Comment gérer la base de données
 author:
   - Nicolas Martignoni
 type: kb

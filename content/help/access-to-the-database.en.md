@@ -1,5 +1,5 @@
 ---
-title: How can I manage the Moodle database?
+title: How to manage the Moodle database
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:58:04+00:00

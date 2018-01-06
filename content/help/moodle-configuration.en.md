@@ -1,5 +1,5 @@
 ---
-title: What’s the default Moodle configuration?
+title: What is the default Moodle configuration
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:41:38+00:00

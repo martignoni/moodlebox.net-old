@@ -1,5 +1,5 @@
 ---
-title: How to update Moodle?
+title: How to update Moodle
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T20:03:31+00:00

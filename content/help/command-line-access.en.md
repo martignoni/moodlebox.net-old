@@ -1,5 +1,5 @@
 ---
-title: How to access to the command line interface?
+title: How to access to the command line interface
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:49:52+00:00

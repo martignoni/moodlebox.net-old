@@ -1,5 +1,5 @@
 ---
-title: "Comment accéder à la MoodleBox par Ethernet ?"
+title: "Comment accéder à la MoodleBox par Ethernet"
 author: Nicolas Martignoni
 type: kb
 date: 2017-12-23T16:31:15+00:00

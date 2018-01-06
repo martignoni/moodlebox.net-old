@@ -1,5 +1,5 @@
 ---
-title: What are the MoodleBox credentials?
+title: What are the MoodleBox credentials
 author: Nicolas Martignoni
 type: kb
 date: 2017-09-16T17:22:02+00:00
