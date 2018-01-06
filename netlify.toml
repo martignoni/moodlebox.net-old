@@ -1,4 +1,4 @@
 # Global settings applied to the whole site.
 
 [context.production.environment]
-  HUGO_VERSION = "0.31"
+  HUGO_VERSION = "0.32.2"
