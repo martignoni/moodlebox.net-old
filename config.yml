@@ -90,6 +90,11 @@ languages:
 #        url: /contact/
 #        weight: 4
 
+    testimonials:
+      enable: true
+      subtitle: Have a look at what teachers around the world said about the MoodleBox.
+      title: What teachers say
+
   fr:
     languageName: Français
     title: MoodleBox
@@ -148,6 +153,10 @@ languages:
         url: /diy/
         weight: 4
 
+    testimonials:
+      enable: true
+      subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
+      title: Ce que les enseignants en disent
 
 #      - name: Contact
 #        url: /contact/
@@ -252,11 +261,6 @@ params:
     subtitle: We have prepared for you more than 40 different HTML pages, including
       5 variations of homepage.
     title: Do you want to see more?
-
-  testimonials:
-    enable: true
-    subtitle: Have a look at what teachers around the world said about the MoodleBox.
-    title: What teachers say
 
   topbar:
     enable: false
