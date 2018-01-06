@@ -1,8 +1,10 @@
-weight: 4
+weight: 3
 title: "Facile à personnaliser"
 description: >
   <ul class="list-style-none">
-    <li>7 variations de couleur prêtes à l'emploi.</li>
-    <li>Police de caractères facile à changer</li>
+    <li>Importer vos cours Moodle</li>
+    <li>Installer votre thème Moodle et vos plugins préférés</li>
+    <li>Multilingue</li>
+    <li>Documentation complète sur ce site</li>
   </ul>
 image: "/img/carousel/template-easy-code.png"
