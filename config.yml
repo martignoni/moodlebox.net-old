@@ -272,6 +272,25 @@ params:
     categories: true
     search: true
     tags: true
+    related: true
+
+related:
+  threshold: 50
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: "keywords"
+      weight: 100
+
+    - name: "categories"
+      weight: 200
+
+    - name: "tags"
+      weight: 50
+
+    - name: "date"
+      weight: 1
+      pattern: "2006"
 
 blackfriday:
   hrefTargetBlank: false
