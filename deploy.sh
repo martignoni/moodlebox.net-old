@@ -6,6 +6,7 @@ DIR=/var/www/moodlebox.net/html/   # might sometimes be empty!
 
 BASEURL=https://new.moodlebox.net/
 
+rm -rf public/
 hugo -b ${BASEURL} --cleanDestinationDir && rsync -avz --delete --exclude '.*' --iconv=utf-8-mac,utf-8 public/ ${USER}@${HOST}:${DIR}
 
 exit 0

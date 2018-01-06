@@ -1,9 +1,9 @@
 weight: 2
-title: "Small and ubiquitous"
+title: "Petit, polyvalent et autonome"
 description: >
   <ul class="list-style-none">
-     <li>Doesn't need Internet</li>
-     <li>Doesn't need a cabled or wireless Network</li>
-     <li>Doesn't need any infrastructure</li>
+     <li>Pas besoin d'Internet</li>
+     <li>Pas besoin de réseau câblé ou sans fils</li>
+     <li>Aucune infrastructure nécessaire</li>
    </ul>
 image: "/img/carousel/template-mac.png"
