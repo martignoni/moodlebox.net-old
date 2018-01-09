@@ -8,9 +8,10 @@ disableHugoGeneratorInject: true
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
 # Enable comments by entering your Disqus shortname
-disqusShortname: ''
+# disqusShortname: ''
 # Enable Google Analytics by entering your tracking code
-googleAnalytics: ''
+# googleAnalytics: ''
+
 
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
@@ -273,6 +274,11 @@ params:
     search: true
     tags: true
     related: true
+
+  # Enable Piwik Analytics by entering your tracking code
+  piwikAnalytics:
+    siteid: 5
+    piwikroot: "//stats.martignoni.net/"
 
 related:
   threshold: 50
