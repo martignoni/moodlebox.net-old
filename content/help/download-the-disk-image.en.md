@@ -47,7 +47,7 @@ After having downloaded the disk image, follow the instructions to [copy it to t
 
 If you wish, you can [support the development of MoodleBox][3] by making an optional donation.
 
-The [MoodleBox disk image][4]{.piwik_download} is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
+The MoodleBox disk image is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
 
 ### In case of trouble
 
