@@ -17,4 +17,4 @@ Si ce comportement n'est pas désiré, il suffit de retirer le câble ethernet d
 
 Pour en savoir plus à ce sujet, jetez un oeil à la [topologie du réseau de la MoodleBox][1].
 
- [1]: {{< relref "moodlebox-network-topology.fr.md" >}}
+ [1]: {{< relref "network-topology.fr.md" >}}

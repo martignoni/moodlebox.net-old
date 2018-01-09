@@ -14,26 +14,25 @@
                 <!--  Main Page Content -->
 					<div class="kb-section-container">
 						<div class="two-col section_medium_font kb-categories-list">
-                        {{ $taxonomy := .Site.Taxonomies.categories }}
-                        {{ range $key, $item := $taxonomy }}
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
                         <section class="no_shadow">
                         <div class="section-head section_divider">
                             <div class="kb-category-level-1">
-                                <a href="{{ "/categories/" | relLangURL}}{{ $key | urlize }}">{{ $key }}
+                                <a href="{{ "/categories/" | relLangURL}}{{ $name | urlize }}">{{ $name }}
                             </div>
                         </div>
                             <div class="kb-section-body">
                                 <ul class="kb-main-category kb-articles">
-                                {{/* range first 5 $item.Pages.ByWeight */}}
-                                {{ range $item.Pages.ByWeight }}
+                                {{/* range first 5 $taxonomy.Pages.ByWeight */}}
+                                {{ range $taxonomy.Pages.ByWeight }}
                                     <li class="kb-article-level-1 ">
-                                    <a href="{{ .Permalink}}"> <span class="kb-article-title"> <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>{{ .LinkTitle }}</span> </span> </a>
+                                    <a href="{{ .Permalink}}"> <span class="kb-article-title"> <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>{{ .Title }}</span> </span> </a>
                                     </li>
                                 {{ end }}
-                                {{/* if gt (len $item) 5 */}}
+                                {{/* if gt (len $taxonomy) 5 */}}
                                 {{ if false }}
                                     <span class="kb-show-all-articles">
-                                      <span class="kb-show-text"> Show all articles ({{ sub (len $item) 5 }})</span>
+                                      <span class="kb-show-text"> Show all articles ({{ sub (len $taxonomy) 5 }})</span>
                                       <span class="kb-hide-text kb-hide-elem">Collapse Articles</span>
                                     </span>
                                 {{ end }}

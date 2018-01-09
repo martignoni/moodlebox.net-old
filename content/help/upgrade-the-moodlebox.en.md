@@ -27,4 +27,4 @@ For this operation, the MoodleBox must be connected to the Internet.
   5. At the end of the update process, type `exit`, and confirm with Return.
 
  [1]: {{< relref "command-line-access.en.md" >}}
- [2]: {{< relref "moodlebox-credentials.en.md" >}}
+ [2]: {{< relref "credentials.en.md" >}}

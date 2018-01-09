@@ -63,7 +63,7 @@ or this one
 curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
 ```
 
- [1]: {{< relref "copy-the-disk-image-on-a-sd-card.en.md" >}}
+ [1]: {{< relref "copy-the-disk-image.en.md" >}}
  [2]: {{< relref "startup-shutdown-restart.en.md" >}}
  [3]: {{< relref "support-the-moodlebox-project.en.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}

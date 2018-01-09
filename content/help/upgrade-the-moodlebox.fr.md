@@ -27,4 +27,4 @@ Pour cette opération, la MoodleBox doit être connectée à Internet.
   5. Lorsque la mise à jour se termine, tapez `exit`, et confirmer avec la touche Retour.
 
  [1]: {{< relref "command-line-access.fr.md" >}}
- [2]: {{< relref "moodlebox-credentials.fr.md" >}}
+ [2]: {{< relref "credentials.fr.md" >}}

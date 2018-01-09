@@ -41,7 +41,7 @@ Pour plus d'informations, [consultez la documentation][9].
 
  [1]: {{< relref "hardware-needed.fr.md" >}}
  [2]: {{< relref "download-the-disk-image.fr.md" >}}
- [3]: {{< relref "copy-the-disk-image-on-a-sd-card.fr.md" >}}
+ [3]: {{< relref "copy-the-disk-image.fr.md" >}}
  [4]: {{< relref "access-to-moodle.fr.md" >}}
  [5]: {{< relref "wi-fi-connection.fr.md" >}}
  [6]: {{< relref "updating-wi-fi-configuration.fr.md" >}}
