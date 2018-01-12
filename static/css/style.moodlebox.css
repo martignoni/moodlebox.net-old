@@ -3127,6 +3127,11 @@ fieldset[disabled] .btn-template-primary.active {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+  .dropdown > a.dropdown-toggle.open {
+    border-top: solid 5px #da4d4d;
+    background-color: #eca1a1;
+    color: #2a2a2a;
+  }
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
