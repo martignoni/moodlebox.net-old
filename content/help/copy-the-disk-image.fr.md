@@ -1,7 +1,6 @@
 ---
 title: "Comment copier l'image-disque sur une carte SD"
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:20:59+00:00
 slug: copier-limage-disque-sur-une-carte-sd
@@ -11,7 +10,7 @@ categories:
 ---
 Commencez par [télécharger Etcher][2], puis suivez les instructions dans Etcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
 
-{{< figure src="/img/media/etcher-copy.png" alt="Copie avec Etcher" width="800" height="380" >}}
+{{< figure src="/img/media/etcher-copy.png" alt="Copie avec Etcher" width="800" height="380" link="/img/media/etcher-copy.png">}}
 
 ### Pour les geeks
 

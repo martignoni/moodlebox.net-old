@@ -1,7 +1,6 @@
 ---
 title: Comment configurer le réseau Wi-Fi
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
 date: 2017-08-12T16:20:08+00:00
 slug: modification-de-la-configuration-du-reseau-wi-fi
@@ -12,7 +11,7 @@ categories:
 ---
 En tant qu'administrateur, il est possible de modifier différents réglages du point d'accès sans fils de la MoodleBox. Pour ce faire, visitez [Administration du site > Serveur > MoodleBox][1] dans le bloc d'administration.
 
-{{< figure src="/img/media/wifi-settings-fr.png" alt="Réglages Wi-Fi" width="730" height="347" >}}
+{{< figure src="/img/media/wifi-settings-fr.png" alt="Réglages Wi-Fi" width="730" height="347" link="/img/media/wifi-settings-fr.png" >}}
 
 ### Changer le nom du réseau Wi-Fi (SSID)
 
