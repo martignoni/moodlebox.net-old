@@ -13,7 +13,7 @@ categories:
 
 Quand une clef USB est insérée dans l'un des ports USB de la MoodleBox, tous les fichiers sur la clef sont automatiquement disponibles pour les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __USB Drive__.
 
-{{< figure src="/img/media/ClefUSB.png" alt="" width="907" height="586" >}}
+{{< figure src="/img/media/ClefUSB.png" alt="Dépôt USB Drive" width="907" height="586" >}}
 
 Si plusieurs clefs USB sont insérées dans la MoodleBox, seuls les fichiers de la première à avoir été insérée sont disponibles.
 
@@ -21,7 +21,7 @@ Si plusieurs clefs USB sont insérées dans la MoodleBox, seuls les fichiers de 
 
 Les fichiers déposés dans la MoodleBox par SFTP, dans le dossier dénommé __files__, sont aussi disponibles les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __SFTP Documents__.
 
-{{< figure src="/img/media/FichiersSFTP.png" alt="" width="908" height="587" >}}
+{{< figure src="/img/media/FichiersSFTP.png" alt="Dépôt SFTP Documents" width="908" height="587" >}}
 
 Pour déposer des fichiers, utiliser un logiciel comme [FileZilla][1], [Cyberduck][2] ou [WinSCP][3], avec les informations suivantes d'authentification :
 

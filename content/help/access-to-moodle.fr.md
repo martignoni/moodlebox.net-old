@@ -19,7 +19,7 @@ Vous pouvez maintenant accéder à Moodle au moyen de votre navigateur. Ouvrez v
   * nom d'utilisateur : __admin__
   * mot de passe : __Moodlebox4$__
 
-{{< figure src="/img/media/moodle-login.png" alt="Connexion à Moodle" width="601" height="313" >}}
+{{< figure src="/img/media/moodle-login-fr.png" alt="Connexion à Moodle" width="601" height="313" >}}
 
 Vous êtes alors connecté au compte administrateur de Moodle sur la MoodleBox. Il est __fortement recommandé de modifier le mot de passe initial__ du compte administrateur de Moodle dès la première connexion.
 
