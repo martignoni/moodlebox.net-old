@@ -3121,6 +3121,11 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > li > a {
   color: #2a2a2a;
 }
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #2a2a2a;
