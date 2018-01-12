@@ -1445,7 +1445,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: center;
   margin-bottom: 40px;
 }
-.box-simple .icon {
+.box-simple .icon .icon-background-default {
   color: #da4d4d;
   border-color: #da4d4d;
   -webkit-transition: all 0.2s ease-out;
@@ -1469,18 +1469,20 @@ fieldset[disabled] .btn-template-primary.active {
   line-height: 1.7;
   color: #444;
 }
-.box-simple:hover .icon {
-  -webkit-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1);
-  -o-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
+.box-simple:hover .icon .icon-background-default {
+  -webkit-transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
 }
-.box-simple:hover .icon i {
-  -webkit-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -o-transform: scale(1, 1);
-  transform: scale(1, 1);
+/*
+.box-simple:hover .icon .icon-background-default i {
+  -webkit-transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
 }
+ */
 .box-simple.box-white {
   padding: 20px;
   border: dotted 1px #999999;
