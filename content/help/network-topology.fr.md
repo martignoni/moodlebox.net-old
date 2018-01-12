@@ -12,4 +12,4 @@ categories:
 ---
 Le diagramme ci-dessous décrit la topologie du réseau de la MoodleBox.<figure id="attachment_697" style="max-width: 500px" class="wp-caption alignnone">
 
-{{< figure src="/img/media/MoodleBox-Network.png" alt="Diagramme réseau de la MoodleBox" width="500" height="525" caption="Diagramme réseau de la MoodleBox" link="/img/media/MoodleBox-Network.png" >}}
+{{< figure src="/img/media/moodlebox-network.png" alt="Diagramme réseau de la MoodleBox" width="500" height="525" caption="Diagramme réseau de la MoodleBox" link="/img/media/moodlebox-network.png" >}}

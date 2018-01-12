@@ -15,7 +15,7 @@ aliases:
 <ul class="downloads">
   <li>
   <div class="image-icon">
-    <a class="piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><img class="alignnone wp-image-308 size-full" src="/img/media/MoodleBox-SD-150x150-orange.png" width="150" height="150"></a>
+    <a class="piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><img alt="MoodleBox SD card" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
   <div class="image-info">
     <div class="image-description">
