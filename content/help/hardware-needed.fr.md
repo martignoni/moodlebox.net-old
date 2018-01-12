@@ -21,9 +21,9 @@ Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 
 La totalité de l’investissement matériel nécessaire est d’environ 80 €, USD 90 ou CHF 90.
 
-{{< figure src="/img/media/rpi3.png" height="278" width="180" >}}
-{{< figure src="/img/media/rpi-power-supply.png" height="272" width="200" >}}
-{{< figure src="/img/media/rpi-case.png" height="218" width="159" >}}
+{{< figure src="/img/media/rpi3.png" alt="Raspberry Pi 3" height="278" width="180" >}}
+{{< figure src="/img/media/rpi-power-supply.png" alt="Alimentation Raspberry Pi" height="272" width="200" >}}
+{{< figure src="/img/media/rpi-case.png" alt="Boîtier Raspberry Pi" height="218" width="159" >}}
 
  [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
  [2]: https://www.raspberrypi.org/products/universal-power-supply/
