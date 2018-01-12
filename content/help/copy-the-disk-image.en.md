@@ -10,7 +10,7 @@ categories:
 ---
 First [download Etcher][2], then follow the instructions in Etcher to flash the __moodlebox-x.y.z.img.gz__ file [you've downloaded][1] on your microSD card.
 
-<img class="alignnone wp-image-361 size-full" src="https://moodlebox.net/en/wp-content/uploads/sites/3/2016/09/Etcher-copy.png" alt="" width="800" height="380" srcset="https://moodlebox.net/en/wp-content/uploads/sites/3/2016/09/Etcher-copy.png 800w, https://moodlebox.net/en/wp-content/uploads/sites/3/2016/09/Etcher-copy-300x143.png 300w, https://moodlebox.net/en/wp-content/uploads/sites/3/2016/09/Etcher-copy-768x365.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
+{{< figure src="/img/media/Etcher-copy.png" alt="" width="800" height="380" >}}
 
 ### For the geeks
 

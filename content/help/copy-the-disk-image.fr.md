@@ -11,7 +11,7 @@ categories:
 ---
 Commencez par [télécharger Etcher][2], puis suivez les instructions dans Etcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
 
-<img class="alignnone size-full wp-image-352" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/Etcher-copy.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/Etcher-copy.png 800w, https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/Etcher-copy-300x143.png 300w, https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/Etcher-copy-768x365.png 768w" alt="" width="800" height="380" />
+{{< figure src="/img/media/Etcher-copy.png" alt="Copie avec Etcher" width="800" height="380" >}}
 
 ### Pour les geeks
 
@@ -21,7 +21,7 @@ Si vous préférez utiliser la ligne de commande pour copier l’image-disque su
   * [Instructions pour Windows][5]
   * [Instructions pour Linux][6]
 
- [1]: https://moodlebox.net/fr/help/telecharger-limage-disque/
+ [1]: {{< relref "download-the-disk-image.fr.md" >}}
  [2]: https://etcher.io/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md

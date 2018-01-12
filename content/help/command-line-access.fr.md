@@ -21,7 +21,7 @@ En tant qu’utilisateur, il n'est en principe pas nécessaire de vous connecte
 
 Ouvrir une nouvelle connexion, saisissez l'adresse __moodlebox.home__ dans le champ adéquat (_host name_). Cliquer sur _Open_ et saisissez le mot de passe __Moodlebox4$__.
 
-<img class="alignnone size-full wp-image-444" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/PuTTY-moodlebox.png" alt="" width="516" height="498" />
+{{< figure src="/img/media/PuTTY-moodlebox.png" alt="" width="516" height="498" >}}
 
 ### Dans une interface de terminal classique
 

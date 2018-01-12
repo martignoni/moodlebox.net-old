@@ -16,9 +16,9 @@ You may now log into Moodle in your browser. Open your browser and type <a href=
   * username: __admin__
   * password: __Moodlebox4$__
 
-<img class="alignnone wp-image-447 size-full" src="https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en.png" alt="Moodle Login" width="601" height="265" srcset="https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en.png 601w, https://moodlebox.net/en/wp-content/uploads/sites/3/2017/04/moodle-login-en-300x132.png 300w" sizes="(max-width: 601px) 100vw, 601px" />
+{{< figure src="/img/media/moodle-login-en.png" alt="Moodle Login" width="601" height="265" >}}
 
-You&#8217;re now logged into the Moodle administrator account of the MoodleBox. It’s __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
+You're now logged into the Moodle administrator account of the MoodleBox. It’s __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 
 The initial Moodle installation has only one account (administrator) and no course is created. The Moodle environment should be configured by yourself, as well as the management of its contents (resources, activities, etc.). See the <a href="https://docs.moodle.org/en/Admin_quick_guide" target="_blank" rel="noopener">Moodle documentation</a> if you don’t know how to do this.
 

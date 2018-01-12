@@ -8,7 +8,7 @@ categories:
   - Maintenance
 
 ---
-The Moodle environment on the MoodleBox doesn&#8217;t have any special configuration. Only the following settings were changed to facilitate its use or to enhance its performance.
+The Moodle environment on the MoodleBox doesn't have any special configuration. Only the following settings were changed to facilitate its use or to enhance its performance.
 
 Mobile App
 :   The mobile service for the official [Moodle Mobile app][1] is enabled. The Moodle Mobile app can be download at https://download.moodle.org/mobile/.
@@ -17,7 +17,7 @@ File upload size
 :   The maximal file upload size is set to __50MB__ (via the PHP settings _post\_max\_size_ and _upload\_max\_filesize_).
 
 Cron
-:   The _cron_ is configured to be run __every 3 minutes__. Some scheduled tasks need an Internet access. It&#8217;s recommended to connect the MoodleBox to the Internet with an Ethernet cable.
+:   The _cron_ is configured to be run __every 3 minutes__. Some scheduled tasks need an Internet access. It's recommended to connect the MoodleBox to the Internet with an Ethernet cable.
 
 Multi-language filter
 :   The Multi-Language Content filter is enabled.

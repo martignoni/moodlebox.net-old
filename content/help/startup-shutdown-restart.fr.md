@@ -24,7 +24,7 @@ Afin de limiter au maximum les risques de corruption de données sur la carte mi
 
 Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite [Administration du site > Serveur > MoodleBox][1] dans l'interface d'administration.
 
-<img class="alignnone size-full wp-image-481" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/restart-shutdown.png" alt="" width="722" height="111" srcset="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/restart-shutdown.png 722w, https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/04/restart-shutdown-300x46.png 300w" sizes="(max-width: 722px) 100vw, 722px" />
+{{< figure src="/img/media/restart-shutdown.png" alt="" width="722" height="111" >}}
 
 Dans la section __Redémarrage et arrêt__, l'interface présente deux boutons, permettant de redémarrer et d'arrêter la MoodleBox. Après avoir cliqué sur le bouton __Arrêter la MoodleBox__, patienter quelques secondes et vérifier que la diode verte ne clignote plus. L'alimentation peut alors être débranchée sans risque.
 
