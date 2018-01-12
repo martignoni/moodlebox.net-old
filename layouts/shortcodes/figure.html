@@ -1,0 +1,22 @@
+<!-- image -->
+<div class="picture{{ with .Get "class" }} {{.}}{{ end }}">
+  {{ if or (.Get "caption") (.Get "attr")}}
+  <figure>
+  {{ end }}
+    {{ with .Get "link"}}<a href="{{.}}">{{ end }}
+      <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} class="img-responsive" />
+    {{ if .Get "link"}}</a>{{ end }}
+  {{ if or (.Get "caption") (.Get "attr")}}
+    <figcaption>{{ if isset .Params "title" }}
+      {{ .Get "title" }}{{ end }}
+      <p>
+        {{ .Get "caption" }}
+        {{ with .Get "attrlink"}}<a href="{{.}}">{{ end }}
+          {{ .Get "attr" }}
+        {{ if .Get "attrlink"}}</a>{{ end }}
+      </p>
+    </figcaption>
+  </figure>
+  {{ end }}
+</div>
+<!-- image -->

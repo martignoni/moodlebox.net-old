@@ -28,6 +28,11 @@ code {
   padding: 0 0 5px;
 }
 
+.picture {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* Language switch menu */
 
 #language-switch a.dropdown-toggle {
