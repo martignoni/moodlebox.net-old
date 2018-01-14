@@ -61,7 +61,7 @@
 - id: whatsYourEmail
   translation: "What's your email address?"
 - id: subject
-  translation: "Sujet"
+  translation: "Subject"
 - id: message
   translation: "Message"
 - id: bla

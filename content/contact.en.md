@@ -5,13 +5,13 @@ id: "contact"
 
 ### Need help?
 
-If you have [technical questions][1] or need support, check our the MoodleBox [knowledge base][1].
+If you have [technical questions][1] or if you need support, check out the MoodleBox [knowledge base][1].
 
 ### Contact the author
 
-If you have any questions or comments on the website, would like to share your experience with MoodleBox, want to get involved in the project, by translating this site or enhancing its design, complete the opposite form and we’ll get back to you!
+If you have any questions or comments on the website, if you would like to share your experience with MoodleBox, or if you want to get involved in the project by translating this site or enhancing its design, complete the opposite form and we’ll get back to you!
 
-If you’re looking for technical help, check our the [MoodleBox documentation][1].
+If you’re looking for technical help, check out the [MoodleBox documentation][1].
 
 {{< contactform >}}
 
