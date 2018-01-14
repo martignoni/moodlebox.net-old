@@ -380,23 +380,3 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
-
-$('.dropdown-toggle').click(function(e) {
-  if ($(document).width() > 768) {
-    e.preventDefault();
-    var url = $(this).attr('href');
-    if (url !== '#') {
-      window.location.href = url;
-    }
-  }
-});
-
-$('.dropdown').hover(function(e) {
-  if ($(document).width() > 768) {
-    $(this).children('a').addClass('open');
-  }
-}, function(e) {
-  if ($(document).width() > 768) {
-    $(this).children('a').removeClass('open');
-  }
-});
