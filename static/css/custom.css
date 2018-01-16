@@ -42,6 +42,8 @@ code {
 
 #language-switch ul.dropdown-menu {
   min-width: auto;
+  left: auto;
+  right: 0;
 }
 
 /* Download image layout */
