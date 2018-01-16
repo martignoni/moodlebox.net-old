@@ -20,12 +20,7 @@ As of december 19, 2017, the project MoodleBox collected 235€ in donations. Th
 
 ### Make a donation to support MoodleBox
 
-<div id="give-form-215-wrap" class="give-form-wrap give-display-modal">
-  <div id="give-form-content-215" class="give-form-content-wrap give_post_form-content">
-  </div>
-</div>
-
-<!--end #give-form-215-->
+{{< donationform >}}
 
 ### Support MoodleBox another way
 
