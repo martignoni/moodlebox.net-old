@@ -45,7 +45,7 @@ aliases:
 
 After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use. Read the [installation instructions][5] for more information.
 
-If you wish, you can [support the development of MoodleBox][3] by making an optional donation.
+If you wish, you can [support the development][3] of MoodleBox by [making an donation][3].
 
 The MoodleBox disk image is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
 
