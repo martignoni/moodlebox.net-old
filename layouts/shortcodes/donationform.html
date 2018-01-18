@@ -1,6 +1,6 @@
 {{ $products := getJSON "/data/donation-amounts.json" }}
 
-<div id="give-form-wrap" class="give-form-wrap give-display-modal">
+<div>
   <form id="give-form" class="give-form give-form give-form-type-multi float-labels-enabled fl-form fl-style-give" action="https://moodlebox.net/en/help/support-the-moodlebox-project/?payment-mode=paypal" data-currency_symbol="&euro;" data-currency_code="EUR" data-currency_position="before" data-thousands_separator="," data-decimal_separator="." data-number_decimals="0" method="post">
 <!-- The following field is for robots only, invisible to humans: -->
     <span class="give-hidden" style="display: none !important;">
