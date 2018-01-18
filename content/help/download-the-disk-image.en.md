@@ -37,7 +37,7 @@ aliases:
       Release notes: <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank">on Github</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}">Download</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Download image</a>
     </div>
  </div>
  </li>
