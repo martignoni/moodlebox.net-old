@@ -143,13 +143,16 @@ ul.downloads li .image-download-links {
 }
 ul.downloads li .image-download-links a.btn {
     background: #da4d4d; /* #f5993a; */
-    padding: 1px 10px 1px 10px;
+/*     padding: 1px 10px 1px 10px; */
     border: 1px solid #da4d4d;
     line-height: 20px;
     color: white;
 }
 ul.downloads li .image-download-links a.btn.dl-zip {
     background-color: #da4d4d;
+}
+ul.downloads li .image-download-links a.btn i.fa {
+    margin-left: 0;
 }
 
 /* Knowledge base */
