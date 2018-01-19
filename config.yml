@@ -306,6 +306,8 @@ pygmentsCodeFencesGuessSyntax: true
 pygmentsUseClasses: true
 pygmentsstyle: "friendly"
 
+enableMissingTranslationPlaceholders: true
+
 permalinks:
   help: /help/:slug
   # kb: /kb/:slug

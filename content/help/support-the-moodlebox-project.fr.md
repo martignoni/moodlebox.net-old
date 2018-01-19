@@ -20,12 +20,7 @@ En date du 19 décembre 2017, le projet MoodleBox a reçu un total de 235 €, q
 
 ### Faire un don pour soutenir la MoodleBox
 
-<div id="give-form-215-wrap" class="give-form-wrap give-display-modal">
-  <div id="give-form-content-215" class="give-form-content-wrap give_post_form-content">
-  </div>
-</div>
-
-<!--end #give-form-215-->
+{{< donationform >}}
 
 ### Soutenir la MoodleBox autrement
 

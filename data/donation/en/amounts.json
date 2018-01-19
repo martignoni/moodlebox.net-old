@@ -1,18 +1,18 @@
 [{
-    "id": "7",
+    "id": "1",
     "name": "Symbolic thank you",
     "price": 5,
     "image": "",
     "description": "",
-    "url": "//moodlebox.net/en/help/support-the-moodlebox-project/",
+    "url": "//en/help/support-the-moodlebox-project/",
     "default": false
 }, {
-    "id": "6",
+    "id": "2",
     "name": "Motivation bonus",
     "description": "",
     "price": 10,
     "image": "",
-    "url": "//moodlebox.net/en/help/support-the-moodlebox-project/",
+    "url": "//en/help/support-the-moodlebox-project/",
     "default": false
 }, {
     "id": "3",
@@ -20,7 +20,7 @@
     "description": "",
     "price": 20,
     "image": "",
-    "url": "//moodlebox.net/en/help/support-the-moodlebox-project/",
+    "url": "//en/help/support-the-moodlebox-project/",
     "default": true
 }, {
     "id": "4",
@@ -28,7 +28,7 @@
     "description": "",
     "price": 50,
     "image": "",
-    "url": "//moodlebox.net/en/help/support-the-moodlebox-project/",
+    "url": "//en/help/support-the-moodlebox-project/",
     "default": false
 }, {
     "id": "5",
@@ -36,6 +36,6 @@
     "description": "",
     "price": 100,
     "image": "",
-    "url": "//moodlebox.net/en/help/support-the-moodlebox-project/",
+    "url": "//en/help/support-the-moodlebox-project/",
     "default": false
 }]

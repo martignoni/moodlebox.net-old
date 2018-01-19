@@ -64,7 +64,9 @@
   translation: "Subject"
 - id: message
   translation: "Message"
-- id: bla
-  translation: "Bla"
-- id: blu
-  translation: "Blu"
+- id: donationAmount
+  translation: "Donation amount"
+- id: customAmount
+  translation: "Custom amount"
+- id: donateNow
+  translation: "Donate now"
