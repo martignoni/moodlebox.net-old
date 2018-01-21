@@ -308,6 +308,10 @@ pygmentsstyle: "friendly"
 
 enableMissingTranslationPlaceholders: true
 
+outputs:
+  home: ["HTML", "JSON"]
+  page: ["HTML"]
+
 permalinks:
   help: /help/:slug
   # kb: /kb/:slug
