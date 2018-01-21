@@ -1,5 +1,5 @@
 <div class="search-container">
-  <h2> Recherche dans la documentation</h2>
+  <h2>Recherche dans la documentation</h2>
   <form id="search_form" style="width: 80%;" class="search search-form" method="get" action="">
     <div class="search-box">
       <input type="text" id="search_terms" name="search_terms" value="" placeholder="Rechercher dans la documentation...">
@@ -12,10 +12,8 @@
 </div>
 
 <p>Search: <input id="search" type="text" autocomplete="off"></p>
-<p> Results:</p>
+<p>Results:</p>
 <ul id="results"></ul>
-
-{{ printf "%#v" .Site.Language.Lang}}
 
 <script type="text/javascript">
 var lunrIndex,
