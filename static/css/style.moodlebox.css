@@ -2597,9 +2597,11 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer .blog-entries .item .name h5 {
   margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
+/*
   font-size: 12px;
+  text-transform: uppercase;
+ */
 }
 #footer .blog-entries .item .name h5 a {
   color: #eeeeee;
