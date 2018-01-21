@@ -21,16 +21,16 @@
     <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHosted">
     <div class="give-total-wrap">
       <div class="give-donation-amount form-row-wide">
-        <span class="give-currency-symbol give-currency-position-before">€</span> <label class="give-hidden" for="give-amount">{{ i18n "donationAmount" }}</label>
-        <input class="give-text-input give-amount-top" id="give-amount" name="give-amount" type="tel" placeholder="" value="{{ $.Scratch.Get "amount" }}" autocomplete="off">
+        <span class="give-currency-symbol give-currency-position-before">€</span> <label class="give-hidden" for="amount">{{ i18n "donationAmount" }}</label>
+        <input class="give-text-input give-amount-top" id="give-amount" name="amount" type="tel" value="{{ $.Scratch.Get "amount" }}" autocomplete="off">
       </div>
     </div>
     <ul id="give-donation-level-radio-list" class="give-donation-levels-wrap">
       {{ range $products }}
-      <li><input type="radio" data-price-id="{{ .id }}" class="give-radio-input give-radio-input-level give-radio-level-{{ .id }}{{ if .default }} give-default-level{{ end }}" name="amount" id="amount-{{ .id }}" value="{{ .price }}"{{ if .default }} checked="checked"{{ end }}>
+      <li><input type="radio" data-price-id="{{ .id }}" class="give-radio-input give-radio-input-level give-radio-level-{{ .id }}{{ if .default }} give-default-level{{ end }}" name="radio-donation-level" id="amount-{{ .id }}" value="{{ .price }}"{{ if .default }} checked="checked"{{ end }}>
       <label for="amount-{{ .id }}">€{{ .price }} – {{ .name }}</label></li>
       {{ end }}
-      <li><input type="radio" data-price-id="custom" class="give-radio-input give-radio-input-level give-radio-level-custom" name="amount" id="give-radio-level-custom" value="custom">
+      <li><input type="radio" data-price-id="custom" class="give-radio-input give-radio-input-level give-radio-level-custom" name="radio-donation-level" id="give-radio-level-custom" value="custom">
       <label for="give-radio-level-custom">{{ i18n "customAmount" }}</label></li>
     </ul>
     <div id="give_purchase_form_wrap">
