@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:03:11+00:00
 slug: startup-shutdown-restart
+weight: 1
 categories:
   - Maintenance
   - Usage

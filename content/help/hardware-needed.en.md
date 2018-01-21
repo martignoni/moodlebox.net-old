@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:19:15+00:00
 slug: hardware-needed
+weight: 3
 categories:
   - About
   - First steps

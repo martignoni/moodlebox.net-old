@@ -4,8 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:09:17+00:00
 slug: connexion-wi-fi
-permalink:
-  - /help/connexion-wi-fi/
+weight: 5
 categories:
   - Premiers pas
   - Utilisation

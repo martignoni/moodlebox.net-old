@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:32:11+00:00
 slug: download-the-disk-image
+weight: 3
 categories:
   - First steps
 aliases:

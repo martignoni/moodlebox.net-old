@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:38:52+00:00
 slug: materiel-necessaire
+weight: 3
 categories:
   - À propos
   - Premiers pas

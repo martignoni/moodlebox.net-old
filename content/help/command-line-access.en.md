@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:49:52+00:00
 slug: command-line-connection
+weight: 15
 categories:
   - Maintenance
   - Usage

@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-21T09:33:52+00:00
 slug: what-is-the-moodlebox-for
+weight: 1
 categories:
   - About
 

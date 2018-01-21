@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-21T09:42:15+00:00
 slug: what-is-the-moodlebox
+weight: 2
 categories:
   - About
 aliases:

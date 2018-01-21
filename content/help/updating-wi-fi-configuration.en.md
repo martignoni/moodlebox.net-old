@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-08-12T16:35:41+00:00
 slug: updating-wi-fi-network-configuration
+weight: 6
 categories:
   - First steps
   - Maintenance

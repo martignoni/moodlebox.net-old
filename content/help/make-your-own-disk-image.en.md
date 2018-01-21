@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-21T09:51:01+00:00
 slug: make-your-own-customized-moodlebox-disk-image
+weight: 4
 categories:
   - About
 aliases:

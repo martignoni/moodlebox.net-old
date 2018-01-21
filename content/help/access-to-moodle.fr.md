@@ -4,10 +4,8 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:53:54+00:00
 slug: acces-a-moodle
-permalink:
-  - /help/acces-a-moodle/
+weight: 6
 categories:
-  - Maintenance
   - Utilisation
 
 ---

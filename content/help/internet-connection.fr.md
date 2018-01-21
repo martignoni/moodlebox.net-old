@@ -1,12 +1,10 @@
 ---
 title: Comment connecter la MoodleBox à Internet
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
 date: 2017-04-18T18:43:52+00:00
 slug: connexion-a-internet
-permalink:
-  - /help/connexion-a-internet/
+weight: 9
 categories:
   - Utilisation
 

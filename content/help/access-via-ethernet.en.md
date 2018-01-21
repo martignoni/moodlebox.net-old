@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-12-23T16:20:51+00:00
 slug: how-to-access-the-moodlebox-via-ethernet
+weight: 95
 categories:
   - Usage
 

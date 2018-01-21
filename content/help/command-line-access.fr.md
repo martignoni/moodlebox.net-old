@@ -4,8 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:12:14+00:00
 slug: connexion-ssh-en-ligne-de-commande
-permalink:
-  - /help/connexion-ssh-en-ligne-de-commande/
+weight: 15
 categories:
   - Maintenance
   - Utilisation

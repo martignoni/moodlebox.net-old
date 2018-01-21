@@ -1,10 +1,10 @@
 ---
 title: À quoi sert la MoodleBox
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T18:44:42+00:00
 slug: a-quoi-sert-la-moodlebox
+weight: 1
 categories:
   - À propos
 

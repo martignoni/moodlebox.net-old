@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-18T18:06:12+00:00
 slug: soutenir-le-projet-moodlebox
+weight: 100
 categories:
   - À propos
   - Premiers pas

@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-09-16T17:22:02+00:00
 slug: moodlebox-credentials
+weight: 8
 categories:
   - Maintenance
   - Usage

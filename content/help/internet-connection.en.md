@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:13:56+00:00
 slug: internet-connection
+weight: 9
 categories:
   - Usage
 

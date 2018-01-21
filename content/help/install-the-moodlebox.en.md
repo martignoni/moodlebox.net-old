@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-09-15T20:31:08+00:00
 slug: install-the-moodlebox
+weight: 1
 categories:
   - First steps
 aliases:

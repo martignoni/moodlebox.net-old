@@ -4,8 +4,8 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:23:42+00:00
 slug: access-to-moodle
+weight: 6
 categories:
-  - Maintenance
   - Usage
 
 ---

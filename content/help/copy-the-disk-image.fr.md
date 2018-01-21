@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:20:59+00:00
 slug: copier-limage-disque-sur-une-carte-sd
+weight: 4
 categories:
   - Premiers pas
 

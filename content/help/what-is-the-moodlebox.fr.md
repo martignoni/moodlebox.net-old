@@ -1,10 +1,10 @@
 ---
 title: "C'est quoi la MoodleBox"
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T18:46:38+00:00
 slug: cest-quoi-la-moodlebox
+weight: 2
 categories:
   - À propos
 aliases:

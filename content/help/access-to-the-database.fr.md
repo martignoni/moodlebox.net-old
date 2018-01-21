@@ -5,8 +5,6 @@ author:
 type: kb
 date: 2017-04-17T19:31:41+00:00
 slug: acces-base-de-donnees
-permalink:
-  - /help/mise-a-jour-de-moodle/
 categories:
   - Maintenance
 

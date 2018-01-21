@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T19:29:08+00:00
 slug: using-files-with-the-moodlebox
+weight: 7
 categories:
   - Usage
 

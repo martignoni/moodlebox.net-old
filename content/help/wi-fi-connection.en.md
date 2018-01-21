@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:41:46+00:00
 slug: wi-fi-connection
+weight: 5
 categories:
   - First steps
   - Usage

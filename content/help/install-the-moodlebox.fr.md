@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-09-15T20:44:44+00:00
 slug: installer-la-moodlebox
+weight: 1
 categories:
   - Premiers pas
 aliases:

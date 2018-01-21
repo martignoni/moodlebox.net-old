@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:46:31+00:00
 slug: moodlebox-for-how-many-users
+weight: 10
 categories:
   - Usage
 

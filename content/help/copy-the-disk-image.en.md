@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-04-20T16:37:28+00:00
 slug: copy-the-disk-image-on-a-sd-card
+weight: 4
 categories:
   - First steps
 

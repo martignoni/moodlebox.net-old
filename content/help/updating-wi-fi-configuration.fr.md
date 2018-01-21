@@ -4,6 +4,7 @@ author: Nicolas Martignoni
 type: kb
 date: 2017-08-12T16:20:08+00:00
 slug: modification-de-la-configuration-du-reseau-wi-fi
+weight: 6
 categories:
   - Maintenance
   - Premiers pas
