@@ -42,3 +42,5 @@ $("input[name='amount']#give-amount").focus(function() {
   parent_form.find('.give-radio-input').prop('checked', false);
   parent_form.find('.give-radio-input.give-radio-level-custom').prop('checked', true);
 });
+
+/* Knowledge base */
