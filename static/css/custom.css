@@ -156,7 +156,6 @@ ul.downloads li .image-download-links a.btn i.fa {
 }
 
 /* Knowledge base */
-
 #kb-container {
   margin: 0 auto;
 }
@@ -250,14 +249,95 @@ ul.downloads li .image-download-links a.btn i.fa {
   display: none !important;
 }
 
-/* Forms */
+/* Knowledge base search form */
+.kb-doc-search-container {
+  max-width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+  width: 100%;
+  background-color: #da4d4d;
+  padding: 30px 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
+.kb-doc-search-container h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 23px;
+}
+
+.kb-doc-search-container .kb-search-form {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kb-doc-search-container .kb-search-box {
+  position: relative;
+  text-align: center;
+}
+
+.kb-doc-search-container input[type=text] {
+  border-width: 1px;
+  border-color: #f1f1f1;
+  background-color: #fff;
+  background: #fff;
+  width: 100%;
+  color: #000000;
+  line-height: 22px;
+  font-size: 18px;
+  padding: 10px 43px !important;
+  border-style: solid !important;
+  height: 50px;
+  display: inline-block !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+}
+
+.kb-doc-search-container input[type=text]:focus {
+  color: #000;
+  background-color: #fff;
+  background: #fff;
+  border-color: #f1f1f1;
+  border-bottom: 1px solid #f1f1f1 !important;
+}
+
+.kb-doc-search-container .kb-search .kb-search-box button {
+  background-color: #686868;
+  background: #686868;
+  border-width: 1px;
+  border-color: #F1F1F1;
+  color: #fff;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+  padding: 10px 5% !important;
+  border-style: solid !important;
+  height: 50px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: none !important;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  margin: 0;
+}
+
+/* Forms */
 .moodlebox-form {
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    width: 100%;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 100%;
 }
 
 .moodlebox-form br {
