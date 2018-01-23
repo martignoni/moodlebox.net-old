@@ -1,10 +1,10 @@
 <div class="kb-doc-search-container">
-  <h2>Recherche dans la documentation</h2>
+  <h2>{{ i18n "searchDocTitle" }}</h2>
   <form id="kb-search-form" style="width: 80%;" class="kb-search kb-search-form" method="get" action="">
     <div class="kb-search-box">
-      <input type="text" id="kb-search-terms" name="kb-search-terms" value="" placeholder="Rechercher dans la documentation...">
-      <button type="submit" id="search-kb">Rechercher</button>
-      <div class="loading-spinner"></div>
+      <input type="text" id="kb-search-terms" name="kb-search-terms" value="" placeholder="{{ i18n "searchDocVerb" }}">
+      <button type="submit" id="search-kb">{{ i18n "searchButton" }}</button>
+      <div class="kb-query-error"></div>
     </div>
     <div id="kb-search-results"></div>
   </form>

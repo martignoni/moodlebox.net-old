@@ -70,3 +70,9 @@
   translation: "Montant personnalisé"
 - id: donateNow
   translation: "Faire un don maintenant"
+- id: searchDocTitle
+  translation: "Recherche dans la documentation"
+- id: searchDocVerb
+  translation: "Rechercher dans la documentation..."
+- id: searchButton
+  translation: "Rechercher"
