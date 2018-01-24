@@ -70,7 +70,7 @@
   translation: "Custom amount"
 - id: donateNow
   translation: "Donate now"
-- id: searchDoc
+- id: searchDocTitle
   translation: "Search knowledge base"
 - id: searchDocVerb
   translation: "Search the documentation..."
