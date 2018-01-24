@@ -179,7 +179,8 @@ ul.downloads li .image-download-links a.btn i.fa {
   font-size: 1.5em;
   word-wrap: break-word;
   text-align: left;
-  color: #555;
+  font-weight: 600;
+  color: #da4d4d;
 }
 .kb-section-body {
   padding: .5em 0em 2em;
