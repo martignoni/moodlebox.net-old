@@ -10,23 +10,101 @@
   </form>
 </div>
 
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+	/* Variables -----------------------------------------------------------------*/
+	var knowledgebase = $( '#epkb-main-page-container' );
+	var tabContainer = $('#epkb-content-container');
+	var navTabsLi    = $('.epkb-nav-tabs li');
+	var tabPanel     = $('.epkb-tab-panel');
+
+
+	/********************************************************************
+	 *                      Search
+	 ********************************************************************/
+
+	// handle KB search form
+	$( 'body' ).on( 'submit', '#epkb_search_form', function( e )
+	{
+		e.preventDefault();  // do not submit the form
+
+		if ( $('#epkb_search_terms').val() === '' ) {
+			return;
+		}
+
+		var postData = {
+			action: 'epkb-search-kb',
+			epkb_kb_id: $('#epkb_kb_id').val(),
+			search_words: $('#epkb_search_terms').val()
+		};
+
+		var msg = '';
+
+		$.ajax({
+			type: 'GET',
+			dataType: 'json',
+			data: postData,
+			url: ajaxurl,
+			beforeSend: function (xhr)
+			{
+				//Loading Spinner
+				$( '.loading-spinner').css( 'display','block');
+				$('#epkb-ajax-in-progress').show();
+			}
+
+		}).done(function (response)
+		{
+			response = ( response ? response : '' );
+
+			//Hide Spinner
+			$( '.loading-spinner').css( 'display','none');
+
+			if ( response.error || response.status !== 'success') {
+				//noinspection JSUnresolvedVariable
+				msg = epkb_vars.msg_try_again;
+			} else {
+				msg = response.search_result;
+			}
+
+		}).fail(function (response, textStatus, error)
+		{
+			//noinspection JSUnresolvedVariable
+			msg = epkb_vars.msg_try_again + '. [' + ( error ? error : epkb_vars.unknown_error ) + ']';
+
+		}).always(function ()
+		{
+			// TODO NEXT RELEASE $spinner.css('display', 'none');
+			$('#epkb-ajax-in-progress').hide();
+
+			if ( msg ) {
+				$( '#epkb_search_results' ).css( 'display','block' );
+				$( '#epkb_search_results' ).html( msg );
+
+			}
+
+		});
+	});
+
+});
+</script>
+
 <p>Search: <input id="search" type="text" autocomplete="off"></p>
 <p>Results:</p>
 <ul id="results"></ul>
 
 <script type="text/javascript">
 var lunrIndex,
-    $results,
+    searchResults,
     pagesIndex;
 
 // Initialize lunrjs using our generated index file
 function initLunr() {
-  // First retrieve the index file
-  $.getJSON({{ "/index.json" | absLangURL }})
-    .done(function(index) {
+  fetch({{ "/index.json" | absLangURL }})
+    .then(response => response.json())
+    .then(function (index) {
+      // console.log(index);
       pagesIndex = index;
-      // Set up lunrjs by declaring the fields we use
-      // Also provide their boost level for the ranking
       lunrIndex = lunr(function() {
         {{- if not (eq .Site.Language.Lang "en") }}
         this.use(lunr.fr);
@@ -40,18 +118,13 @@ function initLunr() {
           this.add(page);
         }, this);
       });
-    })
-    .fail(function(jqxhr, textStatus, error) {
-      var err = textStatus + ", " + error;
-      console.error("Error getting index file:", err);
-    });
+  }).catch(err => { throw err });
 }
 
-// Nothing crazy here, just hook up a listener on the input field
 function initUI() {
-  $results = $("#results");
+  searchResults = $("#results");
   $("input[id='search']#search").keyup(function() {
-    $results.empty();
+    searchResults.empty();
 
     // Only trigger a search when 2 chars. at least have been provided
     var query = $(this).val();
@@ -96,19 +169,18 @@ function renderResults(results) {
 
   // Only show the ten first results
   results.slice(0, 10).forEach(function(result) {
-    var $result = $("<li>");
-    $result.append($("<a>", {
+    var singleResult = $("<li>");
+    singleResult.append($("<a>", {
       href: result.url,
       text: result.title
     }));
-    $results.append($result);
+    searchResults.append(singleResult);
   });
 }
 
 // Let's get started
-// Wait until bottom javascript libraries are loaded
+initLunr();
 document.addEventListener("DOMContentLoaded", function(event) {
-  initLunr();
   initUI();
 });
 </script>
