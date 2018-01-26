@@ -277,7 +277,7 @@ params:
 
   # Enable Piwik Analytics by entering your tracking code
   piwikAnalytics:
-    siteid: 5
+    siteid: 2
     piwikroot: "stats.martignoni.net" # Do not add slashes
 
 related:
