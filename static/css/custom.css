@@ -229,7 +229,7 @@ ul.downloads li .image-download-links a.btn i.fa {
 .kb-show-all-articles:hover {
   cursor: pointer;
 }
-.kb-hide-elem {
+.kb-hidden-elem {
   display: none !important;
 }
 

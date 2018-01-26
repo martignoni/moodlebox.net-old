@@ -1,4 +1,5 @@
 /* MoodleBox web site specific Javascript code */
+jQuery(document).ready(function(e) {
 
 /* Make dropdown link work correctly when clicked */
 $('.dropdown-toggle').click(function(e) {
@@ -44,3 +45,24 @@ $("input[name='amount']#give-amount").focus(function() {
 });
 
 /* Knowledge base */
+$("#kb-container").find(".kb-show-all-articles").on("click", function() {
+  var kb_elems = $(this).parent("ul").find("li");
+  $(this).toggleClass("active");
+  if ( $(this).hasClass("active") ) {
+    $(this).find(".kb-show-text").addClass("kb-hidden-elem");
+    $(this).find(".kb-hide-text").removeClass("kb-hidden-elem");
+  } else {
+    $(this).find(".kb-show-text").removeClass("kb-hidden-elem");
+    $(this).find(".kb-hide-text").addClass("kb-hidden-elem");
+  };
+  kb_elems.each(function() {
+    if ( $(this).hasClass("kb-hidden-elem") ) {
+      $(this).removeClass("kb-hidden-elem");
+      $(this).addClass("visible")
+    } else {
+      $(this).hasClass("visible") && ($(this).removeClass("visible"), $(this).addClass("kb-hidden-elem"))
+    }
+  })
+});
+
+});
