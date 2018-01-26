@@ -32,8 +32,8 @@
                   {{ end }}
                   {{ if gt (len $taxonomy) 5 }}
                     <span class="kb-show-all-articles">
-                      <span class="kb-show-text"> Show all articles ({{ sub (len $taxonomy) 5 }})</span>
-                      <span class="kb-hide-text kb-hidden-elem">Collapse Articles</span>
+                      <span class="kb-show-text"> {{ i18n "showAllArticles" }} ({{ sub (len $taxonomy) 5 }})</span>
+                      <span class="kb-hide-text kb-hidden-elem">{{ i18n "collapseArticles" }}</span>
                     </span>
                   {{ end }}
                   </ul>

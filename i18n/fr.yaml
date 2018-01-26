@@ -76,3 +76,7 @@
   translation: "Rechercher dans la documentation..."
 - id: searchButton
   translation: "Rechercher"
+- id: collapseArticles
+  translation: "Replier les articles"
+- id: showAllArticles
+  translation: "Afficher tous les articles"
