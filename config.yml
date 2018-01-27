@@ -238,6 +238,9 @@ params:
   carousel:
     enable: true
 
+  news:
+    enable: true
+
   clients:
     enable: false
     # All clients are defined in their own files. You can find example items
