@@ -1,7 +1,7 @@
 ---
 date: 2018-01-27
 title: "MoodleBox has a new web site"
-description: "The MoodleBox web site has been completely redesigned. It uses a static site generator."
+description: "MoodleBox web site has been completely redesigned, for better performance and security. It uses now static site generator."
 slug: new-web-site
 ---
 

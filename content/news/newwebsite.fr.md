@@ -1,7 +1,7 @@
 ---
 date: 2018-01-27
 title: "MoodleBox a un nouveau site web"
-description: "Le site du projet MoodleBox a été entièrement refondu. Il utilise un générateur de sites statiques."
+description: "Le site du projet MoodleBox a été entièrement récrit pour de meilleures performances et une sécurité accrue. Il utilise un générateur de sites statiques."
 slug: nouveau-site-web
 ---
 

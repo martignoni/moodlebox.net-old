@@ -1,19 +1,17 @@
 {{ if isset .Site.Params "news" }}
 {{ if .Site.Params.news.enable }}
-<section class="news no-mb">
+<section class="news">
   <div class="container">
     <div class="col-md-12">
-      <div class="row same-height-row">
+      <div class="row equal">
       {{ range first 3 ( sort (where .Data.Pages "Section" "news") "Date" "desc" ) }}
         <div class="col-md-4">
-          <div class="news-outer">
-            <div class="news-item same-height-always">
-              <a href="{{ .URL }}" class="accent-hover">
-                {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
-                <span class="news-date">{{ .Date.Format "January 2, 2006" }}</span>
-                {{ .Params.description | markdownify | truncate 95 "…"}}
-              </a>
-            </div>
+          <div class="news-item">
+            <a href="{{ .URL }}">
+              {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
+              <span class="news-date">{{ .Date.Format "January 2, 2006" }}</span>
+              {{ .Params.description | markdownify | truncate 120 "…"}}
+            </a>
           </div>
         </div>
       {{ end }}
