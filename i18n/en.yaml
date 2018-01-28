@@ -21,7 +21,7 @@
 - id: contactSend
   translation: "Send message"
 - id: navHome
-  translation: "go to homepage"
+  translation: "Go to homepage"
 - id: navToggle
   translation: "Toggle Navigation"
 - id: categoriesTitle
@@ -80,6 +80,10 @@
   translation: "Collapse articles"
 - id: showAllArticles
   translation: "Show all articles"
+- id: error404
+  translation: "Error 404 - Page not found"
+- id: error404Message
+  translation: "We are sorry - this page is not here anymore"
 
 - id: January
   translation: "January"

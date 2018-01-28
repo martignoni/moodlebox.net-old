@@ -21,7 +21,7 @@
 - id: contactSend
   translation: "Envoyer le message"
 - id: navHome
-  translation: "aller à l'accueil"
+  translation: "Aller à la page d'accueil"
 - id: navToggle
   translation: "Afficher/masquer la Navigation"
 - id: categoriesTitle
@@ -80,6 +80,10 @@
   translation: "Replier les articles"
 - id: showAllArticles
   translation: "Afficher tous les articles"
+- id: error404
+  translation: "Erreur 404 - Page non trouvée"
+- id: error404Message
+  translation: "Toutes nos excuses - c'est page n'existe plus"
 
 - id: January
   translation: "janvier"
