@@ -11,7 +11,7 @@ Afin d'améliorer les performances de chargement et d'assurer une meilleure séc
 - la maintenance du serveur web est beaucoup plus simple, puisqu’il n’y a pas de langage dynamique ou de base de données ; on gagne ainsi en robustesse et en résilience ;
 - il n'y a pas de problème de sécurité lié aux langages dynamiques ou aux bases de données.
 
-En terme de fonctionnalités, il n'y a pas de changement pour les utilisateurs du site.
+En terme de fonctionnalités, il n'y a pas de changement pour les utilisateurs du site, même si la disposition a été  adaptée.
 
  [1]: https://davidwalsh.name/introduction-static-site-generators
  [2]: https://wordpress.org
