@@ -8,7 +8,11 @@
         <div class="col-md-4">
           <a class="news-item" href="{{ .URL }}">
             {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
-            <span class="news-date">{{ .Date.Format "January 2, 2006" }}</span>
+            <span class="news-date">
+              <span class="date-day">{{ .Date.Format "2" }}</span>
+              <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
+              <span class="date-year">{{ .Date.Format "2006" }}</span>
+            </span>
             {{ .Params.description | markdownify | truncate 120 "…"}}
           </a>
         </div>
