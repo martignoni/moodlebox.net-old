@@ -46,11 +46,12 @@ section.news {
 }
 
 .news a.news-item {
-  padding: 20px;
-  font-size: 90%;
+  padding: 15px;
   height: 100%;
   display: inline-block;
   box-sizing: border-box;
+  font-size: 85%;
+  letter-spacing: .2px;
 }
 
 .news a.news-item {
@@ -65,7 +66,7 @@ section.news {
 
 .news-item .news-date {
   display: block;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Language switch menu */
