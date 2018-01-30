@@ -47,7 +47,7 @@ languages:
 #        weight: 1
 
       - identifier: help
-        name: Using the MoodleBox
+        name: Using MoodleBox
         weight: 2
 
       - parent: help
@@ -55,11 +55,11 @@ languages:
         url: /help/
         weight: 1
       - parent: help
-        name: Support the MoodleBox
+        name: Support MoodleBox
         url: /give/
         weight: 2
       - parent: help
-        name: About the MoodleBox
+        name: About MoodleBox
         url: /about/
         weight: 3
       - parent: help
@@ -68,7 +68,7 @@ languages:
         weight: 4
 
       - identifier: get
-        name: Get the MoodleBox
+        name: Get MoodleBox
         weight: 3
       - parent: get
         name: Download the disk image
@@ -79,7 +79,7 @@ languages:
         url: /hardware/
         weight: 2
       - parent: get
-        name: Install the MoodleBox
+        name: Install MoodleBox
         url: /install/
         weight: 3
       - parent: get
@@ -114,7 +114,7 @@ languages:
 #        weight: 1
 
       - identifier: help
-        name: Utiliser la MoodleBox
+        name: Utiliser MoodleBox
         weight: 2
 
       - parent: help
@@ -122,11 +122,11 @@ languages:
         url: /help/
         weight: 1
       - parent: help
-        name: Soutenir la MoodleBox
+        name: Soutenir MoodleBox
         url: /give/
         weight: 2
       - parent: help
-        name: À propos de la MoodleBox
+        name: À propos de MoodleBox
         url: /about/
         weight: 3
       - parent: help
@@ -135,7 +135,7 @@ languages:
         weight: 4
 
       - identifier: get
-        name: Obtenir la MoodleBox
+        name: Obtenir MoodleBox
         weight: 3
       - parent: get
         name: Télécharger l'image-disque
@@ -146,7 +146,7 @@ languages:
         url: /hardware/
         weight: 2
       - parent: get
-        name: Installer la MoodleBox
+        name: Installer MoodleBox
         url: /install/
         weight: 3
       - parent: get
