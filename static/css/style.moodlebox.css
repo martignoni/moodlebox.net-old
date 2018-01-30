@@ -1679,7 +1679,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box {
   background: #fff;
   margin: 0 0 30px;
-  border: solid 1px #ccc;
+  /* border: solid 1px #ccc; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

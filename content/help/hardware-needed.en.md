@@ -22,11 +22,10 @@ Here is the stuff you will need to build your MoodleBox:
 The total hardware amount is approximately USD 90, 80 € or CHF 90.
 
 {{< gallery >}}
-{{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" height="278" width="180" link="/img/media/rpi3.png" >}}
-{{< figure src="/img/media/rpi-power-supply.png" caption="Raspberry Pi power supply" height="272" width="200" link="/img/media/rpi-power-supply.png" >}}
-{{< figure src="/img/media/rpi-case.png" caption="Raspberry Pi case" height="218" width="159" link="/img/media/rpi-case.png" >}}
+{{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" >}}
+{{< figure src="/img/media/rpi-power-supply.png" caption="Raspberry Pi power supply" >}}
+{{< figure src="/img/media/rpi-case.png" caption="Raspberry Pi case" >}}
 {{< /gallery >}}
-{{< load-photoswipe >}}
 
  [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
  [2]: https://www.raspberrypi.org/products/universal-power-supply/
