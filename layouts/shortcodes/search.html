@@ -1,22 +1,13 @@
-{{ if isset .Site.Params.widgets "search" -}}
-{{ if .Site.Params.widgets.search -}}
-<div class="panel panel-default sidebar-menu">
+<!-- Inspired from: https://chodounsky.net/2015/05/14/full-text-search-on-static-website/ -->
+<form action="{{ "/search" | absLangURL }}" id="search-form" class="search" method="GET" >
+  <input name="q" type="text" id="search-input" />
+  <input type="submit" value="Search" />
+</form>
 
-  <div class="panel-heading">
-    <h3 class="panel-title">{{ i18n "searchTitle" }}</h3>
-  </div>
+<section>
+  <ul id="search-results"></ul>
+</section>
 
-  <div class="panel-body">
-    <form action="/search/" id="search-form" method="get" accept-charset="UTF-8" role="search">
-      <div class="input-group">
-        <input type="search" name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
-        <span class="input-group-btn">
-          <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-        </span>
-      </div>
-    </form>
-  </div>
-</div>
 <script type="text/javascript" charset="utf-8">
 var input = document.getElementById("search-input");
 var form = document.getElementById("search-form");
@@ -94,5 +85,3 @@ loadJSON({{ "/index.json" | absLangURL }},
 );
 
 </script>
-{{- end }}
-{{- end }}
