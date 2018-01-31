@@ -88,8 +88,8 @@ loadJSON({{ "/index.json" | absLangURL }},
         var link = document.createElement("a");
         var content = document.createElement("p");
         link.href = '#';
-        link.innerHTML = 'No results found';
-        content.innerHTML = 'Please try another search';
+        link.innerHTML = '{{ i18n "noResultsTitle" }}';
+        content.innerHTML = '{{ i18n "noResultsText" }}';
         heading.appendChild(link);
         article.appendChild(heading);
         article.appendChild(content);

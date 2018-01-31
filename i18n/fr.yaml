@@ -84,6 +84,10 @@
   translation: "Erreur 404 - Page non trouvée"
 - id: error404Message
   translation: "Toutes nos excuses - c'est page n'existe plus"
+- id: noResultsTitle
+  translation: "Aucun document trouvé."
+- id: noResultsText
+  translation: "Veuillez essayer une autre recherche."
 
 - id: January
   translation: "janvier"
