@@ -1,7 +1,11 @@
 <!-- Inspired from: https://chodounsky.net/2015/05/14/full-text-search-on-static-website/ -->
 <form action="{{ "/search" | absLangURL }}" id="search-form" class="search" method="GET" >
-  <input name="q" type="text" id="search-input" />
-  <input type="submit" value="Search" />
+  <div class="input-group">
+    <input type="search" name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-template-main">{{ i18n "searchTitle" }}</button>
+    </span>
+  </div>
 </form>
 
 <section>
@@ -54,7 +58,7 @@ loadJSON({{ "/index.json" | absLangURL }},
 
     var renderResults = function(results) {
       if (results.length > 0) {
-        results.forEach(function(result) {
+        results.slice(0,10).forEach(function(result) {
           var article = document.createElement("article");
           var heading = document.createElement("h3");
           var link = document.createElement("a");
