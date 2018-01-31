@@ -54,6 +54,12 @@ loadJSON({{ "/index.json" | absLangURL }},
       }, this);
     });
 
+    var queryDict = {};
+    location.search.substr(1).split("&").forEach(function(item) {
+      queryDict[item.split("=")[0]] = item.split("=")[1]
+    });
+    // console.log(queryDict);
+
     var clearResults = function() {
       resultsContainer.innerHTML = "";
     };
@@ -104,6 +110,13 @@ loadJSON({{ "/index.json" | absLangURL }},
 
     var search = function(query) {
       clearResults();
+      if (typeof query === 'undefined' || query.length < 3) { // Return early if query is too short
+        resultsContainer.innerHTML = '<h2>{{ i18n "noResultsTitle" }}</h2><p>Query should be 3 chars or more</p>';
+        return;
+      } else { // Append joker otherwise
+        query += '';
+      }
+      // console.log(query);
       results = lunrIndex.search(query).map(function(result) {
         return pagesIndex.filter(function(page) {
           return page.url === result.ref;
@@ -115,8 +128,12 @@ loadJSON({{ "/index.json" | absLangURL }},
 
     form.addEventListener("submit", function(e) {
       e.preventDefault();
-      search(input.value + '*');
+      search(input.value);
     });
+
+    if (Object.keys(queryDict).length != 0) {
+      search(queryDict['q']);
+    }
 
   },
   function(xhr) { console.error(xhr); }
