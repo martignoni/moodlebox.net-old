@@ -55,9 +55,11 @@ loadJSON({{ "/index.json" | absLangURL }},
     });
 
     var queryDict = {};
-    location.search.substr(1).split("&").forEach(function(item) {
-      queryDict[item.split("=")[0]] = item.split("=")[1]
-    });
+    if (location.search) {
+      location.search.substr(1).split("&").forEach(function(item) {
+        queryDict[item.split("=")[0]] = item.split("=")[1]
+      });
+    }
     // console.log(queryDict);
 
     var clearResults = function() {
@@ -131,7 +133,8 @@ loadJSON({{ "/index.json" | absLangURL }},
       search(input.value);
     });
 
-    if (Object.keys(queryDict).length != 0) {
+    if (!(Object.keys(queryDict).length === 0)) {
+      console.log(queryDict);
       search(queryDict['q']);
     }
 
