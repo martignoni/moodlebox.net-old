@@ -44,8 +44,7 @@ loadJSON({{ "/index.json" | absLangURL }},
   function(index) {
     var pagesIndex = index;
     var lunrIndex = lunr(function() {
-      {{- if not (eq .Site.Language.Lang "en") }}
-        alert({{ .Site.Language.Lang }});
+      {{- if (eq .Site.Language.Lang "fr") }}
         this.use(lunr.fr);
       {{ end -}}
       this.field("title");

@@ -5,7 +5,7 @@
 </form>
 
 <section>
-  <ul id="search-results"></ul>
+  <div id="search-results"></div>
 </section>
 
 <script type="text/javascript" charset="utf-8">
@@ -35,8 +35,7 @@ loadJSON({{ "/index.json" | absLangURL }},
   function(index) {
     var pagesIndex = index;
     var lunrIndex = lunr(function() {
-      {{- if not (eq .Site.Language.Lang "en") }}
-        alert({{ .Site.Language.Lang }});
+      {{- if (eq .Site.Language.Lang "fr") }}
         this.use(lunr.fr);
       {{ end -}}
       this.field("title");
@@ -54,14 +53,43 @@ loadJSON({{ "/index.json" | absLangURL }},
     };
 
     var renderResults = function(results) {
-      results.forEach(function(result) {
-        var li = document.createElement("li");
-        var a = document.createElement("a");
-        a.href = result.url;
-        a.innerHTML = result.title;
-        li.appendChild(a);
-        resultsContainer.appendChild(li);
-      });
+      if (results.length > 0) {
+        results.forEach(function(result) {
+          var article = document.createElement("article");
+          var heading = document.createElement("h3");
+          var link = document.createElement("a");
+          var content = document.createElement("p");
+          var len = 256;
+          link.href = result.url;
+          link.innerHTML = result.title;
+          text = result.content;
+          if (text.length > len) {
+            /* Truncate the content of the P, then go back to the end of the
+               previous word to ensure that we don't truncate in the middle of
+               a word */
+            text = text.substring(0, len);
+            text = text.replace(/\w+$/, '');
+            text += '...';
+            content.innerHTML = text;
+          }
+          heading.appendChild(link);
+          article.appendChild(heading);
+          article.appendChild(content);
+          resultsContainer.appendChild(article);
+        });
+      } else {
+        var article = document.createElement("article");
+        var heading = document.createElement("h3");
+        var link = document.createElement("a");
+        var content = document.createElement("p");
+        link.href = '#';
+        link.innerHTML = 'No results found';
+        content.innerHTML = 'Please try another search';
+        heading.appendChild(link);
+        article.appendChild(heading);
+        article.appendChild(content);
+        resultsContainer.appendChild(article);
+      }
     };
 
     var search = function(query) {
@@ -77,7 +105,7 @@ loadJSON({{ "/index.json" | absLangURL }},
 
     form.addEventListener("submit", function(e) {
       e.preventDefault();
-      search('*' + input.value + '*');
+      search(input.value + '*');
     });
 
   },
