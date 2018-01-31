@@ -12,8 +12,10 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9" id="blog-post">
-              <p class="text-muted text-uppercase mb-small text-right">
-                {{ .Date.Format .Site.Params.date_format }}
+              <p class="text-uppercase mb-small">
+                <span class="date-day">{{ .Date.Format "2" }}</span>
+                <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
+                <span class="date-year">{{ .Date.Format "2006" }}</span>
               </p>
               <div id="post-content">
                 {{ .Content }}
