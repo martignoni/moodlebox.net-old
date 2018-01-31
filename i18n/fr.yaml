@@ -87,7 +87,7 @@
 - id: noResultsTitle
   translation: "Aucun document trouvé."
 - id: noResultsText
-  translation: "Veuillez essayer une autre recherche."
+  translation: "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des termes différents."
 
 - id: January
   translation: "janvier"

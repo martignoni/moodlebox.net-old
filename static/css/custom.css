@@ -190,6 +190,12 @@ ul.downloads li .image-download-links a.btn i.fa {
     margin-left: 0;
 }
 
+/* Search form */
+.search-form {
+  margin: 0 0 40px;
+  padding: 0;
+}
+
 /* Knowledge base */
 #kb-container {
   margin: 0 auto;
