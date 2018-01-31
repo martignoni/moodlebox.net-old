@@ -1,5 +1,5 @@
 ---
-title: Search moodlebox.net
+title: Search
 slug: search
 
 ---

@@ -7,9 +7,9 @@
   </div>
 
   <div class="panel-body">
-    <form action="/search/" id="search-form" method="get" accept-charset="UTF-8" role="search">
+    <form action="{{ "/search" | absLangURL }}" id="search-form" method="get" accept-charset="UTF-8" role="search">
       <div class="input-group">
-        <input type="search" name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
+        <input name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
         <span class="input-group-btn">
           <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
         </span>
@@ -17,81 +17,5 @@
     </form>
   </div>
 </div>
-<script type="text/javascript" charset="utf-8">
-var input = document.getElementById("search-input");
-var form = document.getElementById("search-form");
-var resultsContainer = document.getElementById("search-results");
-
-function loadJSON(path, success, error) {
-  var xhr = new XMLHttpRequest();
-  xhr.overrideMimeType("application/json");
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === XMLHttpRequest.DONE) {
-      if (xhr.status === 200) {
-        if (success)
-          success(JSON.parse(xhr.responseText));
-      } else {
-        if (error)
-          error(xhr);
-      }
-    }
-  };
-  xhr.open("GET", path, true);
-  xhr.send(null);
-}
-
-loadJSON({{ "/index.json" | absLangURL }},
-  function(index) {
-    var pagesIndex = index;
-    var lunrIndex = lunr(function() {
-      {{- if (eq .Site.Language.Lang "fr") }}
-        this.use(lunr.fr);
-      {{ end -}}
-      this.field("title");
-      this.field("content");
-      // ref is the result item identifier (I chose the page URL)
-      this.ref("url");
-      // Feed lunr with each file and let lunr actually index them
-      pagesIndex.forEach(function(page) {
-        this.add(page);
-      }, this);
-    });
-
-    var clearResults = function() {
-      resultsContainer.innerHTML = "";
-    };
-
-    var renderResults = function(results) {
-      results.forEach(function(result) {
-        var li = document.createElement("li");
-        var a = document.createElement("a");
-        a.href = result.url;
-        a.innerHTML = result.title;
-        li.appendChild(a);
-        resultsContainer.appendChild(li);
-      });
-    };
-
-    var search = function(query) {
-      clearResults();
-      results = lunrIndex.search(query).map(function(result) {
-        return pagesIndex.filter(function(page) {
-          return page.url === result.ref;
-        })[0];
-      });
-      // console.log(results);
-      renderResults(results);
-    };
-
-    form.addEventListener("submit", function(e) {
-      e.preventDefault();
-      search('*' + input.value + '*');
-    });
-
-  },
-  function(xhr) { console.error(xhr); }
-);
-
-</script>
 {{- end }}
 {{- end }}

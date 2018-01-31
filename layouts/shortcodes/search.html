@@ -1,9 +1,8 @@
 <!-- Inspired from: https://chodounsky.net/2015/05/14/full-text-search-on-static-website/ -->
-<!-- Inspired from: https://www.simoahava.com/web-development/static-site-search-google-app-engine-search-api/ -->
 <div role="form" class="search-form">
-<form action="{{ "/search" | absLangURL }}" id="search-form" class="search" method="GET" >
+<form action="{{ "/search/" | absLangURL }}" id="search-form" method="get" accept-charset="UTF-8" role="search" class="search">
   <div class="input-group">
-    <input type="search" name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
+    <input name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
     <span class="input-group-btn">
       <button type="submit" class="btn btn-template-main">{{ i18n "searchTitle" }}</button>
     </span>
@@ -93,12 +92,9 @@ loadJSON({{ "/index.json" | absLangURL }},
       } else {
         var article = document.createElement("section");
         var heading = document.createElement("h2");
-        var link = document.createElement("a");
         var content = document.createElement("p");
-        link.href = '#';
-        link.innerHTML = '{{ i18n "noResultsTitle" }}';
-        content.innerHTML = '{{ i18n "noResultsText" }}';
-        heading.appendChild(link);
+        heading.innerHTML = '{{ i18n "noResultsTitle" }}';
+        content.innerHTML = '{{ i18n "noResultsText" | markdownify }}';
         article.appendChild(heading);
         article.appendChild(content);
         article.className = "post";
