@@ -1,7 +1,7 @@
 ---
 date: 2018-01-02
 title: "Version 2.1.0 de l'image MoodleBox"
-description: "MoodleBox 2.1.0 ajoute le support de Moodle 3.4.1 ainsi que du bouton de démarrage/arrêt, s'il est présent."
+description: "MoodleBox 2.1.0 est basée sur l'image Raspbian Stretch Lite du 29-11-2017, et le processus de création de l'image a été repensé."
 slug: "version-2.1.0"
 ---
 
