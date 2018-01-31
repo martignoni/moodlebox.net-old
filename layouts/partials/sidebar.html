@@ -1,6 +1,8 @@
 {{ partial "widgets/search.html" . }}
 
-{{ partial "widgets/related.html" . }}
+{{ if not ($.Scratch.Get "secondarycontent") }}
+  {{ partial "widgets/related.html" . }}
+{{ end }}
 
 {{/* }}
 {{ partial "widgets/categories.html" . }}
