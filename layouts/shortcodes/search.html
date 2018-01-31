@@ -1,4 +1,5 @@
 <!-- Inspired from: https://chodounsky.net/2015/05/14/full-text-search-on-static-website/ -->
+<!-- Inspired from: https://www.simoahava.com/web-development/static-site-search-google-app-engine-search-api/ -->
 <form action="{{ "/search" | absLangURL }}" id="search-form" class="search" method="GET" >
   <div class="input-group">
     <input type="search" name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
@@ -58,7 +59,7 @@ loadJSON({{ "/index.json" | absLangURL }},
 
     var renderResults = function(results) {
       if (results.length > 0) {
-        results.slice(0,10).forEach(function(result) {
+        results.slice(0, 10).forEach(function(result) {
           var article = document.createElement("article");
           var heading = document.createElement("h3");
           var link = document.createElement("a");
