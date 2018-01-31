@@ -1,5 +1,5 @@
 ---
-date: 2018-01-27
+date: 2018-01-31
 title: "MoodleBox a un nouveau site web"
 description: "Le site MoodleBox a été récrit et a changé de technologie pour une meilleure performance et une sécurité accrue."
 slug: nouveau-site-web
