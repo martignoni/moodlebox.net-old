@@ -88,6 +88,8 @@
   translation: "Aucun document trouvé"
 - id: noResultsText
   translation: "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des termes différents ou [consultez la documentation](/fr/help)."
+- id: searchTermTooShort
+  translation: "Le terme recherché doit comporter au moins 3 caractères."
 
 - id: January
   translation: "janvier"

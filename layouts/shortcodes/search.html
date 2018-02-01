@@ -113,7 +113,7 @@ loadJSON({{ "/index.json" | absLangURL }},
     var search = function(query) {
       clearResults();
       if (typeof query === 'undefined' || query.length < 3) { // Return early if query is too short
-        resultsContainer.innerHTML = '<h2>{{ i18n "noResultsTitle" }}</h2><p>Query should be 3 chars or more</p>';
+        resultsContainer.innerHTML = '<h2>{{ i18n "noResultsTitle" }}</h2><p>{{ i18n "searchTermTooShort" }}</p>';
         return;
       } else { // Extend query term otherwise
         query = 'title:' + query + '^10 content:' + query + ' ' + query + '*' + ' *' + query;
