@@ -115,8 +115,8 @@ loadJSON({{ "/index.json" | absLangURL }},
       if (typeof query === 'undefined' || query.length < 3) { // Return early if query is too short
         resultsContainer.innerHTML = '<h2>{{ i18n "noResultsTitle" }}</h2><p>Query should be 3 chars or more</p>';
         return;
-      } else { // Append joker otherwise
-        query += '';
+      } else { // Extend query term otherwise
+        query = 'title:' + query + '^10 content:' + query + ' ' + query + '*' + ' *' + query;
       }
       // console.log(query);
       results = lunrIndex.search(query).map(function(result) {
@@ -133,8 +133,7 @@ loadJSON({{ "/index.json" | absLangURL }},
       search(input.value);
     });
 
-    if (!(Object.keys(queryDict).length === 0)) {
-      console.log(queryDict);
+    if ( 'q' in queryDict ) {
       search(queryDict['q']);
     }
 
