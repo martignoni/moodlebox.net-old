@@ -21,7 +21,7 @@ ssh moodlebox@moodlebox.home
 To update to the next __minor version__ of Moodle (3.4.1, 3.4.2, etc.), type the following commands in the terminal:
 
 ```bash
-cd /var/www/html/
+cd /var/www/moodle/
 sudo -u www-data git pull
 ```
 

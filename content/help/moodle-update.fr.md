@@ -22,7 +22,7 @@ ssh moodlebox@moodlebox.home
 Pour une mise à jour à une __version mineure__ de Moodle (3.4.1, 3.4.2, etc.), tapez les commandes suivantes dans le terminal :
 
 ```bash
-cd /var/www/html/
+cd /var/www/moodle/
 sudo -u www-data git pull
 ```
 
@@ -41,5 +41,5 @@ sudo -u www-data git checkout MOODLE_35_STABLE
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et continuez comme ci-dessus.
 
- [1]: https://docs.moodle.org/fr/Mise_%C3%A0_jour
+ [1]: https://docs.moodle.org/fr/Mise_à_jour
  [2]: {{< relref "command-line-access.fr.md" >}}
