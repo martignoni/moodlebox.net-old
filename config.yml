@@ -34,7 +34,7 @@ languages:
     title: MoodleBox
     description: "A Moodle platform on Raspberry Pi"
     about_us: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
-    footertext: MoodleBox is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    footertext: MoodleBox project is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 onwards
     weight: 1
     # Format dates with Go's time formatting
@@ -101,7 +101,7 @@ languages:
     title: MoodleBox
     description: "Une plateforme Moodle sur Raspberry Pi"
     about_us: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
-    footertext: La MoodleBox est réalisée par [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 et suivantes
     weight: 2
     # Format dates with Go's time formatting
