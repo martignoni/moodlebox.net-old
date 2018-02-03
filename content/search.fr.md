@@ -1,7 +1,7 @@
 ---
 title: Recherche
 slug: search
-
+id: search
 ---
 
-{{< search >}}
+### Vous cherchez quelque chose ?

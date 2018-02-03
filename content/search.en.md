@@ -1,7 +1,7 @@
 ---
 title: Search
 slug: search
-
+id: search
 ---
 
-{{< search >}}
+### Look for something?
