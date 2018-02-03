@@ -15,7 +15,7 @@
 - id: contactName
   translation: "Votre nom"
 - id: contactMail
-  translation: "Votre courriel"
+  translation: "Votre adresse de courriel"
 - id: contactMessage
   translation: "Votre message"
 - id: contactSend
