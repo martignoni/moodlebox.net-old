@@ -13,6 +13,4 @@ Si vous avez d'autres questions ou des commentaires sur ce site, voulez partager
 
 Si vous cherchez de l'aide technique, [consultez la documentation][1].
 
-{{< contactform >}}
-
  [1]: /fr/help

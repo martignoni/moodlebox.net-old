@@ -1,0 +1,52 @@
+<div class="container" id="contact">
+  <div class="row">
+    <div class="col-md-8">
+      <section>
+        {{ .Content }}
+        {{ if isset .Site.Params "email" }}
+        <div role="form" class="contact-form">
+          <form name="contact" id="contact" method="POST" action="https://hooks.zapier.com/hooks/catch/2849143/8rav6j/" class="moodlebox-form">
+            <p>
+              <label>{{ i18n "yourName" }}<br />
+              <span class="contact-form-control-wrap">
+                <input type="text" name="name" placeholder="{{ i18n "whatsYourName" }}" class="form-control text"></label>
+              </span>
+            </p>
+            <p>
+              <label>{{ i18n "yourEmail" }}<br />
+              <span class="contact-form-control-wrap">
+              <input type="email" name="email" placeholder="{{ i18n "whatsYourEmail" }}" class="form-control text"></label>
+              </span>
+            </p>
+            <p>
+              <label>{{ i18n "subject" }}<br />
+              <span class="contact-form-control-wrap">
+                <input type="text" name="subject" class="form-control text"></label>
+              </span>
+            </p>
+            <p>
+              <label>{{ i18n "message" }}<br />
+                <textarea name="message" class="form-control text" rows="10"></textarea></label>
+              </span>
+            </p>
+            <p>
+              <input type="submit" value="{{ i18n "send" }}" class="form-control submit"></input>
+            </p>
+          </form>
+        </div>
+        {{ end }}
+      </section>
+    </div>
+    <div class="col-md-4">
+      {{ if isset .Site.Params "address" }}
+      <section>
+        <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+        {{ .Site.Params.address | safeHTML }}
+      </section>
+      {{ end }}
+    </div>
+  </div> <!-- /.row -->
+</div>
+{{/*
+{{ partial "map.html" . }}
+*/}}

@@ -225,7 +225,7 @@ params:
   # - you're done. Happy mailing!
   #
   # Enable the contact form by entering your Formspree.io email
-  # email: nicolas@martignoni.net
+  email: nicolas@martignoni.net
 
   logo: img/logo.png
 
