@@ -1,5 +1,5 @@
 ---
-date: 2018-01-31
+date: 2018-02-03
 title: "MoodleBox has a new web site"
 description: "MoodleBox web site has been completely redesigned and changed its technology, for better performance and security."
 slug: new-web-site

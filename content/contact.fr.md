@@ -1,5 +1,5 @@
 ---
-title: "Nous sommes là pour vous aider"
+title: "Nous contacter"
 id: "contact"
 ---
 
