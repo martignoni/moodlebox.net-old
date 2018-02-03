@@ -50,20 +50,12 @@
   translation: "Témoignages"
 - id: relatedTitle
   translation: "Pages similaires"
-- id: send
-  translation: "Envoyer"
-- id: yourName
-  translation: "Votre nom"
 - id: whatsYourName
   translation: "Quel est votre nom ?"
-- id: yourEmail
-  translation: "Votre adresse de courriel"
 - id: whatsYourEmail
   translation: "Quel est votre courriel ?"
-- id: subject
+- id: contactSubject
   translation: "Sujet"
-- id: message
-  translation: "Message"
 - id: donationAmount
   translation: "Montant du don"
 - id: customAmount

@@ -1,71 +1,109 @@
 - id: home
   translation: "Home"
-
 - id: templateBy
   translation: "Template von"
-
 - id: portedBy
   translation: "Portiert nach Hugo von"
-
 - id: contactGoTo
   translation: "Zur Kontakt Seite"
-
 - id: contactAddrTitle
   translation: "Adresse"
-
 - id: contactTitle
   translation: "Kontakt"
-
 - id: contactForm
   translation: "Kontakt Formular"
-
 - id: contactName
   translation: "Ihr Name"
-
 - id: contactMail
   translation: "Ihre E-Mail Adresse"
-
 - id: contactMessage
   translation: "Ihre Nachricht"
-
 - id: contactSend
   translation: "Nachricht Senden"
-
 - id: navHome
-  translation: "zur Hautpseite"
-
+  translation: "Zur Hautpseite"
 - id: navToggle
   translation: "Navigation Ein-/Ausblenden"
-
 - id: categoriesTitle
   translation: "Kategorien"
-
 - id: searchTitle
   translation: "Suche"
-
 - id: tagsTitle
   translation: "Tags"
-
 - id: continueReading
   translation: "Weiterlesen"
-
 - id: readMore
   translation: "Mehr erfahren"
-
 - id: authorBy
   translation: "Von"
-
 - id: recentPosts
   translation: "Neue Beiträge"
-
 - id: aboutUs
   translation: "Über uns"
-
 - id: newer
   translation: "Neuer"
-
 - id: older
   translation: "Älter"
-
 - id: publishedOn
   translation: "am"
+- id: testimonials
+  translation: "Testimonials"
+- id: relatedTitle
+  translation: "Verwandte Seiten"
+- id: whatsYourName
+  translation: "Geben Sie Ihren Namen"
+- id: whatsYourEmail
+  translation: "Geben Sie Ihre E-Mail Adresse"
+- id: contactSubject
+  translation: "contactSubject"
+- id: donationAmount
+  translation: "Donation amount"
+- id: customAmount
+  translation: "Custom amount"
+- id: donateNow
+  translation: "Donate now"
+- id: searchDocTitle
+  translation: "Suche knowledge base"
+- id: searchDocVerb
+  translation: "Dokumentation suchen..."
+- id: searchButton
+  translation: "Suchen"
+- id: collapseArticles
+  translation: "Collapse articles"
+- id: showAllArticles
+  translation: "Show all articles"
+- id: error404
+  translation: "Error 404 - Page not found"
+- id: error404Message
+  translation: "We are sorry - this page is not here anymore"
+- id: noResultsTitle
+  translation: "No document found"
+- id: noResultsText
+  translation: "Sorry, but nothing matches your search. Please try again with different terms or [browse our knowledge base](/en/help)."
+- id: searchTermTooShort
+  translation: "Your search term must be a minimum of 3 characters long."
+
+- id: January
+  translation: "January"
+- id: February
+  translation: "February"
+- id: March
+  translation: "March"
+- id: April
+  translation: "April"
+- id: May
+  translation: "May"
+- id: June
+  translation: "June"
+- id: July
+  translation: "July"
+- id: August
+  translation: "August"
+- id: September
+  translation: "September"
+- id: October
+  translation: "October"
+- id: November
+  translation: "November"
+- id: December
+  translation: "December"
