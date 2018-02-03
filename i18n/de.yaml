@@ -75,7 +75,7 @@
 - id: error404
   translation: "Fehler 404 - Seite nicht gefunden"
 - id: error404Message
-  translation: "Es tut uns Leid - diese Seite gibt es nicht mehr"
+  translation: "Es tut uns Leid - Diese Seite gibt es nicht mehr"
 - id: noResultsTitle
   translation: "Kein Dokument gefunden"
 - id: noResultsText
