@@ -73,37 +73,37 @@
 - id: showAllArticles
   translation: "Show all articles"
 - id: error404
-  translation: "Fehler 404 - Seite nicht gefunden"
+  translation: "Error 404 - Page not found"
 - id: error404Message
-  translation: "Es tut uns Leid - diese Seite gibt es nicht mehr"
+  translation: "We are sorry - this page is not here anymore"
 - id: noResultsTitle
-  translation: "Kein Dokument gefunden"
+  translation: "No document found"
 - id: noResultsText
-  translation: "Tut uns leid, aber Ihre Suche hat nichts ergeben. Bitte versuchen Sie es noch einmal mit anderen Begriffen oder (schauen Sie unsere Knowledgebase](/de/help) an."
+  translation: "Sorry, but nothing matches your search. Please try again with different terms or [browse our knowledge base](/en/help)."
 - id: searchTermTooShort
-  translation: "Ihr Suchbegriff muss mindestens 3 Zeichen lang sein."
+  translation: "Your search term must be a minimum of 3 characters long."
 
 - id: January
-  translation: "Januar"
+  translation: "January"
 - id: February
-  translation: "Februar"
+  translation: "February"
 - id: March
-  translation: "März"
+  translation: "March"
 - id: April
   translation: "April"
 - id: May
-  translation: "Mai"
+  translation: "May"
 - id: June
-  translation: "Juni"
+  translation: "June"
 - id: July
-  translation: "Juli"
+  translation: "July"
 - id: August
   translation: "August"
 - id: September
   translation: "September"
 - id: October
-  translation: "Oktober"
+  translation: "October"
 - id: November
   translation: "November"
 - id: December
-  translation: "Dezember"
+  translation: "December"
