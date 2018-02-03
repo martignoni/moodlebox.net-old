@@ -38,12 +38,13 @@
       </section>
     </div>
     <div class="col-md-4">
-      {{ if isset .Site.Params "address" }}
+      {{ partial "widgets/search.html" . }}
+      {{/* if isset .Site.Params "address" }}
       <section>
         <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
         {{ .Site.Params.address | safeHTML }}
       </section>
-      {{ end }}
+      {{ end */}}
     </div>
   </div> <!-- /.row -->
 </div>
