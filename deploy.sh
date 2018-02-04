@@ -8,7 +8,7 @@ USER=nicolas
 DIR=/var/www/moodlebox.net/html/   # might sometimes be empty!
 
 # Full URL of website
-BASEURL=https://new.moodlebox.net/
+BASEURL=https://moodlebox.net/
 
 # Needed to workaround some DropBox black magic :-/
 rm -rf public/
