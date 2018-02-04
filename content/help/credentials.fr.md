@@ -34,7 +34,7 @@ Ces données d'identification doivent être utilisées pour [se connecter au com
 
 ### Accès à la base de données
 
-Ces données d'identification doivent être utilisées pour [accéder à l’interface de gestion de la base de données][5].
+Ces données d'identification doivent être utilisées pour [accéder à l'interface de gestion de la base de données][5].
 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__

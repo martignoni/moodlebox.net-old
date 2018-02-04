@@ -1,5 +1,5 @@
 ---
-title: Où télécharger l’image-disque
+title: Où télécharger l'image-disque
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T19:19:44+00:00
@@ -44,11 +44,11 @@ aliases:
  </li>
 </ul>
 
-Après avoir téléchargé l’image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
+Après avoir téléchargé l'image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
 
 Si vous le souhaitez, vous pouvez [soutenir le développement][3] de la MoodleBox en [faisant un don][3].
 
-L’image-disque MoodleBox est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite pour Raspberry Pi</a>.
+L'image-disque MoodleBox est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite pour Raspberry Pi</a>.
 
 ### En cas de difficulté
 

@@ -12,11 +12,11 @@ categories:
 ---
 ### Démarrer la MoodleBox
 
-Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l’alimentation ainsi qu’un câble ethernet pour la connexion au réseau. La diode rouge s’allume, puis, après quelques secondes, la diode verte s’allume de façon intermittente.
+Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l'alimentation ainsi qu'un câble ethernet pour la connexion au réseau. La diode rouge s'allume, puis, après quelques secondes, la diode verte s'allume de façon intermittente.
 
-Il n’y a pas d’autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
+Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
 
-Si possible, il est recommandé de brancher la MoodleBox au réseau câblé lors de chaque démarrage. Ainsi, les tâches de maintenance nécessitant une connexion à Internet (par exemple la synchronisation de l’horloge interne) se feront de manière complète.
+Si possible, il est recommandé de brancher la MoodleBox au réseau câblé lors de chaque démarrage. Ainsi, les tâches de maintenance nécessitant une connexion à Internet (par exemple la synchronisation de l'horloge interne) se feront de manière complète.
 
 ### Arrêter la MoodleBox
 

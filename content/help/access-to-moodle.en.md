@@ -18,8 +18,8 @@ You may now log into Moodle in your browser. Open your browser and type <a href=
 
 {{< figure src="/img/media/moodle-login-en.png" alt="Moodle Login" width="601" height="265"  link="/img/media/moodle-login-en.png">}}
 
-You're now logged into the Moodle administrator account of the MoodleBox. It’s __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
+You're now logged into the Moodle administrator account of the MoodleBox. It's __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 
-The initial Moodle installation has only one account (administrator) and no course is created. The Moodle environment should be configured by yourself, as well as the management of its contents (resources, activities, etc.). See the <a href="https://docs.moodle.org/en/Admin_quick_guide" target="_blank" rel="noopener">Moodle documentation</a> if you don’t know how to do this.
+The initial Moodle installation has only one account (administrator) and no course is created. The Moodle environment should be configured by yourself, as well as the management of its contents (resources, activities, etc.). See the <a href="https://docs.moodle.org/en/Admin_quick_guide" target="_blank" rel="noopener">Moodle documentation</a> if you don't know how to do this.
 
  [1]: {{< relref "wi-fi-connection.en.md" >}}

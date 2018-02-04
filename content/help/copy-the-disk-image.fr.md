@@ -15,7 +15,7 @@ Commencez par [télécharger Etcher][2], puis suivez les instructions dans Etche
 
 ### Pour les geeks
 
-Si vous préférez utiliser la ligne de commande pour copier l’image-disque sur votre carte, décompressez le fichier __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1] et suivez les [instructions][3] pour copier l’image-disque __moodlebox-{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}.img__ sur la carte microSD.
+Si vous préférez utiliser la ligne de commande pour copier l'image-disque sur votre carte, décompressez le fichier __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1] et suivez les [instructions][3] pour copier l'image-disque __moodlebox-{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}.img__ sur la carte microSD.
 
   * [Instructions pour Mac OS][4]
   * [Instructions pour Windows][5]

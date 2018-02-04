@@ -12,8 +12,8 @@ categories:
 ---
 Sur votre appareil, sélectionnez le réseau sans fil __MoodleBox__. Lorsque le mot de passe vous est demandé, tapez __moodlebox__ (attention, tout en minuscules) et confirmez votre connexion.
 
-Vous êtes désormais connecté au réseau Wi-Fi et vous pouvez accéder à l’environnement Moodle dans votre navigateur, à l’adresse http://moodlebox.home/. La page d’accueil de votre Moodle s’affiche alors.
+Vous êtes désormais connecté au réseau Wi-Fi et vous pouvez accéder à l'environnement Moodle dans votre navigateur, à l'adresse http://moodlebox.home/. La page d'accueil de votre Moodle s'affiche alors.
 
 {{< figure src="/img/media/moodlebox-home-fr.png" alt="Page d'accueil Moodle" width="959" height="455" link="/img/media/moodlebox-home-fr.png" >}}
 
-Si la MoodleBox est connectée à un réseau Ethernet fournissant un accès à Internet, vous pouvez accéder depuis votre appareil à d’autres sites web ou services sur Internet.
+Si la MoodleBox est connectée à un réseau Ethernet fournissant un accès à Internet, vous pouvez accéder depuis votre appareil à d'autres sites web ou services sur Internet.

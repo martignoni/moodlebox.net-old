@@ -14,7 +14,7 @@ Pour cette opération, la MoodleBox doit être connectée à Internet.
 
 ### Mise à jour des logiciels de la MoodleBox
 
-  1. Se connecter à l'[interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d’utilisateur et des mots de passe par défaut][2].
+  1. Se connecter à l'[interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d'utilisateur et des mots de passe par défaut][2].
   2. Brancher la MoodleBox à un réseau local ayant accès à Internet, au moyen d'un câble Ethernet.
   3. Taper la commande suivante dans l'interface du terminal :
 
