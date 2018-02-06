@@ -1,5 +1,6 @@
 {{ if isset .Site.Params "news" }}
 {{ if .Site.Params.news.enable }}
+{{ if gt (len (where .Data.Pages "Section" "news")) 0 }}
 <section class="news">
   <div class="container">
     <div class="col-md-12">
@@ -21,5 +22,6 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
