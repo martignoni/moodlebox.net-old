@@ -1,10 +1,10 @@
 weight: 3
-title: "Easy to customize"
+title: "Leicht anpassbar"
 description: >
   <ul class="list-style-none">
-    <li>Import your Moodle courses</li>
-    <li>Install your favorite Moodle theme and plugins</li>
-    <li>Multilingual</li>
-    <li>Complete documentation</li>
+    <li>Importieren Sie Ihre Moodle-Kurse</li>
+    <li>Installieren Sie Ihre beliebtesten Moodle-Themen und Plugins.</li>
+    <li>Mehrsprachig</li>
+    <li>Umfassende Dokumentation</li>
   </ul>
 image: "/img/carousel/easy-customize.png"
