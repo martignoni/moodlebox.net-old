@@ -180,7 +180,7 @@ languages:
       main:
 
       - identifier: help
-        name: MoodleBox brauchen
+        name: MoodleBox benutzen
         weight: 2
 
       - parent: help
