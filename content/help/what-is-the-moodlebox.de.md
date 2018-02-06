@@ -11,7 +11,11 @@ aliases:
   - de/about
 
 ---
-MoodleBox [basiert][2] auf [Raspberry Pi 3][3] und der Linux-Distribution Raspbian Lite. Seine sparsame Architektur erlaubt es etwa 20-30 Benutzer gleichzeitig auf [Moodle][1] zuzugreifen. Es ist nicht für grössere Gruppen gedacht.
+Die MoodleBox ist ein mobiles Gerät mit geringem Raumbedarf, internetunabhängig und bietet ein drahtloses Netzwerk für Ihr Smartphone, Tablett oder Ihren Computer. Es stellt eine komplette [Moodle][1] Learning Management System Plattform zur Verfügung, die es ermöglicht, Online-Lernaktivitäten anzubieten und Dateien mit Ihren Benutzern auszutauschen.
+
+Wenn die MoodleBox über ein verkabeltes Netzwerk (Ethernet) mit dem Internet verbunden ist, bietet sie auch den Internetzugang für Geräte, die über Wi-Fi mit dem Internet verbunden sind.
+
+MoodleBox [basiert][2] auf einem Mini-Computer [Raspberry Pi 3][3] und der [Moodle-Lernumgebung][1], dem in der Welt meistgenutzten Open-Source-LMS.
 
 ### MoodleBox Projekt
 
