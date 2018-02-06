@@ -14,7 +14,7 @@
               <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
               <span class="date-year">{{ .Date.Format "2006" }}</span>
             </span>
-            {{ .Params.description | markdownify | truncate 120 "…"}}
+            {{ .Params.description | markdownify | truncate 140 "…"}}
           </a>
         </div>
       {{ end }}
