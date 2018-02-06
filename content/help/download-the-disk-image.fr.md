@@ -48,7 +48,7 @@ Après avoir téléchargé l'image-disque, suivez les [instructions pour la copi
 
 Si vous le souhaitez, vous pouvez [soutenir le développement][3] de la MoodleBox en [faisant un don][3].
 
-L'image-disque MoodleBox est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite pour Raspberry Pi</a>.
+L'image-disque MoodleBox est construite sur la base de la distribution [Raspbian Lite pour Raspberry Pi][6].
 
 ### En cas de difficulté
 
@@ -69,3 +69,4 @@ curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link"
  [3]: {{< relref "support-the-moodlebox-project.fr.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "install-the-moodlebox.fr.md" >}}
+ [6]: https://www.raspberrypi.org/downloads/raspbian/
