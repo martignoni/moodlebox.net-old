@@ -47,8 +47,8 @@
           function(index) {
             var pagesIndex = index;
             var lunrIndex = lunr(function() {
-              {{- if (eq .Site.Language.Lang "fr") }}
-                this.use(lunr.fr);
+              {{- if not (eq .Site.Language.Lang "en") }}
+              this.use(lunr.{{ .Site.Language.Lang | safeJS }});
               {{ end -}}
               this.field("title");
               this.field("content");
