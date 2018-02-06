@@ -12,7 +12,6 @@ defaultContentLanguage: en
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics: ''
 
-
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
 
@@ -44,11 +43,6 @@ languages:
     date_format: January 2, 2006
     menu:
       main:
-#      - identifier: frontpage
-#        name: Home
-#        url: /
-#        weight: 1
-
       - identifier: help
         name: Using MoodleBox
         weight: 2
@@ -90,10 +84,6 @@ languages:
         url: /diy/
         weight: 4
 
-#      - name: Contact
-#        url: /contact/
-#        weight: 4
-
     testimonials:
       enable: true
       subtitle: Have a look at what teachers around the world said about the MoodleBox.
@@ -111,11 +101,6 @@ languages:
     date_format: 2 January 2006
     menu:
       main:
-#      - identifier: frontpage
-#        name: Accueil
-#        url: /
-#        weight: 1
-
       - identifier: help
         name: Utiliser MoodleBox
         weight: 2
@@ -140,6 +125,7 @@ languages:
       - identifier: get
         name: Obtenir MoodleBox
         weight: 3
+
       - parent: get
         name: Télécharger l'image-disque
         url: /dl/
@@ -162,10 +148,6 @@ languages:
       subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
       title: Ce que les enseignants en disent
 
-#      - name: Contact
-#        url: /contact/
-#        weight: 4
-
   de:
     languageName: Deutsch
     title: MoodleBox
@@ -178,7 +160,6 @@ languages:
     date_format: 2. January 2006
     menu:
       main:
-
       - identifier: help
         name: MoodleBox benutzen
         weight: 2
