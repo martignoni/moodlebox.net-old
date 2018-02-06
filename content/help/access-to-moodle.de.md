@@ -22,6 +22,6 @@ Sie sind dann mit dem Moodle-Administrator-Account auf der MoodleBox verbunden. 
 
 Das Moodle wird mit nur einem Benutzeraccount (einen Administrator) geliefert und es wurden keine Kurse angelegt. Die Moodle-Umgebung muss von Ihnen selbst angepasst werden, ebenso wie die Verwaltung Kursinhalte (Ressourcen, Aktivitäten, etc.). Finden Sie in der [Moodle documentation][3], wenn Sie nicht wissen, wie.
 
- [1]: {{< relref "wi-fi-connection.de.md" >}}
+ [1]: {{< relref "help/wi-fi-connection.en.md" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/de/Kurzanleitung_für_Administrator/innen
