@@ -28,6 +28,9 @@ paginate: 5
 # Allow taxonomy term with special characters
 preserveTaxonomyNames: true
 
+# Disable incomplete languages
+#disableLanguages: [ "de" ]
+
 languages:
   en:
     languageName: English
@@ -163,24 +166,64 @@ languages:
 #        url: /contact/
 #        weight: 4
 
-#  de:
-#    languageName: Deutsch
-#    menu:
-#      main:
-#      - name: Home
-#        url: /
-#        weight: 1
-#      - name: Hilfe
-#        url: /help/
-#        weight: 2
-#      - name: Dokumentation
-#        url: /kb/
-#        weight: 3
-#      - name: Kontakt
-#        url: /contact/
-#        weight: 4
-#    title: MoodleBox
-#    weight: 3
+  de:
+    languageName: Deutsch
+    title: MoodleBox
+    description: "Eine Moodle Plattform auf Raspberry Pi"
+    about_us: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
+    footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 und später
+    weight: 2
+    # Format dates with Go's time formatting
+    date_format: 2. January 2006
+    menu:
+      main:
+
+      - identifier: help
+        name: MoodleBox brauchen
+        weight: 2
+
+      - parent: help
+        name: Dokumentation
+        url: /help/
+        weight: 1
+      - parent: help
+        name: MoodleBox unterstützen
+        url: /give/
+        weight: 2
+      - parent: help
+        name: Über MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Kontakt
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: MoodleBox erhalten
+        weight: 3
+      - parent: get
+        name: Disk-Image herunterladen
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Hardware beschaffen
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: MoodleBox installieren
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Disk-Image selber erstellen
+        url: /diy/
+        weight: 4
+
+    testimonials:
+      enable: true
+      subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
+      title: Ce que les enseignants en disent
 
 menu:
   topbar:
