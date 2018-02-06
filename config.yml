@@ -173,7 +173,7 @@ languages:
     about_us: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 und später
-    weight: 2
+    weight: 3
     # Format dates with Go's time formatting
     date_format: 2. January 2006
     menu:
