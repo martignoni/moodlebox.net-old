@@ -19,7 +19,7 @@ It is [built][2] around a mini-computer [Raspberry Pi 3][3] and the [Moodle lear
 
 ### The MoodleBox project
 
-The MoodleBox project is a free (as in speech and in beer) project. The idea of MoodleBox arose in spring 2016 in a forum discussion [in the french community of Moodle][4]</a>, when discussing about the construction of a [Moodle platform on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
+The MoodleBox project is a free (as in speech and in beer) project. The idea of MoodleBox arose in spring 2016 in a forum discussion [in the french community of Moodle][4], when discussing about the construction of a [Moodle platform on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
 
 The MoodleBox project is made by [Nicolas Martignoni][9] on his spare time.
 
