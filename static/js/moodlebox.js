@@ -25,6 +25,44 @@ $('.dropdown').hover(function(e) {
   }
 });
 
+/* Contact form */
+$(function() {
+  $("input,select,textarea").not("[type=search]").jqBootstrapValidation({
+    preventSubmit: true,
+    submitError: function($form, event, errors) {
+    },
+    submitSuccess: function($form, e) {
+      e.preventDefault();
+
+      var submitButton = $('input[type=submit]', $form);
+      $.ajax({
+        type: 'POST',
+        url: $form.prop('action'),
+        accept: {
+          javascript: 'application/javascript'
+        },
+        data: $form.serialize(),
+        beforeSend: function() {
+          submitButton.prop('value', 'Please Wait...');
+          submitButton.prop('disabled', 'disabled');
+        }
+      }).done(function(data) {
+          submitButton.prop('value', 'Thank you, we\x27ll get back to you shortly.');
+          submitButton.prop('disabled', false);
+          hj('formSubmitSuccessful');
+      });
+    },
+
+    filter: function() {
+        return $(this).is(":visible");
+    },
+  });
+});
+
+$('#name').focus(function() {
+  $('#success').html('');
+});
+
 /* Donation form */
 $("input[name='radio-donation-level']:radio").change(function() {
   var parent_form = $(this).parents('form');
