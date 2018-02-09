@@ -3306,6 +3306,7 @@ label {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
+  font-weight: normal;
 }
 .form-control:focus {
   border-color: #da4d4d;

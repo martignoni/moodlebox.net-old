@@ -11,8 +11,6 @@ $(function () {
   utils()
   animations()
   counters()
-  demo()
-  contactForm()
 })
 
 /* slider homepage */
