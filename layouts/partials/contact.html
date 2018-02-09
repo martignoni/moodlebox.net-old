@@ -11,27 +11,25 @@
             </div>
             <div class="control-group">
               <label>{{ i18n "contactName" }}</label><br />
-              <span class="contact-form-control-wrap">
+              <div class="controls">
                 <input type="text" name="name" placeholder="{{ i18n "whatsYourName" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
-              </span>
-            <p class="help-block text-danger"></p>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactMail" }}</label><br />
-              <span class="contact-form-control-wrap">
               <input type="email" name="email" placeholder="{{ i18n "whatsYourEmail" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
-              </span>
+              <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactSubject" }}</label><br />
-              <span class="contact-form-control-wrap">
-                <input type="text" name="subject" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
-              </span>
+              <input type="text" name="subject" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+              <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactMessage" }}</label><br />
-                <textarea name="message" class="form-control text" rows="10"></textarea>
-              </span>
+              <textarea name="message" class="form-control text" rows="10"></textarea>
+              <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
               <div id="success"></div>

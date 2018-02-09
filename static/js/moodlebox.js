@@ -27,13 +27,12 @@ $('.dropdown').hover(function(e) {
 
 /* Contact form */
 $(function() {
-  $("input,select,textarea").not("[type=search]").jqBootstrapValidation({
+  $("input,select,textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
     },
     submitSuccess: function($form, e) {
       e.preventDefault();
-
       var submitButton = $('input[type=submit]', $form);
       $.ajax({
         type: 'POST',
@@ -47,9 +46,9 @@ $(function() {
           submitButton.prop('disabled', 'disabled');
         }
       }).done(function(data) {
-          submitButton.prop('value', 'Thank you, we\x27ll get back to you shortly.');
-          submitButton.prop('disabled', false);
-          hj('formSubmitSuccessful');
+        submitButton.prop('value', 'Thank you, we\x27ll get back to you shortly.');
+        submitButton.prop('disabled', false);
+        hj('formSubmitSuccessful');
       });
     },
 
