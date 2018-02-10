@@ -45,8 +45,13 @@ section.news {
   border-bottom: solid 1px #999;
 }
 
+.news div[class*="col-md-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .news a.news-item {
-  padding: 15px;
+  padding: 15px 22.5px;
   height: 100%;
   display: inline-block;
   box-sizing: border-box;
@@ -84,7 +89,7 @@ section.news {
 
 /* Notice shortcode */
 div.notice {
-  margin: 2em 0;
+  margin: 1em 0;
   position: relative;
 }
 div.notice p {
@@ -94,6 +99,7 @@ div.notice p {
   margin-top: 0;
   margin-bottom: 0;
   color: #666;
+  border-radius: 4px;
 }
 div.notice p:first-child:before {
   position: absolute;
