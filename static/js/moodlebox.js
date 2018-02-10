@@ -27,7 +27,7 @@ $('.dropdown').hover(function(e) {
 
 /* Contact form */
 $(function() {
-  $("input,select,textarea").jqBootstrapValidation({
+  $('#contact').find('input,select,textarea').jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
     },
@@ -48,7 +48,7 @@ $(function() {
       }).done(function(data) {
         submitButton.prop('value', 'Thank you, we\x27ll get back to you shortly.');
         submitButton.prop('disabled', false);
-        hj('formSubmitSuccessful');
+        // hj('formSubmitSuccessful');
       });
     },
 
