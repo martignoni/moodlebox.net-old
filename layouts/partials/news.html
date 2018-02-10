@@ -6,7 +6,8 @@
     <div class="col-md-12">
       <div class="row equal">
       {{ range first 3 ( sort (where .Data.Pages "Section" "news") "Date" "desc" ) }}
-        <div class="col-md-4">
+      {{- $.Scratch.Add "i" 1 -}}{{- $i := $.Scratch.Get "i" -}}
+        <div class="col-md-4{{- if ge $i 3 }} hidden-xs{{- end -}}">
           <a class="news-item" href="{{ .URL }}">
             {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
             <span class="news-date">
