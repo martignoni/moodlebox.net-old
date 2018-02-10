@@ -203,8 +203,8 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
-      title: Ce que les enseignants en disent
+      subtitle: Finden Sie die Meinungen von Lehrkräften aus aller Welt über die MoodleBox heraus.
+      title: Was Lehrer dazu sagen
 
 menu:
   topbar:
