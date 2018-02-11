@@ -16,7 +16,7 @@ Sie können jetzt über Ihren Browser auf Moodle zugreifen. Öffnen Sie Ihren Br
   * Anmeldename: __admin__
   * Kennwort: __Moodlebox4$__
 
-{{< figure src="/img/media/moodle-login-en.png" alt="Moodle Login" width="601" height="265"  link="/img/media/moodle-login-en.png">}}
+{{< figure link="/img/media/moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="601px" >}}
 
 Sie sind dann mit dem Moodle-Administrator-Account auf der MoodleBox verbunden. __Es wird dringend empfohlen, das Initialpasswort__ des Moodle-Administratorkontos bei der ersten Anmeldung zu ändern.
 

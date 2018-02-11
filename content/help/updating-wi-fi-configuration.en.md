@@ -12,7 +12,7 @@ categories:
 ---
 As an administrator, you may change several settings of the access point Wi-Fi settings of the MoodleBox. To do this, visit the MoodleBox dashboard at [Site administration > Server > MoodleBox][1] in the administration interface.
 
-{{< figure src="/img/media/wifi-settings-en.png" alt="Wi-Fi Settings" width="730" height="344" link="/img/media/wifi-settings-en.png" >}}
+{{< figure link="/img/media/wifi-settings-en.png" thumb="-small" caption="Wi-Fi Settings" caption-position="bottom" caption-effect="appear" width="550px" >}}
 
 ### Change Wi-Fi network name (SSID)
 

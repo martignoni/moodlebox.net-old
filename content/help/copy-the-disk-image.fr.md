@@ -11,7 +11,7 @@ categories:
 ---
 Commencez par [télécharger Etcher][2], puis suivez les instructions dans Etcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
 
-{{< figure src="/img/media/etcher-copy.png" alt="Copie avec Etcher" width="800" height="380" link="/img/media/etcher-copy.png">}}
+{{< figure link="/img/media/etcher-copy.png" caption="Copie avec Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### Pour les geeks
 

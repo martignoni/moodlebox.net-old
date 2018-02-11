@@ -28,7 +28,7 @@ The graphical interface of the MoodleBox allows you to safely stop and restart t
 
 Log in the Moodle instance of the MoodleBox and visit [Site administration > Server > MoodleBox][1] in the administration interface.
 
-{{< figure src="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" link="/img/media/restart-shutdown-en.png" caption-position="bottom" caption-effect="appear" >}}
+{{< figure link="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="722px" >}}
 
 In the section __Restart and shutdown__, the interface displays two buttons allowing to restart and shutdown the MoodleBox. Click on the button __Shutdown MoodleBox__, wait a few seconds and check that the green LED doesn't lights up any more. You may now safely unplug the power supply.
 
@@ -44,7 +44,7 @@ It is possible to install a hardware button to shutdown and start the MoodleBox.
 
 The installation of a hardware button is very simple: you just have to buy a button, for example [this capacitive button][3], and connect it to the pins of the MoodleBox GPIO port using [jumpers][4] (see the image below, thanks to Laurent Fleron), then restart the MoodleBox.
 
-{{< figure src="/img/media/hardware-button.jpg" caption="Hardware button" link="/img/media/hardware-button.jpg" caption-position="bottom" caption-effect="appear" width="575px" >}}
+{{< figure link="/img/media/hardware-button.jpg" thumb="-small" caption="Hardware button" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "download-the-disk-image.en.md" >}}

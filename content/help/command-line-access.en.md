@@ -19,7 +19,7 @@ As a normal user, you should not need to connect into the command line interface
 
 Open a new connection, type the address __moodlebox.home__ under _Host Name_, then click _Open_. Input the password __Moodlebox4$__.
 
-{{< figure src="/img/media/putty-moodlebox.png" alt="Connection with PuTTY" width="516" height="498" link="/img/media/putty-moodlebox.png" >}}
+{{< figure link="/img/media/putty-moodlebox.png" caption="Connection with PuTTY" caption-position="bottom" caption-effect="appear" width="516px" >}}
 
 ### In a classical terminal interface
 
