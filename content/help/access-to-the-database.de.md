@@ -13,6 +13,8 @@ Die MoodleBox erlaubt mit der PhpMyAdmin-Software den direkten Zugriff auf die M
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-__Warnung!__ Es wird davon abgeraten, die Moodle-Datenbank direkt zu manipulieren, wenn Sie nicht genau wissen, was Sie tun. Der Autor übernimmt keinerlei Verantwortung für Datenverluste.
+{{% notice warning %}}
+Es wird davon abgeraten, die Moodle-Datenbank direkt zu manipulieren, wenn Sie nicht genau wissen, was Sie tun. Der Autor übernimmt keinerlei Verantwortung für Datenverluste.
+{{% /notice %}}
 
  [1]: http://moodlebox.home/phpmyadmin

@@ -28,7 +28,7 @@ The graphical interface of the MoodleBox allows you to safely stop and restart t
 
 Log in the Moodle instance of the MoodleBox and visit [Site administration > Server > MoodleBox][1] in the administration interface.
 
-{{< figure src="/img/media/restart-shutdown-en.png" alt="Shutdown and restart" width="722" height="111" link="/img/media/restart-shutdown-en.png" >}}
+{{< figure src="/img/media/restart-shutdown-en.png" alt="Shutdown and restart" link="/img/media/restart-shutdown-en.png" >}}
 
 In the section __Restart and shutdown__, the interface displays two buttons allowing to restart and shutdown the MoodleBox. Click on the button __Shutdown MoodleBox__, wait a few seconds and check that the green LED doesn't lights up any more. You may now safely unplug the power supply.
 

@@ -3,7 +3,7 @@ title: Comment installer des plugins Moodle
 author:
   - Nicolas Martignoni
 type: kb
-date: 2017-04-18T19:57:02+00:00
+date: 2017-04-20
 slug: installer-des-plugins-dans-moodle
 categories:
   - Maintenance
@@ -15,6 +15,8 @@ Pour installer des plugins Moodle, il est recommandé de brancher la MoodleBox 
 
 Il sera alors possible d'installer des plugins, soit en cliquant sur le bouton __Installer des plugins à partir du répertoire des plugins Moodle__ (de préférence), soit en déposant une archive ZIP d'un plugin.
 
-__Attention !__ Assurez-vous que le plugin soit compatible avec la version de Moodle de la MoodleBox !
+{{% notice warning %}}
+Assurez-vous que le plugin soit compatible avec la version de Moodle de la MoodleBox !
+{{% /notice %}}
 
  [1]: http://moodlebox.home/admin/tool/installaddon/index.php

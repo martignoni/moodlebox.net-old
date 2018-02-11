@@ -2,7 +2,7 @@
 title: How to manage the Moodle database
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-20T19:58:04+00:00
+date: 2017-04-20
 slug: access-to-the-database-management-interface
 categories:
   - Maintenance
@@ -13,6 +13,8 @@ The MoodleBox allows access to the Moodle database for administration purpose,
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-__Warning!__ It is strongly advised not to touch the Moodle database unless you know exactly what you are doing. The author is not responsible for any loss of data.
+{{% notice warning %}}
+It is strongly advised not to touch the Moodle database unless you know exactly what you are doing. The author is not responsible for any loss of data.
+{{% /notice %}}
 
  [1]: http://moodlebox.home/phpmyadmin

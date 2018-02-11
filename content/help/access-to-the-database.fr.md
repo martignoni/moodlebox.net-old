@@ -3,7 +3,7 @@ title: Comment gérer la base de données
 author:
   - Nicolas Martignoni
 type: kb
-date: 2017-04-17T19:31:41+00:00
+date: 2017-04-20
 slug: acces-base-de-donnees
 categories:
   - Maintenance
@@ -14,6 +14,8 @@ La MoodleBox permet à des fins d'administration un accès direct à la base de 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
 
-__Attention !__ Il est fortement déconseillé de toucher à la base de données de Moodle, à moins de savoir exactement ce que l'on fait. L'auteur décline toute responsabilité pour toute perte de données.
+{{% notice warning %}}
+Il est fortement déconseillé de toucher à la base de données de Moodle, à moins de savoir exactement ce que l'on fait. L'auteur décline toute responsabilité pour toute perte de données.
+{{% /notice %}}
 
  [1]: http://moodlebox.home/phpmyadmin
