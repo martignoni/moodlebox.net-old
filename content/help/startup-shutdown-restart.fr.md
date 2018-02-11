@@ -28,7 +28,7 @@ L'interface graphique de la MoodleBox permet d'arrêter et de redémarrer la Moo
 
 Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite [Administration du site > Serveur > MoodleBox][1] dans l'interface d'administration.
 
-{{< figure src="/img/media/restart-shutdown-fr.png" alt="Éteindre et redémarrer" width="722" height="111" link="/img/media/restart-shutdown-fr.png" >}}
+{{< figure src="/img/media/restart-shutdown-fr.png" caption="Éteindre et redémarrer" width="722" height="111" link="/img/media/restart-shutdown-fr.png" link="/img/media/restart-shutdown-en.png" caption-position="bottom" caption-effect="appear" >}}
 
 Dans la section __Redémarrage et arrêt__, l'interface présente deux boutons, permettant de redémarrer et d'arrêter la MoodleBox. Après avoir cliqué sur le bouton __Arrêter la MoodleBox__, patienter quelques secondes et vérifier que la diode verte ne clignote plus. L'alimentation peut alors être débranchée sans risque.
 
@@ -44,7 +44,7 @@ Il est possible d'installer un bouton matériel permettant d'arrêter et de dém
 
 L'installation d'un bouton matériel est très simple : il suffit d'acheter un bouton, par exemple [ce bouton tactile][3], et de le relier aux broches du port GPIO de la MoodleBox grâce à [des cavaliers][4] (voir l'image ci-dessous, merci à Laurent Fleron), puis de redémarrer la MoodleBox.
 
-{{< figure src="/img/media/hardware-button.jpg" alt="Bouton matériel" link="/img/media/hardware-button.jpg" >}}
+{{< figure src="/img/media/hardware-button.jpg" caption="Bouton matériel" link="/img/media/hardware-button.jpg" caption-position="bottom" caption-effect="appear" width="575px" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "download-the-disk-image.fr.md" >}}
