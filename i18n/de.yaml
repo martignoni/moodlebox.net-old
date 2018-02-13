@@ -86,6 +86,8 @@
   translation: "Tut uns leid, aber Ihre Suche hat nichts ergeben. Bitte versuchen Sie es noch einmal mit anderen Begriffen oder [schauen Sie unsere Knowledgebase](/de/help) an."
 - id: searchTermTooShort
   translation: "Ihr Suchbegriff muss mindestens 3 Zeichen lang sein."
+- id: recentNews
+  translation: "Neuigkeiten"
 
 - id: January
   translation: "Januar"

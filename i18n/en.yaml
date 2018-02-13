@@ -86,6 +86,8 @@
   translation: "Sorry, but nothing matches your search. Please try again with different terms or [browse our knowledge base](/en/help)."
 - id: searchTermTooShort
   translation: "Your search term must be a minimum of 3 characters long."
+- id: recentNews
+  translation: "Recent news"
 
 - id: January
   translation: "January"
