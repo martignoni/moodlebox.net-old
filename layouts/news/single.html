@@ -12,9 +12,11 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9" id="blog-post">
-              <p class="lead mb-small">
-                {{ .Description }}
+              {{ with .Params.description }}
+              <p class="lead mb-small text-primary">
+                {{ . | markdownify }}
               </p>
+              {{ end }}
               <p class="text-uppercase mb-small">
                 <span class="date-day">{{ .Date.Format "2" }}</span>
                 <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
