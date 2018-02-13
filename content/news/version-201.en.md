@@ -1,6 +1,6 @@
 ---
 date: 2017-11-27
-title: "MoodleBox image version 2.0.1"
+title: "Disk image version 2.0.1"
 description: "MoodleBox 2.0.1 fixes a nasty bug preventing courses restauration on the Moodle instance of the MoodleBox."
 slug: "version-2.0.1"
 ---

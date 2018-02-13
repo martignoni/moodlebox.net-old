@@ -1,6 +1,6 @@
 ---
 date: 2018-01-02
-title: "MoodleBox Image Version 2.1.0"
+title: "Disk-Image Version 2.1.0"
 description: "MoodleBox 2.1.0 basiert auf dem Raspbian Stretch Lite Image vom 2017-11-29. Der Image-Building-Prozess wurde umgestaltet."
 slug: "version-2.1.0"
 ---
