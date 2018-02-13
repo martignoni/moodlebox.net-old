@@ -24,8 +24,23 @@
               </p>
               <div id="post-content">
                 {{ .Content }}
-              </div>
-              <!-- /#post-content -->
+              </div> <!-- /#post-content -->
+              {{ if or .PrevInSection .NextInSection }}
+              <ul class="pager">
+                <div date-pref class="white">
+                  {{if .NextInSection}}
+                    <li class="next"><a href="{{.NextInSection.Permalink }}">{{ i18n "newer" }} &rarr;</a></li>
+                  {{ else }}
+                    <li class="next disabled"><a href="#">{{ i18n "newer" }} &rarr;</a></li>
+                  {{ end }}
+                  {{if .PrevInSection}}
+                    <li class="previous"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ i18n "older" }}</a></li>
+                  {{ else }}
+                    <li class="previous disabled"><a href="#">&larr; {{ i18n "older" }}</a></li>
+                  {{ end }}
+                </div>
+              </ul> <!-- /.pager -->
+              {{ end }}
               {{ if .Site.DisqusShortname }}
               <div id="comments">
                   {{ template "_internal/disqus.html" . }}
