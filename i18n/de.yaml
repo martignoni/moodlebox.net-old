@@ -44,6 +44,10 @@
   translation: "Neuer"
 - id: older
   translation: "Älter"
+- id: previous
+  translation: "Previous"
+- id: next
+  translation: "Next"
 - id: publishedOn
   translation: "am"
 - id: testimonials

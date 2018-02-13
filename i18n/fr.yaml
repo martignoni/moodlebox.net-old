@@ -23,7 +23,7 @@
 - id: navHome
   translation: "Aller à la page d'accueil"
 - id: navToggle
-  translation: "Afficher/masquer la Navigation"
+  translation: "Afficher/masquer la navigation"
 - id: categoriesTitle
   translation: "Catégories"
 - id: searchTitle
@@ -41,9 +41,13 @@
 - id: aboutUs
   translation: "À propos"
 - id: newer
-  translation: "Récent"
+  translation: "Plus récent"
 - id: older
-  translation: "Ancien"
+  translation: "Plus ancien"
+- id: previous
+  translation: "Précédent"
+- id: next
+  translation: "suivant"
 - id: publishedOn
   translation: "le"
 - id: testimonials
