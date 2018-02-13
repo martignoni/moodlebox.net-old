@@ -12,6 +12,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9" id="blog-post">
+              <p class="lead mb-small">
+                {{ .Description }}
+              </p>
               <p class="text-uppercase mb-small">
                 <span class="date-day">{{ .Date.Format "2" }}</span>
                 <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
