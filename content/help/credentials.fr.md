@@ -10,7 +10,7 @@ categories:
   - Utilisation
 
 ---
-Cette page fait l'inventaire des noms d'utilisateur et des mots de passe utilisés avec la MoodleBox.
+Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox.
 
 ### Accès en ligne de commande (compte Unix, SSH, SFTP)
 
