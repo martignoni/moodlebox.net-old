@@ -298,7 +298,7 @@ params:
     search: true
     tags: false
     related: true
-    recent: true
+    recentnews: true
 
   # Enable Piwik Analytics by entering your tracking code
   piwikAnalytics:
