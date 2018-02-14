@@ -388,6 +388,30 @@ textarea.form-control {
   font-size: 15px;
 }
 
+.contact-form #_email {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: default;
+  pointer-events: none;
+  color: transparent;
+}
+.contact-form #_email:hover{
+  height: 0px;
+  cursor: default;
+}
+.contact-form #_email:blur{
+  height: 22px;
+  cursor: default;
+}
+.contact-form #_email:focus{
+  height: 0px;
+  outline: none;
+  cursor: default;
+}
+
 input[type="reset"], input[type="submit"], input[type="submit"], button.submit {
   cursor: pointer;
   background: #da4d4d;

@@ -41,9 +41,12 @@ $(function() {
           javascript: 'application/javascript'
         },
         data: $form.serialize(),
-        beforeSend: function() {
+        beforeSend: function(xhr, opts) {
           submitButton.prop('value', 'Please Wait...');
           submitButton.prop('disabled', 'disabled');
+          if ( $form.find('#_email').value ) {
+            xhr.abort();
+          }
         }
       }).done(function(data) {
         submitButton.prop('value', 'Thank you, we\x27ll get back to you shortly.');
@@ -51,9 +54,8 @@ $(function() {
         // hj('formSubmitSuccessful');
       });
     },
-
     filter: function() {
-        return $(this).is(":visible");
+      return $(this).is(":visible");
     },
   });
 });
