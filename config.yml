@@ -334,7 +334,7 @@ pygmentsstyle: "friendly"
 enableMissingTranslationPlaceholders: true
 
 outputs:
-  home: ["HTML", "JSON"]
+  home: ["HTML", "JSON", "RSS"]
   page: ["HTML"]
 
 permalinks:
