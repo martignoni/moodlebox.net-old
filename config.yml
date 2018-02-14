@@ -294,9 +294,9 @@ params:
 #  viewMorePostLink: /help/
 
   widgets:
-    categories: true
+    categories: false
     search: true
-    tags: true
+    tags: false
     related: true
     recent: true
 
