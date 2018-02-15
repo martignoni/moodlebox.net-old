@@ -1,3 +1,4 @@
+{{ if (index .Site.Data.donation .Site.Language.Lang) }}
 {{ $products := (index .Site.Data.donation .Site.Language.Lang).amounts }}
 {{ range $products }}
   {{ if .default }}
@@ -46,3 +47,4 @@
     </div>
   </form>
 </div>
+{{ end }}
