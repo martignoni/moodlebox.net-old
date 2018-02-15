@@ -253,9 +253,6 @@ params:
 
   logo: img/logo.png
 
-  # Google Maps API key (if not set will default to not passing a key.)
-  # googleMapsApiKey: "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
-
   carousel:
     enable: true
 
