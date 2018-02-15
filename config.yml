@@ -1,6 +1,6 @@
 baseurl: https://moodlebox.netlify.com/
 title: MoodleBox
-theme: moodlebox-theme
+theme: moodlebox
 languageCode: en-us
 
 # Do not inject generator meta tag on homepage
