@@ -1,6 +1,6 @@
 ---
 title: Was ist die MoodleBox?
-author: Nicolas Martignoni, Visvanath Ratnaweera. Ralf Krause
+author: Visvanath Ratnaweera, Ralf Krause
 type: kb
 date: 2017-04-21
 slug: was-ist-die-moodlebox
