@@ -59,13 +59,13 @@
 - id: whatsYourEmail
   translation: "Geben Sie Ihre E-Mail Adresse"
 - id: contactSubject
-  translation: "contactSubject"
+  translation: "Objekt"
 - id: donationAmount
-  translation: "Donation amount"
+  translation: "Spendenbetrag"
 - id: customAmount
-  translation: "Custom amount"
+  translation: "Custom Betrag"
 - id: donateNow
-  translation: "Donate now"
+  translation: "Jetzt spenden"
 - id: searchDocTitle
   translation: "Suche knowledge base"
 - id: searchDocVerb
