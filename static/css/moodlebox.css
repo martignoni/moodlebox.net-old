@@ -124,14 +124,6 @@ div.section {
   border-radius: 15px;
 }
 .icon {
-/*   display: inline-block; */
-/*   width: 80px; */
-/*   height: 80px; */
-/*   color: #fff; */
-/*   line-height: 80px; */
-/*   border-radius: 40px; */
-/*   border: solid 1px #fff; */
-/*   font-size: 20px; */
 }
 .icon.icon-lg {
   font-size: 30px;
@@ -309,8 +301,6 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-/*   text-decoration: underline; */
-/*   font-weight: bold; */
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -1291,7 +1281,6 @@ fieldset[disabled] .btn-template-primary.active {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-/*   color: #999999; */
   font-size: 15px;
   font-weight: normal;
   line-height: 1.7;
@@ -1475,14 +1464,6 @@ fieldset[disabled] .btn-template-primary.active {
   -o-transform: scale(1.15, 1.15);
   transform: scale(1.15, 1.15);
 }
-/*
-.box-simple:hover .icon .icon-background-default i {
-  -webkit-transform: scale(1.15, 1.15);
-  -ms-transform: scale(1.15, 1.15);
-  -o-transform: scale(1.15, 1.15);
-  transform: scale(1.15, 1.15);
-}
- */
 .box-simple.box-white {
   padding: 20px;
   border: dotted 1px #999999;
@@ -1679,7 +1660,6 @@ fieldset[disabled] .btn-template-primary.active {
 .box {
   background: #fff;
   margin: 0 0 30px;
-  /* border: solid 1px #ccc; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1742,7 +1722,6 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-/*   background: url('../img/texture-bw.png') center center repeat; */
   background: #f2f2f2;
   padding: 10px 0;
   margin-bottom: 21px;
@@ -1753,7 +1732,6 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #333333;
-/*   text-transform: uppercase; */
   font-size: 33px;
   font-weight: 600;
   line-height: 1.2;
@@ -1774,7 +1752,6 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 20px 0;
 }
 .bar.background-pentagon {
-/*   background: url('../img/texture-bw.png') center center repeat; */
   background: #f8f9f9;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
@@ -2598,10 +2575,6 @@ fieldset[disabled] .btn-template-primary.active {
 #footer .blog-entries .item .name h5 {
   margin: 0;
   letter-spacing: 0.04em;
-/*
-  font-size: 12px;
-  text-transform: uppercase;
- */
 }
 #footer .blog-entries .item .name h5 a {
   color: #eeeeee;
@@ -2952,12 +2925,10 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .navbar-brand .site-branding {
   float: left;
-/*   line-height: 60px; */
 }
 .navbar-brand .site-branding .site-title {
   margin: 0;
   margin-top: 5px;
-/*   position: relative; */
   color: #da4d4d;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 23px;
@@ -2971,8 +2942,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
   line-height: 18px;
   margin-bottom: 0;
-/*   position: relative; */
-/*   top: -15px; */
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
