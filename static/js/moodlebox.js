@@ -42,10 +42,11 @@ $(function() {
         },
         data: $form.serialize(),
         beforeSend: function(xhr, opts) {
-          submitButton.prop('value', 'Please Wait...');
-          submitButton.prop('disabled', 'disabled');
-          if ( $form.find('#_email').value ) {
+          if ( $('#_email', $form).val() ) {
             xhr.abort();
+          } else {
+            submitButton.prop('value', 'Please Wait...');
+            submitButton.prop('disabled', 'disabled');
           }
         }
       }).done(function(data) {
