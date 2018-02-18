@@ -297,10 +297,10 @@ params:
     related: true
     recentnews: true
 
-  # Enable Piwik Analytics by entering your tracking code
-  piwikAnalytics:
+  # Enable Matomo analytics by entering your tracking code
+  matomoAnalytics:
     siteid: 2
-    piwikroot: "stats.martignoni.net" # Do not add slashes
+    matomoroot: "stats.martignoni.net" # Do not add slashes
 
 related:
   threshold: 50
