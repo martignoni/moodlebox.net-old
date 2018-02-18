@@ -88,6 +88,14 @@
   translation: "Ihr Suchbegriff muss mindestens 3 Zeichen lang sein."
 - id: recentNews
   translation: "Neuigkeiten"
+- id: warning
+  translation: "Warnung"
+- id: note
+  translation: "Notiz"
+- id: info
+  translation: "Info"
+- id: tip
+  translation: "Hint"
 
 - id: January
   translation: "Januar"

@@ -1,1 +1,5 @@
-<div class="notice {{ .Get 0 }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>{{ .Inner }}</div>
+{{- $noticeTitle := .Get 0 -}}
+<style>div.notice.{{ $noticeTitle }} p:first-child:after { content: '{{ i18n $noticeTitle }}'; }</style>
+<div class="notice {{ $noticeTitle }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>
+{{- .Inner -}}
+</div>

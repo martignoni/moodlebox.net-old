@@ -88,6 +88,14 @@
   translation: "Le terme recherché doit comporter au moins 3 caractères."
 - id: recentNews
   translation: "Nouveautés"
+- id: warning
+  translation: "Attention"
+- id: note
+  translation: "Note"
+- id: info
+  translation: "Info"
+- id: tip
+  translation: "Astuce"
 
 - id: January
   translation: "janvier"
