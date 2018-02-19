@@ -102,7 +102,7 @@ languages:
     menu:
       main:
       - identifier: help
-        name: Utiliser MoodleBox
+        name: Utiliser la MoodleBox
         weight: 2
 
       - parent: help
@@ -123,7 +123,7 @@ languages:
         weight: 4
 
       - identifier: get
-        name: Obtenir MoodleBox
+        name: Obtenir la MoodleBox
         weight: 3
 
       - parent: get
@@ -151,7 +151,7 @@ languages:
   de:
     languageName: Deutsch
     title: MoodleBox
-    description: "Eine Moodle Plattform auf Raspberry Pi"
+    description: "Eine Moodle-Plattform auf dem Raspberry Pi"
     about_us: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 und später
