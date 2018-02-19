@@ -73,9 +73,9 @@
 - id: searchButton
   translation: "Suchen"
 - id: collapseArticles
-  translation: "Artikeln zuklappen"
+  translation: "Artikeln einklappen"
 - id: showAllArticles
-  translation: "Artikeln aufklappen"
+  translation: "Artikeln ausklappen"
 - id: error404
   translation: "Fehler 404 - Seite nicht gefunden"
 - id: error404Message
