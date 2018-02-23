@@ -121,6 +121,7 @@
                 resultsContainer.innerHTML += '<p>{{ i18n "searchTermTooShort" }}</p>';
                 return;
               } else { // Extend query term otherwise
+                query = query.replace(/\+/g, ' ');
                 query = 'title:' + query + '^10 content:' + query + ' ' + query + '*' + ' *' + query;
               }
               // console.log(query);
@@ -140,7 +141,7 @@
 
             if ( 'q' in queryDict ) {
               search(queryDict['q']);
-              input.value = queryDict['q'];
+              input.value = queryDict['q'].replace(/\+/g, ' ');
             }
 
           },
