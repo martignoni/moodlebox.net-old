@@ -23,10 +23,10 @@ Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der 
 
 ### Im klassischen Terminal (Linux, macOS)
 
-In Ihrem bevorzugten Kommandozeilen-Interface schreiben Sie die Anweisung
+In Ihrem bevorzugten Terminal-Programm schreiben Sie die Anweisung
 
 ```bash
 ssh moodlebox@moodlebox.home
 ```
 
-und dann tippen Sie unsichtbar das Kennwort __Moodlebox4$__.
+und dann tippen Sie unsichtbar das notwendige Kennwort __Moodlebox4$__.

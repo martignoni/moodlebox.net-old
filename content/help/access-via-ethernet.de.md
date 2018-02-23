@@ -24,9 +24,9 @@ Sobald diese Änderung vorgenommen wurde, können alle Nutzergeräte im Kabelnet
 
 Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, können Sie dies mit der numerischen IP-Adresse tun, ohne dass Änderungen erforderlich sind.
 
-### Konfigurationsdatei hosts Ihres Nutzergeräts erweitern
+### Konfigurationsdatei `hosts` Ihres Computers erweitern
 
-Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei hosts, die es irgendwo im Betriebssystem Ihres Nutzergeräts gibt. Den oberen Teil der Datei dürfen Sie nicht ändern, aber Sie können unten ein paar Zeilen hinzufügen.
+Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei `hosts`, die es irgendwo im Betriebssystem Ihres Computers gibt. Den oberen Teil der Datei dürfen Sie auf keinen Fall ändern, aber Sie können unten ein paar Zeilen hinzufügen. Wenn Sie den unteren Abschnitt mit der richtigen IP-Adresse der MoodleBox hinzugefügt haben, sollten Sie im Browser Ihres Computers die Startseite der Moodlebox __moodlebox.home__ aufrufen können.
 
 ```bash
 ##
@@ -40,7 +40,7 @@ Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der nume
 ::1              localhost
 ##
 # MoodleBox connection via Ethernet
-# MoodleBox must get a static ip address from dhcp
+# MoodleBox must get an ip address via dhcp
 192.168.1.143    moodlebox.home    moodlebox
 ##
 ```
