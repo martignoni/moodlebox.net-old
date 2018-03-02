@@ -13,7 +13,8 @@ BASEURL=https://moodlebox.net/
 # Needed to workaround some DropBox black magic :-/
 rm -rf public/
 
-hugo -b ${BASEURL} --cleanDestinationDir && rsync -avz --delete --exclude '.*' --iconv=utf-8-mac,utf-8 public/ ${USER}@${HOST}:${DIR}
+# Add  --ignoreCache to update the results of ghrelease shortcode
+hugo -b ${BASEURL} --gc --cleanDestinationDir && rsync -avz --delete --exclude '.*' --iconv=utf-8-mac,utf-8 public/ ${USER}@${HOST}:${DIR}
 
 # Delete Hugo generated files
 rm -rf public/
