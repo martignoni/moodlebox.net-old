@@ -1,6 +1,10 @@
 # Hugo
 public/
 
+# Node
+node_modules/
+package-lock.json
+
 # Mac finder files and hidden folders
 *.DS_Store
 .AppleDouble
