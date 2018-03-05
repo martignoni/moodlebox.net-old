@@ -9,18 +9,20 @@ var gulp      = require('gulp'),
     exec      = require('child_process').exec,
     del       = require('del');
 
-gulp.task('default', [ 'reset', 'css', 'js', 'hugo', 'html', 'clean' ]);
+// gulp.task('default', [ 'reset', 'css', 'js', 'hugo', 'html', 'clean' ]);
+gulp.task('default', [ 'reset', 'css', 'hugo', 'html', 'clean' ]);
 
 gulp.task('reset', function(){
   return del([
-      'public/**/*',
-      'static/css/**/*',
-      'static/js/**/*'
+    'public/**/*',
+    'static/css/**/*.min.css',
+//       'static/js/**/*',
+    ''
   ]);
 });
 
 gulp.task('css', function(){
-  return gulp.src('./static-src/css/**/*.css')
+  return gulp.src('./static/css/**/*.css')
 //     .pipe(concat('main.css'))
     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename({suffix:'min.css'})))
     .pipe(minify())
@@ -28,13 +30,15 @@ gulp.task('css', function(){
 });
 
 gulp.task('js', function(){
-  return gulp.src('./static-src/js/**/*.js')
+  return gulp.src('./static/js/**/*.js')
+//     .pipe(gulpif(file => !(file.path.includes('.min.js')), rename({suffix:'min.js'})))
 //     .pipe(concat('main.js'))
 //     .pipe(uglify())
     .pipe(gulp.dest('static/js'))
 });
 
-gulp.task('hugo', ['reset', 'css', 'js'], function (fetch) {
+// gulp.task('hugo', ['reset', 'css', 'js'], function (fetch) {
+gulp.task('hugo', ['reset', 'css'], function (fetch) {
   return exec('hugo -b https://moodlebox.net/', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
@@ -51,8 +55,8 @@ gulp.task('html', ['hugo'], function() {
 
 gulp.task('clean', ['html'], function () {
   return del([
-//       'static/css/**/*',
-//       'static/js/**/*',
-      ''
+    'static/css/**/*.min.css',
+//     'static/js/**/*',
+    ''
   ]);
 });
